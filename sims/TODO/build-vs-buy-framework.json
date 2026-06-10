@@ -1,0 +1,14 @@
+{
+  "sim_id": "build-vs-buy-framework",
+  "diagram_name": "Build vs. Buy Decision Framework",
+  "chapter_number": 3,
+  "chapter_title": "Building Your AI Strategy",
+  "chapter_dir": "03-ai-strategy-foundations",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Applying (Bloom's) — readers trace a decision path for a specific AI use case through the framework and arrive at a justified recommendation.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: chart\n**sim-id:** build-vs-buy-framework<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Learning objective:** Applying (Bloom's) — readers trace a decision path for a specific AI use case through the framework and arrive at a justified recommendation.\n\n**Canvas:** Responsive, full container width, 480px height.\n\n**Nodes (each clickable with infobox):**\n- Start: \"New AI Use Case\" (gray oval).\n- Decision 1: \"Does a mature packaged product exist?\" (diamond, orange) — Infobox: \"Search vendor landscape first. A mature product means 3+ school-district deployments with published outcomes data.\"\n- Decision 2: \"Can vendor meet data/privacy requirements?\" (diamond, orange) — Infobox: \"FERPA, COPPA, state privacy laws, and district data agreements must all be satisfied before any student data enters a vendor system.\"\n- Decision 3: \"Is the use case highly institution-specific?\" (diamond, orange) — Infobox: \"If your use case requires knowledge of your specific curriculum, community, or workflow that no vendor has, custom becomes more justifiable.\"\n- Outcome A: \"Buy: Packaged Product\" (green box) — Infobox: \"Lowest implementation cost. Focus effort on procurement, onboarding, and outcome measurement.\"\n- Outcome B: \"Buy: API + Light Configuration\" (teal box) — Infobox: \"Good for use cases where packaged products exist but don't meet privacy requirements. Requires technical staff or a partner.\"\n- Outcome C: \"Build: Custom Solution\" (steelblue box) — Infobox: \"Reserve for genuinely unique needs. Document the total cost of ownership before committing — custom solutions are far more expensive to maintain than to build.\"\n- Outcome D: \"Revisit in 6–12 Months\" (gray box) — Infobox: \"If no mature product exists and the use case is not institution-specific enough to justify custom build, wait. The vendor market moves fast.\"\n\n**Directed edges:**\n- Start → Decision 1\n- Decision 1 → \"Yes\" → Decision 2\n- Decision 1 → \"No\" → Decision 3\n- Decision 2 → \"Yes\" → Outcome A\n- Decision 2 → \"No\" → Outcome B\n- Decision 3 → \"Yes\" → Outcome C\n- Decision 3 → \"No\" → Outcome D\n\n**Layout:** Top-to-bottom hierarchy.\n**Responsive:** Resizes with container via fit() on window resize."
+}

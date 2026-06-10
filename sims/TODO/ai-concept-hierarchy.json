@@ -1,0 +1,14 @@
+{
+  "sim_id": "ai-concept-hierarchy",
+  "diagram_name": "AI Concept Hierarchy",
+  "chapter_number": 1,
+  "chapter_title": "AI Foundations — What Every Educator Needs to Know",
+  "chapter_dir": "01-ai-foundations",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: interactive-infographic\n**sim-id:** ai-concept-hierarchy<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Layout:** A vis-network hierarchical diagram (layout: hierarchical, direction: UD — top to bottom). Seven nodes arranged across four levels.\n\n**Nodes:**\n- Level 1: \"Artificial Intelligence\" — large, teal (#4682B4), centered\n- Level 2: \"Machine Learning\" — medium, connected to AI\n- Level 3 (side by side): \"Neural Network\" and \"Large Language Model (LLM)\" — both connected to Machine Learning\n- Level 4 (connected to LLM): \"Generative AI\" and \"Token\" and \"Context Window\" as smaller leaf nodes\n\n**Edges with labels:**\n- AI → Machine Learning: \"dominant modern approach\"\n- Machine Learning → Neural Network: \"key architecture\"\n- Machine Learning → LLM: \"trained at scale on text\"\n- LLM → Generative AI: \"text branch of\"\n- LLM → Token: \"processes text as\"\n- LLM → Context Window: \"bounded by\"\n\n**Interactivity:**\n- Click any node → a right-side info panel appears with: the term in bold, a two-sentence plain-language definition, and one concrete education example (e.g., clicking \"Token\": \"A fragment of text — roughly 4 characters — that the model processes as a single unit. Education example: A 500-word student essay contains roughly 665 tokens; at $0.01 per 1,000 tokens, that costs less than one cent to process.\")\n- Hover over any edge label → tooltip explaining the relationship in one sentence\n- A small legend at bottom-right explains the node size convention (larger = more foundational)\n\n**Canvas:** 750px × 520px, responsive. Background: white. Node colors: teal for parent/foundational concepts, warm orange (#FF8C00) for leaf concepts. Edge lines: medium gray with directional arrowheads. Font: clean sans-serif, 13px node labels.\n\n**Learning objective (Bloom's Understanding):** Learner can correctly place each concept within the AI concept hierarchy and explain the relationship between any adjacent pair of concepts."
+}

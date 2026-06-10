@@ -1,0 +1,14 @@
+{
+  "sim_id": "pipeline-report-dashboard",
+  "diagram_name": "AI Program Pipeline Report",
+  "chapter_number": 6,
+  "chapter_title": "Selecting Projects, Assigning Resources, and Evaluating Outcomes",
+  "chapter_dir": "06-selecting-projects",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Analyzing (Bloom's) — readers interpret a pipeline report to diagnose where an AI program is healthy and where there are bottlenecks.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: chart\n**sim-id:** pipeline-report-dashboard<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Learning objective:** Analyzing (Bloom's) — readers interpret a pipeline report to diagnose where an AI program is healthy and where there are bottlenecks.\n\n**Canvas:** Responsive, full container width, 360px height.\n\n**Chart type:** Horizontal bar chart — one bar per funnel stage, bar length = number of ideas/projects currently in that stage.\n\n**Sample data (editable via slider controls below):**\n- Stage 1 — Gathering: 47 ideas (this cycle)\n- Stage 2 — Registry: 38 ideas registered\n- Stage 3 — Under Evaluation: 22 ideas\n- Stage 4 — Selection Review: 12 ideas\n- Stage 5 — Funded/In Progress: 7 projects\n- Stage 6 — Evaluating Outcomes: 4 projects\n\n**Bar colors:** gradient from light blue (Stage 1) to deep orange (Stage 6).\n\n**Annotations:** Small text labels on each bar: \"Avg dwell: X days\" based on sample data.\n\n**Interaction:**\n- Clicking any bar opens an infobox: \"What a healthy stage looks like and what warning signs to watch for.\" E.g., Stage 2: \"If fewer than 50% of submitted ideas are entering the registry, the submission form may be too complex or the inbox is understaffed.\"\n- Hovering a bar shows the count and dwell time tooltip.\n\n**Benchmark overlays:** Dashed vertical lines at recommended counts: \"Target Stage 1: 30+\" ideas per cycle, \"Target Stage 5: 5–10 active projects.\"\n\n**Responsive:** Redraws on window resize."
+}

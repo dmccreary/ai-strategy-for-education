@@ -1190,6 +1190,114 @@
           
         
       
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
     
     
     
@@ -1371,6 +1479,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="The Root: What Is Artificial Intelligence?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-deep-learning-timeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Deep Learning Timeline
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1455,6 +1578,21 @@
       Tokens: The Currency of Language Models
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Tokens: The Currency of Language Models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-tokenizer-microsim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Tokenizer MicroSim
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -1735,6 +1873,9 @@ Welcome to <em>AI Strategy for Education</em>! I'm <strong>Sage</strong>, your g
 <h2 id="the-root-what-is-artificial-intelligence">The Root: What Is Artificial Intelligence?<a class="headerlink" href="#the-root-what-is-artificial-intelligence" title="Permanent link">&para;</a></h2>
 <p><strong>Artificial intelligence (AI)</strong> is the field of computer science concerned with building systems that perform tasks typically requiring human intelligence — recognizing speech, understanding text, translating languages, identifying objects in images, making decisions, and generating new content. The term was coined at a 1956 conference at Dartmouth College and has carried different meanings at different moments in history. Today, when people in education say "AI," they almost always mean a specific family of techniques that emerged powerfully after 2012 and dominates the field in the mid-2020s.</p>
 <p>AI is not one technology. It is a large umbrella term covering many different approaches and methods. What all modern AI systems share, however, is that their capabilities come from learning patterns in data rather than from rules written by a programmer. That distinction — learned patterns versus hand-crafted rules — is the first important thing to understand about the technology reshaping education.</p>
+<h4 id="diagram-deep-learning-timeline">Diagram: Deep Learning Timeline<a class="headerlink" href="#diagram-deep-learning-timeline" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/shared/timeline/main.html" height="580" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 <h2 id="how-ai-learns-machine-learning-neural-networks-and-training">How AI Learns: Machine Learning, Neural Networks, and Training<a class="headerlink" href="#how-ai-learns-machine-learning-neural-networks-and-training" title="Permanent link">&para;</a></h2>
 <h3 id="from-rules-to-learning">From Rules to Learning<a class="headerlink" href="#from-rules-to-learning" title="Permanent link">&para;</a></h3>
 <p>For most of computing's history, software worked by following explicit instructions written by human programmers: <em>if this condition is true, then do that action.</em> A spell-checker, for instance, compares every typed word against a stored dictionary and flags anything not found there — a set of rules a programmer wrote out by hand.</p>
@@ -1787,6 +1928,8 @@ When a vendor tells you their AI product "has been trained on educational conten
 </div>
 <p>The diagram below shows how these three components — training data, neural network, and model parameters — work together in the two-phase life of an AI system: first training, then inference.</p>
 <h4 id="diagram-neural-network-learning-pathway">Diagram: Neural Network Learning Pathway<a class="headerlink" href="#diagram-neural-network-learning-pathway" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/shared/autoregressive/main.html" height="600" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 <details>
 <summary>How training data flows through a neural network to produce model parameters, which are then used for inference</summary>
 <p>Type: interactive-infographic
@@ -1818,6 +1961,9 @@ When a vendor tells you their AI product "has been trained on educational conten
 <h3 id="tokens-the-currency-of-language-models">Tokens: The Currency of Language Models<a class="headerlink" href="#tokens-the-currency-of-language-models" title="Permanent link">&para;</a></h3>
 <p>Before a language model can process text, it breaks the text into small pieces called <strong>tokens</strong>. A token is the basic unit of text that an LLM operates on — not always a whole word, but typically a word fragment, a short word, or a punctuation mark, depending on the model. For English text, a useful rule of thumb is that one token is roughly four characters, or about three-quarters of a word.</p>
 <p>Tokens matter to education administrators for a practical reason: they are the unit of cost. AI service providers typically charge per token of input and per token of output. A student submitting a 500-word essay for AI feedback sends roughly 665 tokens; a district running that service for thousands of students accumulates token costs that must be budgeted for, planned around, and monitored.</p>
+<h4 id="diagram-tokenizer-microsim">Diagram: Tokenizer MicroSim<a class="headerlink" href="#diagram-tokenizer-microsim" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/shared/tokenizer/main.html" height="470" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 <h3 id="the-context-window">The Context Window<a class="headerlink" href="#the-context-window" title="Permanent link">&para;</a></h3>
 <p>A language model does not have unlimited working memory for a conversation. It has a <strong>context window</strong> — the total number of tokens it can "see" at one time, including both what you have sent it and what it has replied so far. Think of the context window as the model's short-term memory for a single interaction.</p>
 <p>Early LLMs had context windows of a few thousand tokens — roughly equivalent to a few pages of text. By the mid-2020s, frontier models offer context windows of 100,000 to over 1,000,000 tokens, enabling them to process an entire textbook chapter, a full student transcript, or a lengthy policy document in a single exchange. Larger context windows unlock more complex tasks: summarizing a year's worth of a student's writing, maintaining coherence through a long tutoring session, or cross-referencing multiple institutional documents to give tailored guidance.</p>

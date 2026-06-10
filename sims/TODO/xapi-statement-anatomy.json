@@ -1,0 +1,14 @@
+{
+  "sim_id": "xapi-statement-anatomy",
+  "diagram_name": "The xAPI Statement Structure",
+  "chapter_number": 7,
+  "chapter_title": "Learning Telemetry, xAPI, and AI-Driven Personalization",
+  "chapter_dir": "07-learning-telemetry-xapi",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Understanding (Bloom's) — readers identify the required and optional components of an xAPI statement and explain how the Actor-Verb-Object structure enables cross-platform data aggregation.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: chart\n**sim-id:** xapi-statement-anatomy<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Learning objective:** Understanding (Bloom's) — readers identify the required and optional components of an xAPI statement and explain how the Actor-Verb-Object structure enables cross-platform data aggregation.\n\n**Canvas:** Responsive, full container width, 380px height.\n\n**Central node:** \"xAPI Statement\" (large, deep orange) — Infobox: \"A complete description of a single learning event: who did what to which content, when, and with what result.\"\n\n**Required component nodes (steelblue):**\n- \"Actor\" — Infobox: \"Who performed the activity. Identified by name, email, or institution-specific ID. Example: Maya Chen, student ID 12345.\"\n- \"Verb\" — Infobox: \"What the actor did. Drawn from a shared vocabulary: answered, completed, passed, interacted. Using shared verbs ensures cross-platform consistency.\"\n- \"Object\" — Infobox: \"What the activity was performed on — a question, a chapter, a simulation, or an entire course. Identified by a unique URI.\"\n\n**Optional component nodes (teal):**\n- \"Result\" — Infobox: \"The outcome of the activity: score (0–1 scale), success (true/false), completion (true/false), and duration.\"\n- \"Context\" — Infobox: \"The setting: course, school, registration, instructor, language, and any parent activity (e.g., the course this quiz belongs to).\"\n- \"Timestamp\" — Infobox: \"ISO 8601 datetime when the activity occurred. Essential for timeline analysis and early-alert systems.\"\n- \"Authority\" — Infobox: \"Which system sent this statement — ensures the LRS can trust the source.\"\n\n**Edges:** All component nodes connected to central \"xAPI Statement\" node. Required nodes have solid edges; optional nodes have dashed edges.\n**Layout:** Hub-and-spoke, central node surrounded by components.\n**Responsive:** fit() on window resize."
+}

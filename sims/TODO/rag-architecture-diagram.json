@@ -1,0 +1,14 @@
+{
+  "sim_id": "rag-architecture-diagram",
+  "diagram_name": "How Retrieval-Augmented Generation Works",
+  "chapter_number": 4,
+  "chapter_title": "Generative AI, Intelligent Textbooks, and the Content Revolution",
+  "chapter_dir": "04-genai-and-intelligent-textbooks",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Understanding (Bloom's) — readers trace the flow of a student question through a RAG system and understand why private document grounding matters for curriculum alignment.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: chart\n**sim-id:** rag-architecture-diagram<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Learning objective:** Understanding (Bloom's) — readers trace the flow of a student question through a RAG system and understand why private document grounding matters for curriculum alignment.\n\n**Canvas:** Responsive, full container width, 400px height.\n\n**Nodes (each clickable with infobox):**\n- \"Student Question\" (gray, input node) — Infobox: \"A student or teacher asks a question in natural language: 'Explain photosynthesis for a struggling 6th grader.'\"\n- \"Retrieval Engine\" (orange) — Infobox: \"Searches the institution's private document collection (curriculum guides, standards, teacher notes) for the most relevant passages.\"\n- \"Institution Document Library\" (steelblue, cylindrical/database icon) — Infobox: \"Contains: district curriculum standards, textbook content, lesson plans, student assessment data (anonymized). Never leaves institutional servers.\"\n- \"Retrieved Context\" (teal) — Infobox: \"The 3–5 most relevant passages from the document library, passed to the language model along with the original question.\"\n- \"Language Model\" (orange, large) — Infobox: \"Generates a response grounded in the retrieved context. Without RAG, the model answers from general training data. With RAG, it answers from your specific curriculum.\"\n- \"Grounded Response\" (green, output node) — Infobox: \"A response that reflects your district's specific standards, vocabulary, and pedagogical approach — not generic internet content.\"\n\n**Directed edges:**\n- Student Question → Retrieval Engine (label: \"query\")\n- Retrieval Engine → Institution Document Library (label: \"search\")\n- Institution Document Library → Retrieved Context (label: \"top results\")\n- Retrieved Context → Language Model (label: \"context + question\")\n- Student Question → Language Model (label: \"original question\")\n- Language Model → Grounded Response (label: \"generates\")\n\n**Layout:** Left-to-right pipeline with the Document Library branching upward from the Retrieval Engine.\n**Responsive:** fit() on window resize."
+}

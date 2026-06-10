@@ -1,0 +1,14 @@
+{
+  "sim_id": "idea-scoring-rubric",
+  "diagram_name": "Interactive Idea Scoring Rubric",
+  "chapter_number": 5,
+  "chapter_title": "The Idea Funnel — Gathering, Registering, and Evaluating Ideas",
+  "chapter_dir": "05-idea-funnel-gathering",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Applying (Bloom's) — readers apply the five-dimension scoring rubric to a sample idea and calculate a composite score.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: MicroSim\n**sim-id:** idea-scoring-rubric<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Applying (Bloom's) — readers apply the five-dimension scoring rubric to a sample idea and calculate a composite score.\n\n**Canvas:** Responsive, container-width × 500px.\n\n**Controls (p5.js builtins, below canvas):**\n- Five sliders (one per dimension):\n  - \"Feasibility\" — range 1–5, default 3, step 1\n  - \"Benefit\" — range 1–5, default 3, step 1\n  - \"Risk (lower = riskier)\" — range 1–5, default 3, step 1\n  - \"Cost-Effectiveness (lower = more expensive)\" — range 1–5, default 3, step 1\n  - \"Equity Impact\" — select dropdown: \"Positive (+1)\", \"Neutral (0)\", \"Negative (−2)\"\n- Button: \"Reset\" — restores all to default.\n\n**Visualization:**\n- Radar/spider chart with five axes (Feasibility, Benefit, Risk, Cost-Effectiveness, Equity).\n- Filled polygon showing current scores; polygon updates in real time as sliders change.\n- Score color shifts from red (low composite) through yellow to green (high composite).\n- Composite score displayed prominently: Composite = Feasibility + Benefit + Risk + Cost − Equity adjustment (where negative equity subtracts 2 points).\n- Interpretation band shown below score: 4–8 = \"Low priority\", 9–14 = \"Consider for pilot\", 15–19 = \"Strong candidate\", 20+ = \"High priority\".\n\n**Sample idea panel (static, left side):** \"A third-grade teacher proposes using an AI reading tool to generate differentiated reading passages for each student's level. Students would access these through the school's existing reading platform. No new student data would be collected beyond what is already tracked.\"\n\n**Responsive:** updateCanvasSize() called in setup() and on window resize. canvas.parent(document.querySelector('main'));"
+}

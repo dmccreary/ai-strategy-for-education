@@ -1,0 +1,14 @@
+{
+  "sim_id": "adoption-capability-gap-chart",
+  "diagram_name": "The Adoption vs. Capability Gap",
+  "chapter_number": 2,
+  "chapter_title": "Measuring the AI Capability Curve",
+  "chapter_dir": "02-ai-capability-curve",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Analyzing (Bloom's) — readers identify the widening gap between capability and adoption and reason about why deliberate strategic structures are necessary.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: chart\n**sim-id:** adoption-capability-gap-chart<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Learning objective:** Analyzing (Bloom's) — readers identify the widening gap between capability and adoption and reason about why deliberate strategic structures are necessary.\n\n**Canvas:** Responsive, full container width, 360px height.\n\n**Two datasets:**\n1. \"AI Capability\" — exponential curve (doubles every 6 months, normalized to 0–100 scale), color deep orange #E65100, solid line, 3px weight.\n2. \"Institutional Adoption\" — linear trend from 5 to 40 over 2019–2028, color steelblue #4682B4, dashed line, 2px weight.\n\n**X-axis:** Year labels 2019 to 2028.\n**Y-axis:** Normalized index 0–100, label: \"Relative Capability / Adoption Level\".\n\n**Shaded region:** Fill between the two curves, light orange (#FFE0B2, 40% opacity), with the text label \"The Strategy Gap\" in gray italic centered in the shaded area.\n\n**Interaction:**\n- Hovering any data point shows a tooltip: \"Year: XXXX | [Series]: XX\".\n- Clicking inside the shaded \"Strategy Gap\" region opens an infobox: \"The strategy gap is the space between what AI can do and what your institution is organized to use. The idea funnel, governance framework, and six-month review cadences in this course are tools for managing this gap deliberately.\"\n\n**Legend:** Top-left, interactive — clicking a legend item toggles that series on/off.\n\n**Responsive:** Chart.js options: responsive: true, maintainAspectRatio: false; redraws on window resize."
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "digital-divide-access-chart",
+  "diagram_name": "The Digital Divide in Education AI Access",
+  "chapter_number": 10,
+  "chapter_title": "Academic Integrity, Equity, and Managing AI Risk",
+  "chapter_dir": "10-integrity-equity-risk",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Analyzing (Bloom's) — readers identify which dimensions of the digital divide are most significant for AI access and which student populations are most affected.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: chart\n**sim-id:** digital-divide-access-chart<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Learning objective:** Analyzing (Bloom's) — readers identify which dimensions of the digital divide are most significant for AI access and which student populations are most affected.\n\n**Canvas:** Responsive, full container width, 380px height.\n\n**Chart type:** Grouped horizontal bar chart.\n\n**Groups (school types, y-axis):**\n- \"Wealthy suburban district\"\n- \"Mid-income suburban district\"\n- \"Urban Title I district\"\n- \"Rural under-resourced district\"\n\n**Bars (three per group):**\n1. \"Students with reliable home broadband (%)\" — blue bars\n2. \"Students with a personal device at home (%)\" — teal bars\n3. \"Schools with current AI-compatible device fleet (%)\" — orange bars\n\n**Sample data (approximate, based on public research):**\n- Wealthy suburban: 95%, 92%, 88%\n- Mid-income suburban: 82%, 79%, 72%\n- Urban Title I: 64%, 61%, 48%\n- Rural under-resourced: 55%, 58%, 42%\n\n**Interaction:**\n- Hovering any bar shows the exact percentage and school type.\n- Clicking a bar opens an infobox explaining the implication: \"64% of students in this school type have home broadband. AI tutoring that requires home internet cannot benefit the 36% who don't.\"\n- Toggle button: \"Show equity gap\" — adds a red annotation line at the wealthy suburban benchmark, highlighting the shortfall for each other group.\n\n**Responsive:** Redraws on window resize."
+}
