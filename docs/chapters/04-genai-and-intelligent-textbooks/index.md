@@ -190,9 +190,12 @@ An intelligent textbook is fundamentally different from a digital textbook (whic
 
 **Adaptive content** is the capability that makes each student's experience in the textbook different. Rather than every student reading the same page in the same order, an intelligent textbook presents concepts in the order that makes the most sense for that student's current knowledge state. A student who has already mastered fractions moves directly to algebra; a student still building fraction fluency gets additional scaffolded practice before moving on.
 
-!!! mascot-tip "Sage's Tip: Demand the xAPI"
+!!! mascot-tip "Sage's Tip: Prefer Modern Standardized Learning Interfaces (xAPI and LRS)"
     ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
-    When evaluating any intelligent textbook platform, ask: "Does your platform expose student interaction data through an xAPI interface to a Learning Record Store we control?" If the answer is no — or if the vendor says they keep the data — walk away. Your student learning data is one of the most valuable assets your institution will build. You must own it.
+    When evaluating any intelligent textbook platform, ask: "Does your platform expose student interaction data through a standardized xAPI interface to a Learning Record Store that
+    is secure?" If the answer is no you may need to dig a little deeper to understand
+    why modern education standards are not being used. If the vendor says they keep the data to train their models you should dig deeper into the privacy controls around these interfaces. Your student learning data is one of the most valuable assets your institution will build. Your system must conform to both the regulatory guidelines in your state or jurisdiction.  However, you also need to be able to access this data to monitor effectiveness for each
+    individual student.
 
 ## Interactive Simulations and MicroSims
 
