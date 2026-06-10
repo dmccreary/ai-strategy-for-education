@@ -10,11 +10,11 @@ version: 0.09
 
 ## Summary
 
-Surveys the content-generation landscape — text and image generation, AI tutoring, conversational AI, retrieval-augmented generation, open-source and local models, and declining cost — then introduces the intelligent-textbook stack: adaptive content, interactive simulations, open educational resources, the ten-thousand-textbook assumption, curriculum alignment, AI content generation, and concept learning graphs. Readers understand how the cost of high-quality adaptive content is collapsing toward zero and what that means for procurement and curriculum.
+Surveys the content-generation landscape — text and image generation, AI tutoring, conversational AI, retrieval-augmented generation, open-source and local models, and declining cost — then introduces the intelligent-textbook stack: adaptive content, interactive simulations, open educational resources, the ten-thousand-textbook assumption, curriculum alignment, AI content generation, concept learning graphs, and learning graphs. Introduces the Five Levels of Textbooks framework (Static → Interactive → Adaptive → Chatbot → Autonomous AI) as a structured tool for evaluating edtech claims and setting institutional roadmaps. Readers understand how the cost of high-quality adaptive content is collapsing toward zero and what that means for procurement and curriculum.
 
 ## Concepts Covered
 
-This chapter covers the following 21 concepts from the learning graph:
+This chapter covers the following 28 concepts from the learning graph:
 
 1. Text Generation
 2. Image Generation
@@ -37,6 +37,13 @@ This chapter covers the following 21 concepts from the learning graph:
 19. Curriculum Alignment
 20. AI Content Generation
 21. Concept Learning Graph
+22. Learning Graph
+23. Five Levels of Textbooks
+24. Static Textbooks (Level 1)
+25. Interactive Textbooks (Level 2)
+26. Adaptive Textbooks (Level 3)
+27. Chatbot Textbooks (Level 4)
+28. Autonomous AI Textbooks (Level 5)
 
 ## Prerequisites
 
@@ -306,6 +313,177 @@ Type: chart
 **Responsive:** fit() on window resize.
 </details>
 
+## The Learning Graph: Mapping Curriculum as a Knowledge Network
+
+The **concept learning graph** described in the previous section is a specific, small instance of a broader idea: a **learning graph**. A learning graph is a directed acyclic graph (DAG) of all the learning concepts in a subject area, course, or entire curriculum, together with a taxonomy that classifies each concept by topic or domain.
+
+Unlike a scope-and-sequence document — which tells teachers *what* to cover and *when* — a learning graph encodes the *why*: which concepts must be understood before which others can be meaningfully taught. This distinction matters enormously for AI. A human teacher can infer prerequisite relationships from experience and context; an AI tutoring engine needs them stated explicitly and machine-readably.
+
+A learning graph has three components:
+
+- **Nodes** — one node per learning concept (e.g., "Linear Equations," "Photosynthesis," "Manifest Destiny")
+- **Edges** — directed edges from a dependent concept to its prerequisites, expressing the statement "this concept depends on that one"
+- **Taxonomy** — a classification system that groups concepts into topic clusters (e.g., ALGEBRA, BIOLOGY, HISTORY), enabling the adaptive engine to reason about domain context
+
+The dependency direction — edges pointing *from* dependent *to* prerequisite — aligns with standard graph-theory algorithms for topological sorting, cycle detection, and transitive closure. This makes it the natural representation for any system that needs to calculate "what is the student ready to learn next?"
+
+Learning graphs exist at several scales. A single textbook may contain 100–300 concept nodes. A district-level curriculum map may contain 1,000–5,000. A national standards framework, fully graphed, can exceed 10,000 nodes. The **ten thousand textbooks** assumption introduced earlier in this chapter implies that future AI tutoring systems will operate over learning graphs of precisely this scale — knowing not just what a student has studied but exactly which prerequisite dependencies they have satisfied.
+
+!!! mascot-thinking "Sage Thinks About Learning Graphs"
+    ![Sage thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    "A learning graph is not just a curriculum document — it's a machine-readable contract between content and student. Every edge says: *you cannot truly understand concept B until you understand concept A.* When that contract is explicit, an AI can honor it. When it's implicit in a teacher's head, an AI is flying blind."
+
+For education leaders, the practical implication is this: institutions that invest in building well-structured learning graphs for their core subjects will be positioned to take full advantage of adaptive AI tutoring systems. Those that do not will be dependent on whatever graph the vendor has built — which may not align with local standards, pacing, or curriculum emphasis.
+
+#### Diagram: Learning Graph Taxonomy Structure
+
+<details markdown="1">
+<summary>Interactive diagram showing how concept nodes, edges, and taxonomy groups combine in a learning graph</summary>
+Type: chart
+**sim-id:** learning-graph-taxonomy-structure<br/>
+**Library:** vis-network<br/>
+**Status:** Specified
+
+**Learning objective:** Comprehension — readers identify the three components of a learning graph (nodes, edges, taxonomy) and explain how taxonomy groups organize concept clusters.
+
+**Canvas:** Responsive, full container width, 380px height.
+
+**Nodes (color-coded by taxonomy group):**
+- "Number Sense" (id:1, group: ARITH, steelblue) — foundational arithmetic concept
+- "Addition" (id:2, group: ARITH, steelblue)
+- "Multiplication" (id:3, group: ARITH, steelblue)
+- "Linear Equations" (id:4, group: ALGEBRA, teal)
+- "Slope" (id:5, group: ALGEBRA, teal)
+- "Linear Functions" (id:6, group: ALGEBRA, orange)
+- "Photosynthesis" (id:7, group: BIO, green) — a separate subject cluster
+- "Cell Biology" (id:8, group: BIO, green)
+
+**Directed edges (from dependent to prerequisite):**
+- 2 → 1 (Addition depends on Number Sense)
+- 3 → 2 (Multiplication depends on Addition)
+- 4 → 3 (Linear Equations depends on Multiplication)
+- 5 → 4 (Slope depends on Linear Equations)
+- 6 → 5 (Linear Functions depends on Slope)
+- 7 → 8 (Photosynthesis depends on Cell Biology)
+
+**Legend:** Sidebar showing taxonomy color codes (ARITH = steelblue, ALGEBRA = teal, BIO = green).
+
+**Interaction:** Clicking any node displays its taxonomy group, concept label, and a list of its prerequisites.
+
+**Layout:** Hierarchical left-to-right; foundational nodes on left, advanced nodes on right.
+**Responsive:** fit() on window resize.
+</details>
+
+## The Five Levels of Intelligent Textbooks
+
+Not all "intelligent textbooks" are equally intelligent. A structured way to evaluate educational technology claims — and to set a realistic roadmap for your institution — is the **Five Levels of Textbooks** framework. This model classifies educational content systems on a spectrum from purely static to fully autonomous, with each level adding a distinct capability that depends on the capabilities of the levels below it.
+
+Before exploring the five levels, it helps to recall what the baseline is: the traditional printed textbook. A printed textbook delivers fixed content, requires no technology beyond the ability to read, provides no personalization, and generates no data about student learning. Every innovation in the five-level model is measured against that baseline.
+
+!!! mascot-tip "Sage Tips: Use the Five Levels as a Vendor Checklist"
+    ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    When evaluating an edtech vendor's "intelligent textbook" claims, ask which level their product actually operates at. Many products marketed as "adaptive" are only Level 2 (interactive). A vendor that cannot clearly articulate which level their system reaches — and what data infrastructure supports it — is worth scrutinizing carefully.
+
+### Level 1 — Static Textbooks
+
+A **static textbook** is a digital reproduction of a printed textbook with no meaningful interactivity. The content is fixed; every student sees the same pages in the same order. A PDF version of a printed textbook is a static textbook. A website that displays chapter text without any interactive elements is a static textbook. Static textbooks lower distribution cost (no printing, no shipping) and enable keyword search, but they do not change the fundamental learning experience.
+
+Static textbooks are the baseline. They are not "bad" — many excellent printed textbooks exist, and a high-quality static textbook beats a mediocre interactive one. The point of the five-level model is not to dismiss static content but to clarify what capabilities must be added at each level and what infrastructure those capabilities require.
+
+### Level 2 — Interactive Textbooks
+
+An **interactive textbook** adds interactive elements to the static text: embedded simulations (MicroSims), clickable concept learning graphs, data visualizations that respond to user input, embedded assessment with immediate feedback, and recommended navigation paths based on a student's demonstrated knowledge. The content itself is still fixed — the system does not generate new text or adapt prose to the individual — but students can explore, experiment, and receive feedback on their interactions.
+
+Interactive textbooks require:
+- A learning graph to organize concepts and power path recommendations
+- MicroSims and visualizations to make abstract concepts explorable
+- A simple assessment layer (formative quizzes) to track demonstrated knowledge
+- A recommendation engine that reads assessment results and suggests next concepts
+
+Most well-funded edtech platforms today operate at Level 2. The experience is meaningfully richer than a static textbook, but the system does not know who the student is in a persistent sense — it may personalize within a session but not across sessions without student record storage.
+
+### Level 3 — Adaptive Textbooks
+
+An **adaptive textbook** uses persistent student records to change not just the navigation but the content itself — selecting from multiple explanations of the same concept, adjusting reading level, prioritizing examples that match a student's demonstrated interests, and building a personalized learning path that evolves over weeks and months. The content pool is pre-authored, but the selection and sequencing are driven by each student's goals, prior knowledge, and demonstrated mastery.
+
+Adaptive textbooks require:
+- A Learning Record Store (LRS) or equivalent database that persists student progress across sessions
+- xAPI telemetry (introduced in Chapter 7) so that every meaningful learning event is logged in a standard format
+- A student model — a structured representation of what the student knows, does not know, and is ready to learn
+- An adaptive sequencing engine that reads the student model and selects the next appropriate content unit
+
+Level 3 systems represent a significant step up in infrastructure complexity. They require careful attention to student data privacy (FERPA, COPPA — introduced in Chapter 9) because persistent student records are now involved.
+
+### Level 4 — Chatbot Textbooks
+
+A **chatbot textbook** adds a conversational AI layer — a large language model tutor — that students can interact with in natural language while working through the content. The chatbot can answer questions, explain concepts in different ways, work through practice problems step by step, provide encouragement, and surface the relevant section of the textbook when a student is confused. At Level 4, the textbook responds to the student in a fundamentally different way: it listens and replies, rather than presenting and waiting.
+
+Chatbot textbooks require all of Level 3's infrastructure plus:
+- An LLM integration (either a cloud API or a locally hosted model for privacy-sensitive environments)
+- A retrieval-augmented generation (RAG) layer so the chatbot's answers are grounded in the specific content of the textbook rather than general internet knowledge
+- Guardrails and content filtering appropriate for the student population's age and context
+- Session context management so the chatbot knows what the student has been working on
+
+Level 4 systems are now commercially available at several edtech platforms. The key evaluation question for education leaders is not "does this platform have a chatbot?" but "is the chatbot grounded in our curriculum, aligned to our standards, and subject to appropriate content controls?"
+
+### Level 5 — Autonomous AI Textbooks
+
+An **autonomous AI textbook** goes beyond selecting from pre-authored content and conversing with the student — it generates new content in real time, personalized to the specific student, topic, and moment. A Level 5 system does not have a fixed content pool; it synthesizes explanations, examples, analogies, practice problems, and even interactive simulations on demand. Every student gets a textbook that is, in a meaningful sense, theirs alone.
+
+Autonomous AI textbooks require all of Level 4's infrastructure plus:
+- High-quality generative AI models capable of producing reliable, accurate educational content
+- Robust fact-checking and hallucination-mitigation systems (since generated content can be confidently wrong)
+- Curriculum alignment validation — a system that checks generated content against the learning objectives and standards it should address
+- Human-in-the-loop review processes for flagging and correcting generated errors before they propagate
+- Significant compute resources, especially for real-time MicroSim and simulation generation
+
+Fully realized Level 5 systems do not yet exist at commercial scale as of 2026. The components are available — LLMs can generate educational text, image generators can produce diagrams, code generators can produce MicroSims — but assembling them into a reliable, safe, pedagogically validated autonomous textbook system remains an active research challenge. The key insight for strategic planning is that the trajectory is clear and the timeline is short: Level 5 systems are a planning assumption for the next decade, not a speculation.
+
+The table below summarizes the five levels and the infrastructure each requires.
+
+| Level | Name | Personalization | Key Infrastructure Required |
+|-------|------|-----------------|---------------------------|
+| 1 | Static | None | Digital publishing, PDF/HTML |
+| 2 | Interactive | Session-level | Learning graph, MicroSims, assessment |
+| 3 | Adaptive | Persistent (student model) | LRS, xAPI, adaptive engine |
+| 4 | Chatbot | Conversational | LLM, RAG, content guardrails |
+| 5 | Autonomous AI | Fully generative | Real-time generation, hallucination mitigation, alignment validation |
+
+#### Diagram: Five Levels of Textbooks Progression
+
+<details markdown="1">
+<summary>Interactive diagram showing the five-level progression from static to autonomous AI textbooks</summary>
+Type: chart
+**sim-id:** five-levels-textbooks<br/>
+**Library:** vis-network<br/>
+**Status:** Specified
+
+**Learning objective:** Knowledge (Bloom's) — readers identify the five levels by name and match each level to its defining capability.
+
+**Canvas:** Responsive, full container width, 340px height.
+
+**Nodes (left to right, representing progression):**
+- "Level 1: Static" (id:1, gray) — tooltip: "Fixed content, digital distribution only. No personalization."
+- "Level 2: Interactive" (id:2, steelblue) — tooltip: "MicroSims, learning graph navigation, session feedback."
+- "Level 3: Adaptive" (id:3, teal) — tooltip: "Persistent student model, xAPI/LRS, personalized sequencing."
+- "Level 4: Chatbot" (id:4, orange) — tooltip: "LLM tutor, RAG-grounded answers, conversational interaction."
+- "Level 5: Autonomous AI" (id:5, deep orange) — tooltip: "Real-time content generation, fully personalized instruction."
+
+**Edges (left to right, enablement direction — each level enables the next):**
+- 1 → 2 (Static enables Interactive — label: "add interactivity")
+- 2 → 3 (Interactive enables Adaptive — label: "add student model")
+- 3 → 4 (Adaptive enables Chatbot — label: "add LLM tutor")
+- 4 → 5 (Chatbot enables Autonomous AI — label: "add generation")
+
+**Layout:** Horizontal left-to-right progression. Nodes equally spaced.
+**Interaction:** Clicking a node expands a sidebar with: level number, name, defining capability, required infrastructure, example platform type.
+**Responsive:** fit() on window resize.
+</details>
+
+!!! mascot-encourage "Sage Encourages Your Analysis"
+    ![Sage encouraging](../../img/mascot/encourage.png){ class="mascot-admonition-img" }
+    Assessing which level your current textbook platforms actually reach — not which level they are marketed as — is a valuable strategic exercise. Pull up your current edtech contracts, identify what data each system stores about students, and ask: does this platform have an LRS? Does it generate content or select from a fixed pool? The answers will tell you exactly where you are on the five-level scale.
+
 ## What the Content Revolution Means for Leaders
 
 The content revolution has three immediate implications for education leaders.
@@ -329,4 +507,6 @@ The content revolution has three immediate implications for education leaders.
 - **Fine-tuning** further customizes models for specific contexts but requires expertise and data; evaluate vendor claims about fine-tuned models carefully.
 - An **intelligent textbook** combines **adaptive content**, **interactive simulations**, **MicroSims**, a conversational AI tutor, and an **xAPI** telemetry layer — all organized by a **concept learning graph**.
 - **Open Educational Resources** and the **ten thousand textbooks** assumption project an imminent world of abundant, freely available intelligent textbooks that will disrupt traditional **textbook procurement**.
+- A **learning graph** is a DAG of all concepts in a curriculum with explicit prerequisite edges and a taxonomy classification; institutions that build their own learning graphs gain independence from vendor-defined content structure.
+- The **Five Levels of Textbooks** framework — Static (1), Interactive (2), Adaptive (3), Chatbot (4), Autonomous AI (5) — provides a structured vocabulary for evaluating edtech claims and planning institutional roadmaps; most commercial "adaptive" platforms today operate at Level 2 or Level 3.
 - **Curriculum alignment** becomes the primary differentiator when content is abundant; AI content generation accelerates alignment but requires human quality review.

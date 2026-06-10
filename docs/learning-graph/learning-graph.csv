@@ -213,3 +213,10 @@ ConceptID,ConceptLabel,Dependencies,TaxonomyID
 212,Critical Thinking Agent,204|138,AGENT
 213,Pro-Social Learning,129,PEDMOD
 214,Extracurricular Activities,128|213,PEDMOD
+215,Learning Graph,110|107,ITB
+216,Five Levels of Textbooks,99,ITB
+217,Static Textbooks,216,ITB
+218,Interactive Textbooks,216|102|110,ITB
+219,Adaptive Textbooks,218|100|111,ITB
+220,Chatbot Textbooks,219|47|48,ITB
+221,Autonomous AI Textbooks,220|108,ITB

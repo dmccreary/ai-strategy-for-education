@@ -66,6 +66,8 @@ nav:
       - List of MicroSims: sims/index.md
       - Learning Graph Viewer: sims/graph-viewer/index.md
 
+  - FAQ: faq.md
+  - Glossary: glossary.md
   - License: license.md
   - Contact: contact.md
 

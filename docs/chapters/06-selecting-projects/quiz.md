@@ -1,0 +1,55 @@
+---
+title: "Chapter 6 Quiz — Selecting Projects"
+description: "Self-assessment quiz for Chapter 6 of AI Strategy for Education."
+---
+
+# Chapter 6 Quiz — Selecting Projects
+
+Test your understanding of how educational institutions evaluate, prioritize, and manage their portfolio of AI projects. Questions cover Remember, Understand, Apply, and Analyze levels of learning.
+
+## Questions
+
+??? question "1. What is a Project Portfolio in the context of AI strategy, and why should schools manage ideas as a portfolio rather than individual projects?"
+    **Answer:** A Project Portfolio is the complete collection of active and planned AI initiatives that an institution is managing simultaneously, viewed as a whole rather than as isolated efforts. Managing ideas as a portfolio — rather than evaluating each project in isolation — allows leaders to balance risk and reward across initiatives, ensure that resources are distributed across different types of value (efficiency gains, instructional improvement, equity), and prevent the organization from putting all its effort into a single bet. Portfolio thinking also surfaces conflicts for shared resources before they become crises.
+
+??? question "2. What are 'Quick Wins' in AI project selection, and why are they strategically important early in an adoption journey?"
+    **Answer:** Quick Wins are AI projects that can be implemented rapidly, require modest resources, and deliver visible, concrete benefits — such as automating the generation of weekly parent newsletters or creating first-draft lesson plan templates. They are strategically important early on because they build staff confidence in AI tools, create internal advocates, and demonstrate to skeptics and board members that AI investment produces real results. Early wins also generate organizational learning that makes subsequent, larger projects more likely to succeed.
+
+??? question "3. What are 'Strategic Bets' in AI project selection, and how do they differ from Quick Wins?"
+    **Answer:** Strategic Bets are larger, longer-horizon AI initiatives with transformative potential but higher risk and longer implementation timelines — such as deploying a district-wide AI tutoring system or building a predictive analytics platform for student success. Unlike Quick Wins, Strategic Bets require sustained commitment over months or years and may not show immediate returns. A healthy AI portfolio includes both: Quick Wins build momentum and credibility while Strategic Bets position the institution for long-term competitive and educational advantage.
+
+??? question "4. What is a Key Performance Indicator (KPI) in the context of AI projects, and what makes a KPI well-defined?"
+    **Answer:** A Key Performance Indicator is a specific, measurable metric used to track whether an AI project is achieving its intended outcomes — such as 'reduce teacher time spent on report generation by 40%' or 'increase student quiz completion rates by 15%.' A well-defined KPI is specific (it describes exactly what is measured), measurable (data can be collected reliably), achievable (realistic given available resources), relevant (connected to the project's stated goal), and time-bound (tracked over a defined period). Vague KPIs like 'improve teacher satisfaction' are difficult to act on without further definition.
+
+??? question "5. What is a Pipeline Report, and who are its intended audiences in a school district?"
+    **Answer:** A Pipeline Report is a regular summary of the AI project portfolio showing each initiative's current stage, status, resource consumption, and progress against key milestones. Its intended audiences include the executive team (who need to make go/no-go decisions), department heads (who need to coordinate their contributions), and the school board (who need to oversee responsible spending). A good pipeline report is concise and visual — showing the whole portfolio at a glance rather than deep-diving into every project's technical details.
+
+??? question "6. What is Funnel Stage Tracking, and how does it help leadership manage the AI project pipeline?"
+    **Answer:** Funnel Stage Tracking monitors how many ideas and projects are at each stage of the AI development pipeline — from initial idea submission through evaluation, pilot, scaled deployment, and eventual retirement. It helps leadership identify bottlenecks: for example, if many ideas are submitted but few advance to piloting, the evaluation process may be too slow or the selection criteria too conservative. Tracking stage transitions over time also shows whether the overall pace of AI adoption is accelerating or stalling.
+
+??? question "7. What is a Shared Code Repository in the context of AI projects, and why should it be a requirement for publicly-funded education AI development?"
+    **Answer:** A Shared Code Repository is a version-controlled storage system — such as a GitHub repository — where the software, scripts, and configurations built during AI projects are stored and accessible to authorized collaborators. Requiring one for publicly-funded education AI development promotes transparency, prevents duplication of effort across districts, enables peer review to catch errors, and preserves institutional knowledge when staff turn over. It also supports Open Educational Resources values by allowing school-developed AI tools to be shared with other districts.
+
+??? question "8. What is Cross-Team Collaboration in AI project execution, and what barriers typically prevent it in schools?"
+    **Answer:** Cross-Team Collaboration means that AI projects involve staff from multiple departments — curriculum, technology, administration, and teaching — working together rather than in silos. Barriers in schools include rigid departmental structures with separate budgets and reporting lines, lack of common meeting time, unfamiliarity between teachers and IT staff, and cultural norms where departments protect their territory. Effective AI leadership actively dismantles these barriers by creating cross-functional project teams, co-locating project work, and recognizing collaborative contributions in performance reviews.
+
+??? question "9. What is a Success Metric for an AI project, and how does it differ from a KPI?"
+    **Answer:** A Success Metric is a threshold or target that defines what 'success' looks like for an AI project at a specific point in time — for example, 'the AI scheduling tool must reduce counselor time on scheduling by 30% within the first semester of deployment.' A KPI is the ongoing measurement instrument used to track progress toward and beyond that threshold. Success metrics define the finish line; KPIs are the mile markers along the way. Both are necessary for rigorous project evaluation.
+
+??? question "10. What is a Quarterly Executive Report on AI projects, and what decisions should it inform?"
+    **Answer:** A Quarterly Executive Report is a structured summary prepared for senior leadership reviewing AI project performance, resource utilization, key milestones, risks, and recommendations for the coming quarter. It should inform decisions about whether to continue, accelerate, pause, or cancel projects; whether to reallocate resources between initiatives; and whether the overall strategy needs adjustment in response to new technology developments or changing institutional priorities. Regular reporting creates accountability and prevents projects from drifting without course corrections.
+
+??? question "11. What are Lessons Learned, and why should they be formally documented after every AI pilot?"
+    **Answer:** Lessons Learned is a structured reflection process conducted after an AI pilot or project concludes, capturing what worked well, what did not work, what surprised the team, and what the institution would do differently in a future similar project. Formal documentation is important because institutional memory is short — staff turn over, and undocumented lessons are repeated as mistakes by future project teams. Shared lessons learned across the organization also accelerate learning and reduce the cost of subsequent AI initiatives.
+
+??? question "12. What is a Problem Taxonomy in AI strategy, and how does organizing problems by type help prioritize projects?"
+    **Answer:** A Problem Taxonomy is a classification system that groups AI use case ideas by the type of problem they address — such as administrative efficiency, instructional quality, student well-being, equity and access, or communication. Organizing problems by type reveals which categories are over- or under-represented in the project pipeline and ensures that the portfolio addresses a balanced range of institutional needs. It also helps evaluators compare like ideas (e.g., all communication automation ideas) using consistent criteria.
+
+??? question "13. What is a Solution Taxonomy, and how does it complement a Problem Taxonomy?"
+    **Answer:** A Solution Taxonomy classifies AI ideas by the type of AI capability or approach they use — such as text generation, predictive analytics, computer vision, recommendation engines, or conversational agents. It complements the Problem Taxonomy by revealing which AI capabilities the district is relying on heavily (and may therefore be building expertise in) versus which capabilities are underutilized. It also helps technology staff identify shared infrastructure needs: multiple projects using the same solution type may be able to share data pipelines or model deployments.
+
+??? question "14. What is Project Team Formation for AI initiatives, and what roles should typically be included?"
+    **Answer:** Project Team Formation is the process of assembling the right mix of people to execute an AI initiative from concept through deployment. For education AI projects, typical roles include a project lead (accountable for delivery), a curriculum or instructional expert (ensures pedagogical soundness), a data or technology specialist (handles the AI tool technically), a classroom teacher representative (provides practitioner feedback), and a privacy or compliance advisor (ensures legal requirements are met). Teams missing any of these perspectives often build technically capable tools that are pedagogically weak or legally problematic.
+
+??? question "15. What is Resource Assignment in AI project selection, and what happens when it is not done explicitly?"
+    **Answer:** Resource Assignment is the deliberate allocation of staff time, budget, and technology infrastructure to specific AI projects before they begin. Without explicit resource assignment, AI initiatives compete for attention with operational priorities and inevitably lose — staff who are nominally assigned to a project continue to be pulled back into their day jobs, progress stalls, and the initiative quietly dies without a formal decision to cancel it. Explicit resource assignment, with protected time commitments, is one of the strongest predictors of AI project success in educational settings.

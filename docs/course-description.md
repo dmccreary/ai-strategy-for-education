@@ -56,6 +56,12 @@ true:
   **10,000 intelligent textbooks** — interactive, AI-tutored, simulation-rich books — will be
   freely or cheaply available across subjects and grade levels, collapsing the cost of
   high-quality, adaptive content toward zero.
+- **Five Level Model of Intelligent Textbooks.** All intelligent textbooks can
+  classified as being in one of five levels.  Level 1 is a static textbook.  Level 2 in an
+  interactive textbook with rich simulations.  Level 3 is an adaptive textbook that
+  adjusts the content to the needs of the learner, but requires individual student
+  data to be stored.  Level 4 is a chatbot backed textbook.  Level 5 is a fully
+  autonomous textbook.
 - **Universal learning telemetry.** Essentially all of these textbooks will expose an
   **xAPI** interface, emitting fine-grained statements about what each learner did, when, and
   how well, into a **Learning Record Store (LRS)**.
