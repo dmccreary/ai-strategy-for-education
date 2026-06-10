@@ -92,6 +92,10 @@ Strategic bets matter because quick wins alone do not produce transformation. A 
 
 #### Diagram: Portfolio Balance — The Quick Win / Strategic Bet Matrix
 
+
+<iframe src="../../sims/portfolio-balance-matrix/main.html" width="100%" height="622" scrolling="no"></iframe>
+[Run Portfolio Balance — The Quick Win / Strategic Bet Matrix Fullscreen](../../sims/portfolio-balance-matrix/main.html)
+
 <details markdown="1">
 <summary>Interactive portfolio matrix mapping projects by impact and implementation difficulty</summary>
 Type: chart
@@ -234,6 +238,10 @@ The pipeline report presents this data at a glance for leadership. A well-design
 - Are funded projects delivering outcomes? (Stage 6 KPI attainment rates)
 
 #### Diagram: AI Program Pipeline Report
+
+
+<iframe src="../../sims/pipeline-report-dashboard/main.html" width="100%" height="642" scrolling="no"></iframe>
+[Run AI Program Pipeline Report Fullscreen](../../sims/pipeline-report-dashboard/main.html)
 
 <details markdown="1">
 <summary>Interactive pipeline dashboard showing ideas and projects at each funnel stage</summary>

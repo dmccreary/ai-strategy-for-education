@@ -1,0 +1,61 @@
+---
+title: Neural Network Learning Pathway
+description: Interactive vis-network MicroSim for deep learning timeline.
+image: /sims/neural-network-learning-pathway/neural-network-learning-pathway.png
+og:image: /sims/neural-network-learning-pathway/neural-network-learning-pathway.png
+twitter:image: /sims/neural-network-learning-pathway/neural-network-learning-pathway.png
+social:
+   cards: false
+quality_score: 0
+---
+
+# Neural Network Learning Pathway
+
+<iframe src="main.html" height="562" width="100%" scrolling="no"></iframe>
+
+[Run the Neural Network Learning Pathway MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+<br/>
+[Edit in the p5.js Editor](https://editor.p5js.org/)
+
+## About This MicroSim
+
+TODO: Describe what this MicroSim demonstrates.
+
+## How to Use
+
+TODO: Describe how students should interact with this MicroSim.
+
+## Iframe Embed Code
+
+You can add this MicroSim to any web page by adding this to your HTML:
+
+```html
+<iframe src="https://dmccreary.github.io/ai-strategy-for-education/sims/neural-network-learning-pathway/main.html"
+        height="562"
+        width="100%"
+        scrolling="no"></iframe>
+```
+
+## Lesson Plan
+
+### Grade Level
+9-12 (High School Geometry)
+
+### Duration
+10-15 minutes
+
+### Prerequisites
+TODO: List prerequisites.
+
+### Activities
+
+1. **Exploration** (5 min): TODO
+2. **Guided Practice** (5 min): TODO
+3. **Assessment** (5 min): TODO
+
+### Assessment
+TODO: List assessment criteria.
+
+## References
+
+1. TODO: Add references.

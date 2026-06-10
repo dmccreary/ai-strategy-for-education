@@ -1,0 +1,14 @@
+{
+  "sim_id": "swot-analysis-builder",
+  "diagram_name": "SWOT Analysis Framework",
+  "chapter_number": 13,
+  "chapter_title": "Strategic Planning — SWOT, Roadmaps, and the Capstone Strategy",
+  "chapter_dir": "13-strategic-planning",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Creating (Bloom's) — readers generate a specific SWOT analysis for their own institution using the framework and institutional prompts provided.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: MicroSim\n**sim-id:** swot-analysis-builder<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Creating (Bloom's) — readers generate a specific SWOT analysis for their own institution using the framework and institutional prompts provided.\n\n**Canvas:** Responsive, container-width × 520px.\n\n**Visualization:**\n- Four equal quadrants arranged in a 2×2 grid.\n- Top-left (green): \"Strengths — Internal, Positive\"\n- Top-right (orange): \"Weaknesses — Internal, Negative\"\n- Bottom-left (steelblue): \"Opportunities — External, Positive\"\n- Bottom-right (red): \"Threats — External, Negative\"\n- Each quadrant shows a title, a brief definition (shown on hover), and bullet-point entries.\n\n**Controls (p5.js builtins):**\n- Dropdown: \"Institution type\" — K-12 district, elementary school, middle school, high school, community college, four-year university.\n- Dropdown: \"Institution context\" — Wealthy suburban, mid-income suburban, Urban Title I, rural under-resourced, private school.\n- Button: \"Load example\" — populates all four quadrants with a representative set of SWOT entries for the selected institution type and context.\n- Button: \"Clear\" — empties all quadrants.\n- Button: \"Print/Export\" — triggers browser print dialog for the current SWOT.\n\n**Example population for \"Urban Title I K-12 District\":**\nStrengths: \"Strong parent community engagement culture; experienced bilingual teaching staff; 1:1 device deployment completed in 2023; existing relationship with university research partner.\"\nWeaknesses: \"Limited IT staff for AI implementation support; no current LRS infrastructure; budget constraints reduce training time available; high teacher turnover in Grades 6–8.\"\nOpportunities: \"10,000 intelligent textbooks will provide free, high-quality AI-tutored content aligned to state standards; BEAD funding may close home broadband gap; AI early-alert systems address persistent K–3 literacy gap.\"\nThreats: \"Device fleet aging without replacement budget; vendor lock-in risk if AI platform adopted without data portability requirement; community skepticism about AI following recent national media stories.\"\n\n**Responsive:** updateCanvasSize() in setup() and on window resize. canvas.parent(document.querySelector('main'));"
+}

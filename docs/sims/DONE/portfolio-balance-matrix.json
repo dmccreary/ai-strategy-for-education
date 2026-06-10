@@ -1,0 +1,14 @@
+{
+  "sim_id": "portfolio-balance-matrix",
+  "diagram_name": "Portfolio Balance — The Quick Win / Strategic Bet Matrix",
+  "chapter_number": 6,
+  "chapter_title": "Selecting Projects, Assigning Resources, and Evaluating Outcomes",
+  "chapter_dir": "06-selecting-projects",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Evaluating (Bloom's) — readers judge how to position and balance candidate projects across a portfolio matrix.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: chart\n**sim-id:** portfolio-balance-matrix<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Learning objective:** Evaluating (Bloom's) — readers judge how to position and balance candidate projects across a portfolio matrix.\n\n**Canvas:** Responsive, full container width, 440px height.\n\n**Chart type:** Bubble chart / scatter plot with four quadrants.\n\n**Axes:**\n- X-axis: \"Implementation Difficulty\" — Low (left) to High (right), scale 1–5.\n- Y-axis: \"Potential Impact on Students\" — Low (bottom) to High (top), scale 1–5.\n\n**Quadrant labels (in background):**\n- Top-left (green): \"Quick Wins — Do first\"\n- Top-right (orange): \"Strategic Bets — Plan carefully\"\n- Bottom-left (gray): \"Low priority — Deprioritize\"\n- Bottom-right (yellow): \"Effort Traps — Question value\"\n\n**Sample data points (bubbles, each clickable):**\n- \"AI Sub Plans\" (x:1, y:2, r:8, green) — Infobox: \"Quick Win: low difficulty, moderate impact. Ideal first project.\"\n- \"Differentiated Homework\" (x:1.5, y:3, r:10, green) — Infobox: \"Quick Win: uses existing tools, benefits most students.\"\n- \"Parent Q&A Chatbot\" (x:2, y:2, r:8, green) — Infobox: \"Quick Win: reduces after-hours questions for staff.\"\n- \"xAPI/LRS Infrastructure\" (x:4, y:5, r:14, orange) — Infobox: \"Strategic Bet: complex implementation, but enables AI-personalized learning plans across all platforms.\"\n- \"Alpha School Schedule Pilot\" (x:5, y:5, r:16, orange) — Infobox: \"Strategic Bet: requires full schedule redesign, community engagement, and staff retraining. Transformative if successful.\"\n- \"AI Grading for Essays\" (x:3, y:3, r:10, yellow) — Infobox: \"Effort Trap: significant teacher training required; academic integrity concerns. Re-evaluate.\"\n- \"AI Attendance Tracking\" (x:4, y:1, r:6, yellow) — Infobox: \"Effort Trap: moderate difficulty for low additional impact — attendance is already well-tracked.\"\n\n**Interaction:**\n- Clicking any bubble opens its infobox.\n- Hovering shows the project name and coordinates.\n- Draggable mode: users can drag bubbles to re-position sample projects, exploring how repositioning changes portfolio balance.\n- Button: \"Reset positions\" — restores defaults.\n\n**Legend:** Quadrant color legend in top-right.\n**Responsive:** Redraws on window resize."
+}

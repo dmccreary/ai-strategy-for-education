@@ -1,0 +1,14 @@
+{
+  "sim_id": "metr-task-horizon-timeline",
+  "diagram_name": "The METR Task Horizon Timeline",
+  "chapter_number": 2,
+  "chapter_title": "Measuring the AI Capability Curve",
+  "chapter_dir": "02-ai-capability-curve",
+  "library": "vis-timeline",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Analyzing (Bloom's) — readers examine the timeline of AI task-horizon data points to understand the pace and pattern of capability growth.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: timeline\n**sim-id:** metr-task-horizon-timeline<br/>\n**Library:** vis-timeline<br/>\n**Status:** Specified\n\n**Learning objective:** Analyzing (Bloom's) — readers examine the timeline of AI task-horizon data points to understand the pace and pattern of capability growth.\n\n**Canvas:** Full-width, responsive, minimum height 300px.\n\n**Timeline items (each is a clickable event that opens an infobox):**\n\n- 2019-01: \"Task horizon ~2 seconds\" — Infobox: \"Early GPT-2 era. AI could autocomplete short phrases and sentences reliably.\"\n- 2020-06: \"Task horizon ~30 seconds\" — Infobox: \"GPT-3 launch. AI could summarize paragraphs and answer factual questions.\"\n- 2021-06: \"Task horizon ~2 minutes\" — Infobox: \"Codex and early coding assistants. AI could write short functions and simple scripts reliably.\"\n- 2022-06: \"Task horizon ~5 minutes\" — Infobox: \"ChatGPT era begins. AI handles short research tasks and writing assignments with 50% reliability.\"\n- 2023-03: \"Task horizon ~15 minutes\" — Infobox: \"GPT-4 launch. AI completes small, self-contained software projects end-to-end.\"\n- 2024-01: \"Task horizon ~45 minutes\" — Infobox: \"Frontier models integrate tools and browse the web autonomously for extended sessions.\"\n- 2025-06: \"Task horizon ~4 hours\" — Infobox: \"Reasoning models complete multi-session software engineering tasks — equivalent to a junior developer's morning — with 50% reliability.\"\n\n**Interaction:**\n- Clicking any event marker opens a modal infobox with the full description above.\n- Timeline supports drag-to-pan and scroll-to-zoom.\n- Items are color-coded by era: pre-LLM (gray), early-LLM (steelblue), frontier (deep orange).\n- A secondary logarithmic scale on the right y-axis shows task-horizon duration in hours.\n\n**Responsive:** Reflows to a vertical stacked list on viewports narrower than 600px."
+}

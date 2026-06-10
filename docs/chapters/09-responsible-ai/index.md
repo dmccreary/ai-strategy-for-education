@@ -89,6 +89,10 @@ For education leaders, the practical approach to algorithmic bias is threefold:
 
 #### Diagram: Sources of Algorithmic Bias in Education AI
 
+
+<iframe src="../../sims/algorithmic-bias-sources/main.html" width="100%" height="522" scrolling="no"></iframe>
+[Run Sources of Algorithmic Bias in Education AI Fullscreen](../../sims/algorithmic-bias-sources/main.html)
+
 <details markdown="1">
 <summary>Interactive diagram tracing how bias enters and propagates through an AI system</summary>
 Type: chart

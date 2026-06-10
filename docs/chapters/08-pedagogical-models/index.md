@@ -69,6 +69,10 @@ The Alpha model name comes from Alpha School, a network of private schools that 
 
 #### Diagram: Traditional vs. Alpha School Day Structure
 
+
+<iframe src="../../sims/school-day-comparison-timeline/main.html" width="100%" height="572" scrolling="no"></iframe>
+[Run Traditional vs. Alpha School Day Structure Fullscreen](../../sims/school-day-comparison-timeline/main.html)
+
 <details markdown="1">
 <summary>Interactive timeline comparing how a traditional and Alpha School day allocates time</summary>
 Type: timeline

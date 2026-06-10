@@ -1,0 +1,14 @@
+{
+  "sim_id": "risk-register-matrix",
+  "diagram_name": "Interactive Risk Register",
+  "chapter_number": 10,
+  "chapter_title": "Academic Integrity, Equity, and Managing AI Risk",
+  "chapter_dir": "10-integrity-equity-risk",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Applying (Bloom's) — readers plot institutional AI risks on a risk matrix and identify which require the most urgent mitigation attention.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: MicroSim\n**sim-id:** risk-register-matrix<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Applying (Bloom's) — readers plot institutional AI risks on a risk matrix and identify which require the most urgent mitigation attention.\n\n**Canvas:** Responsive, container-width × 480px.\n\n**Visualization:**\n- 5×5 risk matrix heat map. X-axis: Likelihood 1–5 (left to right). Y-axis: Severity 1–5 (bottom to top).\n- Cell colors: Low risk (score 1–4): light green. Medium risk (5–10): yellow. High risk (11–16): orange. Critical risk (17–25): red.\n- Pre-populated sample risks appear as labeled circles positioned at their likelihood/severity coordinates.\n- Risk score (likelihood × severity) displayed in each circle.\n\n**Pre-populated sample risks (movable circles):**\n- \"Data breach\" at Likelihood 2, Severity 5 (score 10, orange)\n- \"Bias in alerts\" at Likelihood 3, Severity 4 (score 12, orange)\n- \"Over-reliance\" at Likelihood 4, Severity 3 (score 12, orange)\n- \"Vendor lock-in\" at Likelihood 2, Severity 4 (score 8, yellow)\n- \"Hallucination\" at Likelihood 3, Severity 3 (score 9, yellow)\n\n**Controls (p5.js builtins):**\n- Button: \"Add Risk\" — opens a dialog to name a new risk and set initial coordinates.\n- Button: \"Clear Added Risks\" — removes user-added risks; keeps pre-populated ones.\n- Dropdown: \"Highlight risks above score:\" — 5, 8, 10, 12 — dims risks below the threshold.\n\n**Interaction:**\n- Hovering a risk circle shows its name and score.\n- Clicking opens an infobox showing name, likelihood, severity, score, and a text field for entering a mitigation note.\n- Circles are draggable — users can re-position risks as they refine their assessment.\n\n**Responsive:** updateCanvasSize() called in setup() and on window resize. canvas.parent(document.querySelector('main'));"
+}

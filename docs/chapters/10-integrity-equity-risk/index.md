@@ -113,6 +113,10 @@ The following table illustrates a sample risk register entry format with represe
 
 #### Diagram: Interactive Risk Register
 
+
+<iframe src="../../sims/risk-register-matrix/main.html" width="100%" height="567" scrolling="no"></iframe>
+[Run Interactive Risk Register Fullscreen](../../sims/risk-register-matrix/main.html)
+
 <details markdown="1">
 <summary>Interactive risk register tool — plot and prioritize risks by likelihood and severity</summary>
 Type: MicroSim
@@ -187,6 +191,10 @@ For AI in education, the digital divide creates a potential amplification of exi
 **Educational equity** — the principle that every student, regardless of race, income, language, or geography, should have access to the educational opportunities that allow them to reach their potential — requires that AI strategy explicitly address the digital divide rather than assuming it is someone else's problem to solve.
 
 #### Diagram: The Digital Divide in Education AI Access
+
+
+<iframe src="../../sims/digital-divide-access-chart/main.html" width="100%" height="562" scrolling="no"></iframe>
+[Run The Digital Divide in Education AI Access Fullscreen](../../sims/digital-divide-access-chart/main.html)
 
 <details markdown="1">
 <summary>Interactive chart showing device, broadband, and AI-tool access disparities across school types</summary>

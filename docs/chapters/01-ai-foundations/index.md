@@ -110,6 +110,10 @@ The diagram below shows how these three components — training data, neural net
 
 <iframe src="../../sims/shared/autoregressive/main.html" height="600" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
+
+<iframe src="../../sims/neural-network-learning-pathway/main.html" width="100%" height="562" scrolling="no"></iframe>
+[Run Neural Network Learning Pathway Fullscreen](../../sims/neural-network-learning-pathway/main.html)
+
 <details markdown="1">
 <summary>How training data flows through a neural network to produce model parameters, which are then used for inference</summary>
 Type: interactive-infographic
@@ -174,6 +178,10 @@ Early LLMs had context windows of a few thousand tokens — roughly equivalent t
 The diagram below shows how the six concepts introduced in this section — AI, machine learning, neural network, LLM, generative AI, and token — relate to each other hierarchically.
 
 #### Diagram: AI Concept Hierarchy
+
+
+<iframe src="../../sims/ai-concept-hierarchy/main.html" width="100%" height="562" scrolling="no"></iframe>
+[Run Tokenizer MicroSim Fullscreen](../../sims/ai-concept-hierarchy/main.html)
 
 <details markdown="1">
 <summary>How Artificial Intelligence, Machine Learning, Neural Networks, LLMs, Generative AI, and Tokens relate to each other</summary>
@@ -298,6 +306,10 @@ The diagram below makes this boundary concrete by sorting common institutional d
 
 #### Diagram: Public vs. Private Knowledge Boundary
 
+
+<iframe src="../../sims/public-private-knowledge-boundary/main.html" width="100%" height="602" scrolling="no"></iframe>
+[Run Public vs. Private Knowledge Boundary Fullscreen](../../sims/public-private-knowledge-boundary/main.html)
+
 <details markdown="1">
 <summary>How to classify institutional information as public training knowledge or private data requiring governance</summary>
 Type: interactive-infographic
@@ -352,6 +364,10 @@ The course assumption that every administrator, teacher, and student will have d
 The diagram below shows the four operational components of an AI agent and the external environment it interacts with.
 
 #### Diagram: Anatomy of an AI Agent
+
+
+<iframe src="../../sims/ai-agent-anatomy/main.html" width="100%" height="562" scrolling="no"></iframe>
+[Run Anatomy of an AI Agent Fullscreen](../../sims/ai-agent-anatomy/main.html)
 
 <details markdown="1">
 <summary>The four components of an AI agent cycle — perceive, plan, act, remember — and the institutional environment they operate within</summary>

@@ -99,6 +99,10 @@ The dimension METR tracks is called the **task horizon** — the maximum duratio
 
 <iframe src="../../sims/shared/ai-task-horizons/main.html" height="588" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
+
+<iframe src="../../sims/metr-task-horizon-timeline/main.html" width="100%" height="502" scrolling="no"></iframe>
+[Run AI Benchmarks Timeline Fullscreen](../../sims/metr-task-horizon-timeline/main.html)
+
 <details markdown="1">
 <summary>Interactive timeline of AI task-horizon growth from 2019 to 2025</summary>
 Type: timeline
@@ -144,6 +148,10 @@ The METR study found that AI task horizons have doubled roughly **every four to 
 #### Diagram: Exponential Growth Explorer
 
 <iframe src="../../sims/shared/ai-pace-accelerating/main.html" height="480" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
+
+<iframe src="../../sims/exponential-growth-explorer/main.html" width="100%" height="542" scrolling="no"></iframe>
+[Run Exponential Growth Explorer Fullscreen](../../sims/exponential-growth-explorer/main.html)
 
 <details markdown="1">
 <summary>Interactive MicroSim: explore how doubling time compounds over years</summary>
@@ -215,6 +223,10 @@ This **adoption versus capability** gap is not a failure of willpower or vision.
 #### Diagram: The Adoption vs. Capability Gap
 
 <iframe src="../../sims/shared/hype-cycle/main.html" height="470" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
+
+<iframe src="../../sims/adoption-capability-gap-chart/main.html" width="100%" height="522" scrolling="no"></iframe>
+[Run Moore's Law Timeline Fullscreen](../../sims/adoption-capability-gap-chart/main.html)
 
 <details markdown="1">
 <summary>Interactive chart showing diverging AI capability and institutional adoption curves</summary>

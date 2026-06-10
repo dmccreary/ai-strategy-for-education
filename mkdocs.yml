@@ -107,33 +107,63 @@ nav:
 
   - MicroSims:
       - List of MicroSims: sims/index.md
-      - Learning Graph Viewer: sims/graph-viewer/index.md
       - AI Benchmarks Timeline: sims/shared/ai-benchmarks-timeline/index.md
       - AI Capability Maturity Model: sims/shared/ai-cmm/index.md
       - AI Causes of Acceleration: sims/shared/ai-causes/index.md
+      - AI Concept Hierarchy: sims/ai-concept-hierarchy/index.md
       - AI Doubling Rate: sims/shared/ai-doubling-rate/index.md
       - AI Flywheel: sims/shared/ai-flywheel/index.md
+      - AI Governance Structure — Hybrid Model: sims/ai-governance-structure/index.md
       - AI Pace Accelerating: sims/shared/ai-pace-accelerating/index.md
+      - AI Program Pipeline Report: sims/pipeline-report-dashboard/index.md
+      - AI Strategy Implementation Roadmap: sims/ai-implementation-roadmap/index.md
       - AI SWOT Analysis: sims/shared/swot/index.md
       - AI Task Horizons: sims/shared/ai-task-horizons/index.md
       - AI Timeline: sims/shared/timeline/index.md
+      - Anatomy of an AI Agent: sims/ai-agent-anatomy/index.md
+      - Anatomy of an Intelligent Textbook: sims/intelligent-textbook-stack/index.md
       - Autoregressive: sims/shared/autoregressive/index.md
       - Bloom's Taxonomy: sims/shared/blooms-taxonomy/index.md
       - Book Generation Workflow: sims/shared/book-gen-workflow/index.md
       - Book Levels: sims/shared/book-levels/index.md
+      - Build vs. Buy Decision Framework: sims/build-vs-buy-framework/index.md
+      - Center of Excellence Organizational Structure: sims/coe-org-chart/index.md
       - CLD Viewer: sims/shared/cld-viewer/index.md
       - Eight AI Forces: sims/shared/eight-ai-forces/index.md
+      - Exponential Growth Explorer: sims/exponential-growth-explorer/index.md
+      - Five Levels of Textbooks Progression: sims/five-levels-textbooks/index.md
       - Four AI Futures: sims/shared/four-futures/index.md
+      - Gap Analysis — Current State to Target State: sims/gap-analysis-diagram/index.md
       - GenAI Idea Funnel: sims/shared/idea-funnel/index.md
+      - How Retrieval-Augmented Generation Works: sims/rag-architecture-diagram/index.md
+      - Interactive Idea Scoring Rubric: sims/idea-scoring-rubric/index.md
+      - Interactive Risk Register: sims/risk-register-matrix/index.md
+      - Learning Graph Taxonomy Structure: sims/learning-graph-taxonomy-structure/index.md
+      - Learning Graph Viewer: sims/graph-viewer/index.md
       - LM Arena Timeline: sims/shared/lm-arena-timeline/index.md
       - MMLU Timeline: sims/shared/mmlu-timeline/index.md
       - Moore's Law: sims/shared/moores-law/index.md
+      - Neural Network Learning Pathway: sims/neural-network-learning-pathway/index.md
       - Porter's Five Forces: sims/shared/porters-five-forces/index.md
+      - Portfolio Balance — The Quick Win / Strategic Bet Matrix: sims/portfolio-balance-matrix/index.md
       - Power Wall: sims/shared/power-wall/index.md
       - Projecting AI: sims/shared/projecting-ai/index.md
+      - Public vs. Private Knowledge Boundary: sims/public-private-knowledge-boundary/index.md
+      - Sample Concept Learning Graph — Fractions: sims/concept-learning-graph-fractions/index.md
+      - Sources of Algorithmic Bias in Education AI: sims/algorithmic-bias-sources/index.md
+      - Stakeholder Alignment Map: sims/stakeholder-alignment-map/index.md
+      - SWOT Analysis Framework: sims/swot-analysis-builder/index.md
       - Technology Adoption Curve: sims/shared/technology-adoption/index.md
       - Technology Hype Cycle: sims/shared/hype-cycle/index.md
+      - The Adoption vs. Capability Gap: sims/adoption-capability-gap-chart/index.md
+      - The Digital Divide in Education AI Access: sims/digital-divide-access-chart/index.md
+      - The Idea Funnel — Six Stages: sims/idea-funnel-stages/index.md
+      - The Institutional Agent Workforce: sims/agent-workforce-diagram/index.md
+      - The Learning Data Pipeline — From Textbook to Personalized Plan: sims/learning-data-pipeline/index.md
+      - The METR Task Horizon Timeline: sims/metr-task-horizon-timeline/index.md
+      - The xAPI Statement Structure: sims/xapi-statement-anatomy/index.md
       - Tokenizer: sims/shared/tokenizer/index.md
+      - Traditional vs. Alpha School Day Structure: sims/school-day-comparison-timeline/index.md
       - Winner-Takes-All CLD: sims/shared/winner-takes-all-cld/index.md
 
   - FAQ: faq.md

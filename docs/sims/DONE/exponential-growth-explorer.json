@@ -1,0 +1,14 @@
+{
+  "sim_id": "exponential-growth-explorer",
+  "diagram_name": "Exponential Growth Explorer",
+  "chapter_number": 2,
+  "chapter_title": "Measuring the AI Capability Curve",
+  "chapter_dir": "02-ai-capability-curve",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Understanding (Bloom's) — readers manipulate doubling time and starting value to build intuition for how exponential growth behaves over educational planning horizons (2–10 years).",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: MicroSim\n**sim-id:** exponential-growth-explorer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Learning objective:** Understanding (Bloom's) — readers manipulate doubling time and starting value to build intuition for how exponential growth behaves over educational planning horizons (2–10 years).\n\n**Canvas:** Responsive, container-width × 480px.\n\n**Controls (p5.js builtins, placed below canvas):**\n- Slider: \"Doubling time (months)\" — range 3 to 18, default 6, step 1. Label shows current value.\n- Slider: \"Starting task horizon (minutes)\" — range 1 to 60, default 2, step 1. Label shows current value.\n- Slider: \"Years to project\" — range 2 to 10, default 7, step 1.\n- Button: \"Reset\" — restores all sliders to defaults.\n\n**Visualization:**\n- Line chart: y-axis = task horizon in hours (log scale), x-axis = calendar year starting 2019.\n- Line is drawn smoothly; each annual data point is a filled circle.\n- Hovering a data point shows a tooltip: \"Year XXXX — Task horizon: X.X hours\".\n- Horizontal dashed reference lines labeled: \"1 hour (one meeting)\", \"8 hours (one workday)\", \"40 hours (one work week)\".\n- When the projected curve crosses a reference line, the crossing point is highlighted with a star marker and a year label.\n\n**Responsive:** updateCanvasSize() called in setup() and on window resize. canvas.parent(document.querySelector('main'));\n\n**Behavior:** All calculations are real-time as sliders change. Y-axis rescales automatically so the full curve is always visible."
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "idea-funnel-stages",
+  "diagram_name": "The Idea Funnel — Six Stages",
+  "chapter_number": 5,
+  "chapter_title": "The Idea Funnel — Gathering, Registering, and Evaluating Ideas",
+  "chapter_dir": "05-idea-funnel-gathering",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Understanding (Bloom's) — readers trace the path of an idea through all six funnel stages and explain what happens at each gate.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: chart\n**sim-id:** idea-funnel-stages<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Learning objective:** Understanding (Bloom's) — readers trace the path of an idea through all six funnel stages and explain what happens at each gate.\n\n**Canvas:** Responsive, full container width, 500px height.\n\n**Layout:** Vertical funnel — wide at top, narrow at bottom. Each stage is a trapezoid layer, wider at top than bottom.\n\n**Funnel layers (top to bottom, each clickable):**\n- Layer 1 (widest, light gray): \"Stage 1: Gather\" — Infobox: \"Run one-hour AI literacy sessions. Open submission forms to teachers, staff, students, and families. Goal: many diverse ideas, no filtering yet.\"\n- Layer 2 (steelblue): \"Stage 2: Register\" — Infobox: \"Enter every submitted idea into the idea registry with standardized metadata: problem statement, proposed approach, expected benefit, affected stakeholders, rough cost, and risk flag.\"\n- Layer 3 (teal): \"Stage 3: Evaluate\" — Infobox: \"Score each idea on a rubric: feasibility (1–5), risk (1–5), benefit (1–5), cost (1–5), equity impact (1–5). Expert review panel scores ideas above a threshold.\"\n- Layer 4 (orange): \"Stage 4: Select\" — Infobox: \"Review scored ideas as a portfolio. Select projects balancing quick wins (high feasibility, lower impact) and strategic bets (transformative but harder). Board or executive approval.\"\n- Layer 5 (deep orange): \"Stage 5: Resource\" — Infobox: \"Assign team members, budget, and timeline to funded projects. Create project charters. Establish success metrics.\"\n- Layer 6 (narrowest, deep orange/red): \"Stage 6: Evaluate Outcomes\" — Infobox: \"Measure results against pre-defined KPIs. Document lessons learned. Feed insights back into Stage 1 for the next cycle.\"\n\n**Arrows:** Down the right side of the funnel, showing flow from one stage to the next.\n**Side labels:** On the left, show approximate quantities: Stage 1: \"50–200 ideas/year\", Stage 2: \"All submitted ideas\", Stage 3: \"Ideas scoring above minimum threshold\", Stage 4: \"Top 10–20%\", Stage 5: \"Funded projects (3–10/year)\", Stage 6: \"Completed projects\".\n\n**Interaction:** Clicking a layer highlights it, dims others, and opens its infobox.\n**Responsive:** SVG-based funnel redraws on window resize."
+}

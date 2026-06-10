@@ -96,6 +96,10 @@ The following table shows additional xAPI verb examples relevant to education, i
 
 #### Diagram: The xAPI Statement Structure
 
+
+<iframe src="../../sims/xapi-statement-anatomy/main.html" width="100%" height="482" scrolling="no"></iframe>
+[Run The xAPI Statement Structure Fullscreen](../../sims/xapi-statement-anatomy/main.html)
+
 <details markdown="1">
 <summary>Interactive diagram showing the anatomy of an xAPI statement</summary>
 Type: chart
@@ -164,6 +168,10 @@ A predictive analytics model trained on LRS data can calculate, for each student
 The critical distinction is between **lagging indicators** (what has already happened — grades, test scores) and **leading indicators** (signals in the data that predict what is about to happen, early enough to intervene). Predictive analytics gives teachers leading indicators — alerts before a student is failing, not after.
 
 #### Diagram: The Learning Data Pipeline — From Textbook to Personalized Plan
+
+
+<iframe src="../../sims/learning-data-pipeline/main.html" width="100%" height="552" scrolling="no"></iframe>
+[Run The Learning Data Pipeline — From Textbook to Personalized Plan Fullscreen](../../sims/learning-data-pipeline/main.html)
 
 <details markdown="1">
 <summary>Interactive architecture diagram: xAPI data flowing from platforms to personalized learning plans</summary>

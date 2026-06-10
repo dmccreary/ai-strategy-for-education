@@ -1,0 +1,14 @@
+{
+  "sim_id": "coe-org-chart",
+  "diagram_name": "Center of Excellence Organizational Structure",
+  "chapter_number": 3,
+  "chapter_title": "Building Your AI Strategy",
+  "chapter_dir": "03-ai-strategy-foundations",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Understanding (Bloom's) — readers identify the role of each CoE function and how it relates to the broader institution.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: chart\n**sim-id:** coe-org-chart<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Learning objective:** Understanding (Bloom's) — readers identify the role of each CoE function and how it relates to the broader institution.\n\n**Canvas:** Responsive, full container width, 420px height.\n\n**Nodes (clickable, each opens an infobox):**\n- Central node: \"AI Center of Excellence\" (large, deep orange #E65100) — Infobox: \"The CoE is a small cross-functional team that owns AI strategy, standards, pipeline management, and enablement for the entire institution.\"\n- \"Expertise & Research\" (steelblue) — Infobox: \"Tracks AI capability developments, evaluates vendor claims, and maintains the institution's AI knowledge base.\"\n- \"Standards & Policy\" (steelblue) — Infobox: \"Defines the policies, evaluation rubrics, and data-governance rules that every AI project must meet.\"\n- \"Idea Funnel\" (steelblue) — Infobox: \"Runs the idea-gathering, registry, and evaluation process. Feeds prioritized projects to the resourcing pipeline.\"\n- \"Enablement & Training\" (steelblue) — Infobox: \"Provides professional development, shared tools, templates, and implementation support to operational units.\"\n- Outer ring (gray): \"Curriculum\", \"IT\", \"Finance\", \"Instruction\", \"HR\", \"Families\" — each with infobox: \"An operational unit that submits ideas to the funnel, follows CoE standards, and receives enablement support.\"\n\n**Edges:**\n- CoE → each outer node: labeled \"Standards & Support\", bidirectional.\n- CoE → Idea Funnel: labeled \"Pipeline\", directed.\n\n**Layout:** Hierarchical, CoE centered, four function nodes in middle ring, operational units in outer ring.\n\n**Responsive:** Resizes with container via fit() on window resize."
+}

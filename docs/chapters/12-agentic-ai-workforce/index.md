@@ -89,6 +89,10 @@ A well-designed agent workforce has agents covering all three task types for eac
 
 #### Diagram: The Institutional Agent Workforce
 
+
+<iframe src="../../sims/agent-workforce-diagram/main.html" width="100%" height="592" scrolling="no"></iframe>
+[Run The Institutional Agent Workforce Fullscreen](../../sims/agent-workforce-diagram/main.html)
+
 <details markdown="1">
 <summary>Interactive diagram of an institutional agent workforce organized by user group and task type</summary>
 Type: chart

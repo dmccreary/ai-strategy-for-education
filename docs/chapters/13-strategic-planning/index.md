@@ -65,6 +65,10 @@ Before examining each quadrant, a critical principle: a good SWOT analysis is in
 
 <iframe src="../../sims/shared/swot/main.html" height="500" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
+
+<iframe src="../../sims/swot-analysis-builder/main.html" width="100%" height="607" scrolling="no"></iframe>
+[Run SWOT Analysis Framework Fullscreen](../../sims/swot-analysis-builder/main.html)
+
 <details markdown="1">
 <summary>Interactive SWOT analysis tool — build your institution's SWOT quadrant by quadrant</summary>
 Type: MicroSim
@@ -188,6 +192,10 @@ For an AI strategy, gap analysis examines five dimensions:
 Each gap identified in the gap analysis becomes a milestone in the strategic roadmap — a specific, time-bounded, resourced action that moves the institution from its current state toward its target state.
 
 #### Diagram: Gap Analysis — Current State to Target State
+
+
+<iframe src="../../sims/gap-analysis-diagram/main.html" width="100%" height="662" scrolling="no"></iframe>
+[Run Gap Analysis — Current State to Target State Fullscreen](../../sims/gap-analysis-diagram/main.html)
 
 <details markdown="1">
 <summary>Interactive gap analysis diagram mapping current state against AI strategy requirements</summary>

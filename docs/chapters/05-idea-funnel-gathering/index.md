@@ -68,6 +68,10 @@ This chapter covers stages 1 through 4. Chapter 6 covers stages 5 and 6.
 
 <iframe src="../../sims/shared/idea-funnel/main.html" height="660" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
+
+<iframe src="../../sims/idea-funnel-stages/main.html" width="100%" height="562" scrolling="no"></iframe>
+[Run The Idea Funnel — Six Stages Fullscreen](../../sims/idea-funnel-stages/main.html)
+
 <details markdown="1">
 <summary>Interactive funnel diagram showing the six stages from idea to funded project</summary>
 Type: chart
@@ -221,6 +225,10 @@ A **scoring rubric** is the structured guide that ensures all reviewers apply ev
 Before examining the rubric structure, note that equity impact is scored separately — it is not a dimension to optimize but a constraint to check. An idea with an equity impact of "negative" (the initiative would disproportionately benefit already-advantaged students or harm under-resourced ones) should not proceed without a plan to address the disparity, regardless of its other scores.
 
 #### Diagram: Interactive Idea Scoring Rubric
+
+
+<iframe src="../../sims/idea-scoring-rubric/main.html" width="100%" height="592" scrolling="no"></iframe>
+[Run Interactive Idea Scoring Rubric Fullscreen](../../sims/idea-scoring-rubric/main.html)
 
 <details markdown="1">
 <summary>Interactive scoring tool — apply the rubric to a sample idea</summary>

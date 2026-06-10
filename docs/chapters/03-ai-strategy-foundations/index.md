@@ -107,6 +107,10 @@ The CoE model is adapted from the **Generative AI Center of Excellence** structu
 
 <iframe src="../../sims/shared/ai-cmm/main.html" height="570" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
+
+<iframe src="../../sims/coe-org-chart/main.html" width="100%" height="542" scrolling="no"></iframe>
+[Run Center of Excellence Organizational Structure Fullscreen](../../sims/coe-org-chart/main.html)
+
 <details markdown="1">
 <summary>Interactive organizational chart showing CoE structure and relationships</summary>
 Type: chart
@@ -175,6 +179,10 @@ Before examining the framework, it helps to understand the three main options:
 #### Diagram: Build vs. Buy Decision Framework
 
 <iframe src="../../sims/shared/porters-five-forces/main.html" height="510" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
+
+<iframe src="../../sims/build-vs-buy-framework/main.html" width="100%" height="582" scrolling="no"></iframe>
+[Run Build vs. Buy Decision Framework Fullscreen](../../sims/build-vs-buy-framework/main.html)
 
 <details markdown="1">
 <summary>Interactive decision flowchart for build-versus-buy evaluation</summary>
@@ -254,6 +262,10 @@ Even the most technically sound AI strategy will fail without two prerequisites:
 **Executive sponsorship** means that a senior leader — a superintendent, provost, principal, or board chair — is personally and publicly committed to the AI strategy, willing to remove organizational obstacles, and accountable for its outcomes. Without executive sponsorship, AI initiatives stall when they hit resistance from middle management or when budget cycles tighten. The executive sponsor is not the person who does the technical work; they are the person who ensures the organization makes space for that work to happen.
 
 #### Diagram: Stakeholder Alignment Map
+
+
+<iframe src="../../sims/stakeholder-alignment-map/main.html" width="100%" height="542" scrolling="no"></iframe>
+[Run Technology Adoption Curve Infographic Fullscreen](../../sims/stakeholder-alignment-map/main.html)
 
 <details markdown="1">
 <summary>Interactive stakeholder map showing alignment, influence, and concerns for an AI strategy</summary>

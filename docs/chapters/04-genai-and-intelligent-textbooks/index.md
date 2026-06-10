@@ -135,6 +135,10 @@ RAG solves this by adding a retrieval step before generation. When a question ar
 
 #### Diagram: How Retrieval-Augmented Generation Works
 
+
+<iframe src="../../sims/rag-architecture-diagram/main.html" width="100%" height="502" scrolling="no"></iframe>
+[Run How Retrieval-Augmented Generation Works Fullscreen](../../sims/rag-architecture-diagram/main.html)
+
 <details markdown="1">
 <summary>Interactive diagram of the RAG architecture for education content systems</summary>
 Type: chart
@@ -204,6 +208,10 @@ A **MicroSim** is a compact interactive simulation designed to fit inside a sing
 A well-designed MicroSim can convey in three minutes of exploration what a lecture would struggle to convey in thirty. The sense of agency — "I changed this, and that happened" — is one of the most powerful drivers of conceptual understanding.
 
 #### Diagram: Anatomy of an Intelligent Textbook
+
+
+<iframe src="../../sims/intelligent-textbook-stack/main.html" width="100%" height="552" scrolling="no"></iframe>
+[Run Anatomy of an Intelligent Textbook Fullscreen](../../sims/intelligent-textbook-stack/main.html)
 
 <details markdown="1">
 <summary>Interactive diagram of the intelligent textbook component stack</summary>
@@ -276,6 +284,10 @@ Concept learning graphs are distinct from traditional scope-and-sequence documen
 
 #### Diagram: Sample Concept Learning Graph — Fractions
 
+
+<iframe src="../../sims/concept-learning-graph-fractions/main.html" width="100%" height="542" scrolling="no"></iframe>
+[Run Book Build Workflow Fullscreen](../../sims/concept-learning-graph-fractions/main.html)
+
 <details markdown="1">
 <summary>Interactive concept learning graph showing prerequisite relationships for fraction concepts</summary>
 Type: chart
@@ -340,6 +352,10 @@ Learning graphs exist at several scales. A single textbook may contain 100–300
 For education leaders, the practical implication is this: institutions that invest in building well-structured learning graphs for their core subjects will be positioned to take full advantage of adaptive AI tutoring systems. Those that do not will be dependent on whatever graph the vendor has built — which may not align with local standards, pacing, or curriculum emphasis.
 
 #### Diagram: Learning Graph Taxonomy Structure
+
+
+<iframe src="../../sims/learning-graph-taxonomy-structure/main.html" width="100%" height="492" scrolling="no"></iframe>
+[Run Learning Graph Taxonomy Structure Fullscreen](../../sims/learning-graph-taxonomy-structure/main.html)
 
 <details markdown="1">
 <summary>Interactive diagram showing how concept nodes, edges, and taxonomy groups combine in a learning graph</summary>
@@ -456,6 +472,10 @@ The table below summarizes the five levels and the infrastructure each requires.
 #### Diagram: Five Levels of Textbooks Progression
 
 <iframe src="../../sims/shared/book-levels/main.html" height="500" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
+
+<iframe src="../../sims/five-levels-textbooks/main.html" width="100%" height="452" scrolling="no"></iframe>
+[Run Five Levels of Textbooks Progression Fullscreen](../../sims/five-levels-textbooks/main.html)
 
 <details markdown="1">
 <summary>Interactive diagram showing the five-level progression from static to autonomous AI textbooks</summary>

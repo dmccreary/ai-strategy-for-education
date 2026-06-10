@@ -107,6 +107,10 @@ The hybrid model — in which the central authority sets non-negotiable standard
 
 #### Diagram: AI Governance Structure — Hybrid Model
 
+
+<iframe src="../../sims/ai-governance-structure/main.html" width="100%" height="542" scrolling="no"></iframe>
+[Run AI Governance Structure — Hybrid Model Fullscreen](../../sims/ai-governance-structure/main.html)
+
 <details markdown="1">
 <summary>Interactive organizational chart of a hybrid AI governance model</summary>
 Type: chart
@@ -209,6 +213,10 @@ An effective implementation roadmap entry includes:
 - **Success indicator:** How will completion be verified?
 
 #### Diagram: AI Strategy Implementation Roadmap
+
+
+<iframe src="../../sims/ai-implementation-roadmap/main.html" width="100%" height="592" scrolling="no"></iframe>
+[Run AI Strategy Implementation Roadmap Fullscreen](../../sims/ai-implementation-roadmap/main.html)
 
 <details markdown="1">
 <summary>Interactive implementation roadmap showing phased AI strategy milestones</summary>

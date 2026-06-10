@@ -1,0 +1,14 @@
+{
+  "sim_id": "school-day-comparison-timeline",
+  "diagram_name": "Traditional vs. Alpha School Day Structure",
+  "chapter_number": 8,
+  "chapter_title": "New Pedagogical Models — The Alpha School and Beyond",
+  "chapter_dir": "08-pedagogical-models",
+  "library": "vis-timeline",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Analyzing (Bloom's) — readers compare time allocation between traditional and Alpha school models and identify which activities shift, disappear, or expand.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: timeline\n**sim-id:** school-day-comparison-timeline<br/>\n**Library:** vis-timeline<br/>\n**Status:** Specified\n\n**Learning objective:** Analyzing (Bloom's) — readers compare time allocation between traditional and Alpha school models and identify which activities shift, disappear, or expand.\n\n**Canvas:** Responsive, full container width, 380px height.\n\n**Two timeline groups:**\n\nGroup 1: \"Traditional School Day (7 hours)\"\n- 8:00–8:45: \"Math Instruction\" — Infobox: \"Whole-class lecture with limited differentiation. Teacher explains; students take notes and practice.\"\n- 8:45–9:30: \"Reading / Language Arts\" — Infobox: \"Whole-class or small-group instruction. One reading level for most students.\"\n- 9:30–10:00: \"Specials (PE, Art, Music)\" — Infobox: \"30–60 min of non-academic activity. Limited time for depth.\"\n- 10:00–10:45: \"Science\" — Infobox: \"Textbook-based instruction, periodic lab activities.\"\n- 10:45–11:30: \"Social Studies\" — Infobox: \"Lecture and reading. Limited project time.\"\n- 11:30–12:00: \"Lunch\"\n- 12:00–13:00: \"Independent Practice / Homework preview\" — Infobox: \"Seat work — often at the pace of the class, not the individual student.\"\n- 13:00–14:00: \"Intervention / Enrichment\" — Infobox: \"For students needing additional support or challenge. Usually one-size-fits-many.\"\n- 14:00–15:00: \"More instruction / Specials\"\n\nGroup 2: \"Alpha School Day (7 hours)\"\n- 8:00–10:00: \"AI-Tutored Core Academics (2 hours)\" — Infobox: \"Students work at their own pace through personalized AI curriculum. Math, reading, science, writing. Teacher monitors and intervenes as needed.\"\n- 10:00–15:00: \"Pro-Social Project-Based Learning (5 hours)\" — Infobox: \"Robotics, theater, music, sports, debate, community projects. Teacher as coach and mentor. Team-based and collaborative.\"\n- 12:00–12:30: \"Lunch\" (embedded in afternoon block)\n\n**Interaction:**\n- Clicking any timeline item opens its infobox.\n- Toggle button \"Show Comparison\" overlays both timelines for direct visual comparison.\n- Color coding: Traditional = steelblue; Alpha = deep orange.\n\n**Responsive:** Adapts to single-column on narrow viewports."
+}

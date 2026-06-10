@@ -1,0 +1,14 @@
+{
+  "sim_id": "learning-graph-taxonomy-structure",
+  "diagram_name": "Learning Graph Taxonomy Structure",
+  "chapter_number": 4,
+  "chapter_title": "Generative AI, Intelligent Textbooks, and the Content Revolution",
+  "chapter_dir": "04-genai-and-intelligent-textbooks",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Comprehension — readers identify the three components of a learning graph (nodes, edges, taxonomy) and explain how taxonomy groups organize concept clusters.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: chart\n**sim-id:** learning-graph-taxonomy-structure<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Learning objective:** Comprehension — readers identify the three components of a learning graph (nodes, edges, taxonomy) and explain how taxonomy groups organize concept clusters.\n\n**Canvas:** Responsive, full container width, 380px height.\n\n**Nodes (color-coded by taxonomy group):**\n- \"Number Sense\" (id:1, group: ARITH, steelblue) — foundational arithmetic concept\n- \"Addition\" (id:2, group: ARITH, steelblue)\n- \"Multiplication\" (id:3, group: ARITH, steelblue)\n- \"Linear Equations\" (id:4, group: ALGEBRA, teal)\n- \"Slope\" (id:5, group: ALGEBRA, teal)\n- \"Linear Functions\" (id:6, group: ALGEBRA, orange)\n- \"Photosynthesis\" (id:7, group: BIO, green) — a separate subject cluster\n- \"Cell Biology\" (id:8, group: BIO, green)\n\n**Directed edges (from dependent to prerequisite):**\n- 2 → 1 (Addition depends on Number Sense)\n- 3 → 2 (Multiplication depends on Addition)\n- 4 → 3 (Linear Equations depends on Multiplication)\n- 5 → 4 (Slope depends on Linear Equations)\n- 6 → 5 (Linear Functions depends on Slope)\n- 7 → 8 (Photosynthesis depends on Cell Biology)\n\n**Legend:** Sidebar showing taxonomy color codes (ARITH = steelblue, ALGEBRA = teal, BIO = green).\n\n**Interaction:** Clicking any node displays its taxonomy group, concept label, and a list of its prerequisites.\n\n**Layout:** Hierarchical left-to-right; foundational nodes on left, advanced nodes on right.\n**Responsive:** fit() on window resize."
+}

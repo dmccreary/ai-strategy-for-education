@@ -1,0 +1,14 @@
+{
+  "sim_id": "gap-analysis-diagram",
+  "diagram_name": "Gap Analysis — Current State to Target State",
+  "chapter_number": 13,
+  "chapter_title": "Strategic Planning — SWOT, Roadmaps, and the Capstone Strategy",
+  "chapter_dir": "13-strategic-planning",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Evaluating (Bloom's) — readers assess their institution's current capability against AI strategy requirements in each dimension and identify the largest gaps requiring strategic attention.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: chart\n**sim-id:** gap-analysis-diagram<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\n**Learning objective:** Evaluating (Bloom's) — readers assess their institution's current capability against AI strategy requirements in each dimension and identify the largest gaps requiring strategic attention.\n\n**Canvas:** Responsive, full container width, 400px height.\n\n**Chart type:** Radar/spider chart with two series.\n\n**Axes (dimensions):**\n- Infrastructure (Device access, broadband, LRS, AI platforms)\n- Policy (AI use policy, academic integrity, data governance, agent governance)\n- Capability (Staff AI literacy, data literacy, pedagogical skills)\n- Culture (Innovation culture, data-driven decision-making, stakeholder trust)\n- Resources (Budget, staff capacity, partner relationships)\n\n**Two series:**\n1. \"Current State\" — dashed line, steelblue, representing institution's self-assessment (1–5 scale, 5 = fully ready)\n2. \"AI Strategy Requirements\" — solid line, deep orange, representing the minimum capability level needed for the strategy\n\n**Sample data (editable via sliders):**\n- Current State defaults: Infrastructure 2, Policy 1, Capability 2, Culture 3, Resources 2\n- Requirements: Infrastructure 4, Policy 4, Capability 3, Culture 4, Resources 3\n\n**Controls (p5.js-style — or implemented as HTML range inputs):**\n- Five sliders below the chart: one per dimension, labeled \"Current: [dimension name]\", range 1–5, default as above.\n\n**Shaded gap area:** Fill between the two lines, light orange (#FFE0B2, 40% opacity), with label \"Strategy Gap\" in the widest area.\n\n**Interaction:**\n- Hovering a vertex on either series shows: \"Current: X | Required: X | Gap: X\"\n- Clicking a vertex opens an infobox with specific examples of what moving from the current level to the required level looks like.\n\n**Responsive:** Redraws on window resize."
+}

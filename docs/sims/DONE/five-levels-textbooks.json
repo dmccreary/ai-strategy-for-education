@@ -1,0 +1,14 @@
+{
+  "sim_id": "five-levels-textbooks",
+  "diagram_name": "Five Levels of Textbooks Progression",
+  "chapter_number": 4,
+  "chapter_title": "Generative AI, Intelligent Textbooks, and the Content Revolution",
+  "chapter_dir": "04-genai-and-intelligent-textbooks",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Knowledge (Bloom's) — readers identify the five levels by name and match each level to its defining capability.",
+  "completion_status": "specified",
+  "extracted_date": "2026-06-10",
+  "specification": "Type: chart\n**sim-id:** five-levels-textbooks<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Learning objective:** Knowledge (Bloom's) — readers identify the five levels by name and match each level to its defining capability.\n\n**Canvas:** Responsive, full container width, 340px height.\n\n**Nodes (left to right, representing progression):**\n- \"Level 1: Static\" (id:1, gray) — tooltip: \"Fixed content, digital distribution only. No personalization.\"\n- \"Level 2: Interactive\" (id:2, steelblue) — tooltip: \"MicroSims, learning graph navigation, session feedback.\"\n- \"Level 3: Adaptive\" (id:3, teal) — tooltip: \"Persistent student model, xAPI/LRS, personalized sequencing.\"\n- \"Level 4: Chatbot\" (id:4, orange) — tooltip: \"LLM tutor, RAG-grounded answers, conversational interaction.\"\n- \"Level 5: Autonomous AI\" (id:5, deep orange) — tooltip: \"Real-time content generation, fully personalized instruction.\"\n\n**Edges (left to right, enablement direction — each level enables the next):**\n- 1 → 2 (Static enables Interactive — label: \"add interactivity\")\n- 2 → 3 (Interactive enables Adaptive — label: \"add student model\")\n- 3 → 4 (Adaptive enables Chatbot — label: \"add LLM tutor\")\n- 4 → 5 (Chatbot enables Autonomous AI — label: \"add generation\")\n\n**Layout:** Horizontal left-to-right progression. Nodes equally spaced.\n**Interaction:** Clicking a node expands a sidebar with: level number, name, defining capability, required infrastructure, example platform type.\n**Responsive:** fit() on window resize."
+}
