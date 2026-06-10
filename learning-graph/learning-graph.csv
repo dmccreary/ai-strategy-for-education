@@ -1,0 +1,215 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Artificial Intelligence,,FOUND
+2,Machine Learning,1,FOUND
+3,Large Language Model,2,FOUND
+4,Generative AI,3,FOUND
+5,Neural Network,2,FOUND
+6,Training Data,2,FOUND
+7,Model Parameters,5|6,FOUND
+8,Foundation Model,3|7,FOUND
+9,Frontier Model,8,FOUND
+10,Prompt,3,FOUND
+11,Prompt Engineering,10,FOUND
+12,Context Window,10,FOUND
+13,Token,3,FOUND
+14,Inference,7,FOUND
+15,Hallucination,14,FOUND
+16,World Model,4|14,FOUND
+17,Public Knowledge,3,FOUND
+18,Private Knowledge,17,FOUND
+19,Multimodal AI,4,FOUND
+20,AI Agent,4|14,FOUND
+21,AI Benchmark,1,CAPM
+22,MMLU Benchmark,21,CAPM
+23,Task Horizon,21|20,CAPM
+24,METR Study,23,CAPM
+25,Long Task Rate,24,CAPM
+26,Fifty Percent Reliability,25,CAPM
+27,Capability Doubling,25|28,CAPM
+28,Exponential Growth,,CAPM
+29,Doubling Time,28,CAPM
+30,Moores Law Analogy,28,CAPM
+31,Capability Trajectory,27|25,CAPM
+32,Capability Forecasting,31|29,CAPM
+33,Adoption Versus Capability,31,CAPM
+34,Reasoning Model,9,CAPM
+35,One Shot Task,10,CAPM
+36,Agentic Task Completion,20|23,CAPM
+37,Cost Per Task,14,CAPM
+38,Model Release Cadence,9,CAPM
+39,Benchmark Saturation,21,CAPM
+40,Intelligence Versus Price,37|38,CAPM
+41,Text Generation,4,GENAI
+42,Image Generation,4|19,GENAI
+43,Content Democratization,41|42,GENAI
+44,Open Source Models,8,GENAI
+45,Local AI Models,44,GENAI
+46,Declining AI Cost,37|44,GENAI
+47,AI Tutoring,48|4,GENAI
+48,Conversational AI,4,GENAI
+49,Retrieval Augmented Generation,18|10,GENAI
+50,Fine Tuning,6|8,GENAI
+51,AI Strategy,53|1,STRAT
+52,Knowledge Organization,17|18,STRAT
+53,Strategic Planning,52,STRAT
+54,Digital Transformation,53|1,STRAT
+55,Center Of Excellence,51,STRAT
+56,Return On Investment,53,STRAT
+57,Use Case Identification,51,STRAT
+58,Build Versus Buy,56,STRAT
+59,Vendor Selection,58|60,STRAT
+60,Total Cost Of Ownership,56,STRAT
+61,Strategic Urgency,27|33,STRAT
+62,Competitive Advantage,51|54,STRAT
+63,Innovation Culture,51,STRAT
+64,Stakeholder Alignment,53,STRAT
+65,Executive Sponsorship,64,STRAT
+66,Idea Funnel,55|53,FUNNEL
+67,Idea Generation,68|57,FUNNEL
+68,AI Literacy Training,1|47,FUNNEL
+69,Idea Submission Form,67,FUNNEL
+70,Idea Registry,69,FUNNEL
+71,Idea Metadata,70,FUNNEL
+72,Problem Statement,67,FUNNEL
+73,Idea Evaluation,70|72,FUNNEL
+74,Feasibility Assessment,73,FUNNEL
+75,Risk Scoring,73,FUNNEL
+76,Benefit Scoring,73|56,FUNNEL
+77,Cost Estimation,73|60,FUNNEL
+78,Scoring Rubric,74|75|76,FUNNEL
+79,Expert Review Panel,73,FUNNEL
+80,Idea Feedback Loop,79,FUNNEL
+81,Idea Recognition Awards,67,FUNNEL
+82,Project Selection,78|79,FUNNEL
+83,Project Portfolio,82,FUNNEL
+84,Quick Wins,82,FUNNEL
+85,Strategic Bets,82|61,FUNNEL
+86,Resource Assignment,83,FUNNEL
+87,Project Team Formation,86,FUNNEL
+88,Shared Code Repository,87,FUNNEL
+89,Cross Team Collaboration,87,FUNNEL
+90,Project Evaluation,87,FUNNEL
+91,Success Metrics,90,FUNNEL
+92,Key Performance Indicator,91,FUNNEL
+93,Pipeline Report,83,FUNNEL
+94,Funnel Stage Tracking,66|93,FUNNEL
+95,Quarterly Executive Report,93|92|65,FUNNEL
+96,Lessons Learned,90,FUNNEL
+97,Problem Taxonomy,72|73,FUNNEL
+98,Solution Taxonomy,58|97,FUNNEL
+99,Intelligent Textbook,4|47,ITB
+100,Adaptive Content,99,ITB
+101,Interactive Simulation,99,ITB
+102,MicroSim,101,ITB
+103,Open Educational Resources,99,ITB
+104,Content Cost Collapse,46|103,ITB
+105,Ten Thousand Textbooks,99|104,ITB
+106,Textbook Procurement,105|58,ITB
+107,Curriculum Alignment,99,ITB
+108,AI Content Generation,41|99,ITB
+109,Content Quality Assessment,108|78,ITB
+110,Concept Learning Graph,99|107,ITB
+111,Learning Record,99,LRNTECH
+112,xAPI Standard,111,LRNTECH
+113,Learning Record Store,112,LRNTECH
+114,Learning Analytics,113,LRNTECH
+115,AI Driven LMS,116|124,LRNTECH
+116,Learning Management System,99,LRNTECH
+117,Recommended Learning Plan,115|118,LRNTECH
+118,Personalized Learning Path,114,LRNTECH
+119,Mastery Tracking,114,LRNTECH
+120,Early Alert System,124,LRNTECH
+121,Data Interoperability,112,LRNTECH
+122,Data Portability,121,LRNTECH
+123,Student Data Ownership,122,LRNTECH
+124,Predictive Analytics,114,LRNTECH
+125,Learning Telemetry,112|114,LRNTECH
+126,Alpha School Model,127|128|213,PEDMOD
+127,Two Hour Learning,47|131,PEDMOD
+128,Project Based Learning,141,PEDMOD
+129,Team Based Learning,128,PEDMOD
+130,Hyperpersonalized Learning,118|117,PEDMOD
+131,Mastery Based Progression,119,PEDMOD
+132,Self Paced Learning,131,PEDMOD
+133,Blended Learning,116|128,PEDMOD
+134,Flipped Classroom,133,PEDMOD
+135,Competency Based Education,119,PEDMOD
+136,Teacher Role Shift,47,PEDMOD
+137,Mentorship Model,136,PEDMOD
+138,Socratic Method,48|47,PEDMOD
+139,Authentic Assessment,128,PEDMOD
+140,Formative Assessment,119,PEDMOD
+141,Skill Development,47,PEDMOD
+142,Lifelong Learning,141,PEDMOD
+143,Responsible AI,144|1,RISK
+144,AI Ethics,1,RISK
+145,Algorithmic Bias,6|144,RISK
+146,Fairness In AI,145,RISK
+147,Data Privacy,144|18,RISK
+148,FERPA Compliance,147,RISK
+149,COPPA Compliance,147,RISK
+150,Student Data Protection,147|123,RISK
+151,AI Hallucination Risk,15,RISK
+152,Over Reliance On AI,47,RISK
+153,Skill Atrophy,152,RISK
+154,Academic Integrity,152|41,RISK
+155,AI Detection Tools,154|41,RISK
+156,Misinformation Risk,15|41,RISK
+157,Transparency,143,RISK
+158,Explainability,143|7,RISK
+159,Human In The Loop,143|20,RISK
+160,AI Safety,143|9,RISK
+161,Vendor Lock In,59|44,RISK
+162,Risk Register,75|143,RISK
+163,Risk Reward Tradeoff,162|76,RISK
+164,Student Well Being,152|165,RISK
+165,Screen Time Concerns,47,RISK
+166,Digital Divide,168|169,EQUITY
+167,Educational Equity,144,EQUITY
+168,Access To Devices,167,EQUITY
+169,Broadband Access,167,EQUITY
+170,Title I Schools,167,EQUITY
+171,Under Resourced Schools,170|166,EQUITY
+172,Resource Disparity,166,EQUITY
+173,Equity Impact Scoring,167|78,EQUITY
+174,AI Access Inequality,166|46,EQUITY
+175,Inclusive Design,167|146,EQUITY
+176,AI Governance,143|51,GOV
+177,Centralized Governance,176,GOV
+178,Decentralized Governance,176,GOV
+179,AI Use Policy,176,GOV
+180,Academic Integrity Policy,179|154,GOV
+181,Change Management,54,GOV
+182,Implementation Roadmap,181|53,GOV
+183,AI Literacy Program,68|184,GOV
+184,Professional Development,181,GOV
+185,School Board Engagement,64,GOV
+186,Parent Engagement,64,GOV
+187,Community Engagement,186|185,GOV
+188,Policy Framework,176|179,GOV
+189,Pilot Program,182,GOV
+190,Scaling Strategy,189|182,GOV
+191,SWOT Analysis,53|51,PLAN
+192,Strengths Analysis,191,PLAN
+193,Weaknesses Analysis,191,PLAN
+194,Opportunities Analysis,191,PLAN
+195,Threats Analysis,191|162,PLAN
+196,Institutional Archetype,191|171,PLAN
+197,Gap Analysis,193|194,PLAN
+198,Strategic Roadmap,182|191,PLAN
+199,Capstone AI Strategy,191|66|176|182|207,PLAN
+200,Board Ready Strategy,199|95|185,PLAN
+201,Personal AI Agents,20|47,AGENT
+202,AI Agent Persona,201|48,AGENT
+203,Agent Workforce,201,AGENT
+204,Agent Task Assignment,201|36,AGENT
+205,Multi Agent Coordination,203|204,AGENT
+206,Agent Orchestration,205,AGENT
+207,Agent Governance,203|176,AGENT
+208,Human Agent Collaboration,201|159,AGENT
+209,Progress Monitoring Agent,204|119,AGENT
+210,Parent Communication Agent,204|186,AGENT
+211,Term Planning Agent,204|53,AGENT
+212,Critical Thinking Agent,204|138,AGENT
+213,Pro-Social Learning,129,PEDMOD
+214,Extracurricular Activities,128|213,PEDMOD

@@ -1,0 +1,2433 @@
+{
+  "metadata": {
+    "title": "AI Strategy for Education",
+    "description": "A strategy course for K-12 and higher-education stakeholders on building and deploying an AI strategy. It is grounded in the METR finding that AI capability doubles every four to seven months, and structured around a six-stage idea funnel: gathering ideas, an idea registry, evaluating ideas, selecting projects, assigning resources, and evaluating projects. It plans against the near-term arrival of ~10,000 intelligent textbooks with xAPI telemetry, AI-recommended learning plans by 2028, the Alpha School model, and a near-term agentic workforce in which every administrator, teacher, and student manages dozens of named AI agents \u2014 with a balanced analysis of AI risk and reward.",
+    "creator": "Dan McCreary",
+    "date": "2026-06-09",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundation AI Concepts",
+      "color": "SteelBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "CAPM": {
+      "classifierName": "AI Capability Measurement",
+      "color": "DodgerBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "GENAI": {
+      "classifierName": "Generative AI and Content",
+      "color": "LightSkyBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "AGENT": {
+      "classifierName": "Agentic AI Workforce",
+      "color": "Orange",
+      "font": {
+        "color": "black"
+      }
+    },
+    "STRAT": {
+      "classifierName": "AI Strategy Foundations",
+      "color": "DarkSlateBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "FUNNEL": {
+      "classifierName": "Idea Funnel Workflow",
+      "color": "DarkGreen",
+      "font": {
+        "color": "white"
+      }
+    },
+    "ITB": {
+      "classifierName": "Intelligent Textbooks",
+      "color": "LimeGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "LRNTECH": {
+      "classifierName": "Learning Telemetry and Analytics",
+      "color": "Gold",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PEDMOD": {
+      "classifierName": "Pedagogical Models",
+      "color": "Teal",
+      "font": {
+        "color": "white"
+      }
+    },
+    "RISK": {
+      "classifierName": "Risk, Ethics and Responsible AI",
+      "color": "Crimson",
+      "font": {
+        "color": "white"
+      }
+    },
+    "EQUITY": {
+      "classifierName": "Equity and Access",
+      "color": "DarkRed",
+      "font": {
+        "color": "white"
+      }
+    },
+    "GOV": {
+      "classifierName": "Governance, Policy and Change",
+      "color": "MediumPurple",
+      "font": {
+        "color": "white"
+      }
+    },
+    "PLAN": {
+      "classifierName": "Strategic Planning Tools",
+      "color": "Indigo",
+      "font": {
+        "color": "white"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Artificial Intelligence",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 2,
+      "label": "Machine Learning",
+      "group": "FOUND"
+    },
+    {
+      "id": 3,
+      "label": "Large Language Model",
+      "group": "FOUND"
+    },
+    {
+      "id": 4,
+      "label": "Generative AI",
+      "group": "FOUND"
+    },
+    {
+      "id": 5,
+      "label": "Neural Network",
+      "group": "FOUND"
+    },
+    {
+      "id": 6,
+      "label": "Training Data",
+      "group": "FOUND"
+    },
+    {
+      "id": 7,
+      "label": "Model Parameters",
+      "group": "FOUND"
+    },
+    {
+      "id": 8,
+      "label": "Foundation Model",
+      "group": "FOUND"
+    },
+    {
+      "id": 9,
+      "label": "Frontier Model",
+      "group": "FOUND"
+    },
+    {
+      "id": 10,
+      "label": "Prompt",
+      "group": "FOUND"
+    },
+    {
+      "id": 11,
+      "label": "Prompt Engineering",
+      "group": "FOUND"
+    },
+    {
+      "id": 12,
+      "label": "Context Window",
+      "group": "FOUND"
+    },
+    {
+      "id": 13,
+      "label": "Token",
+      "group": "FOUND"
+    },
+    {
+      "id": 14,
+      "label": "Inference",
+      "group": "FOUND"
+    },
+    {
+      "id": 15,
+      "label": "Hallucination",
+      "group": "FOUND"
+    },
+    {
+      "id": 16,
+      "label": "World Model",
+      "group": "FOUND"
+    },
+    {
+      "id": 17,
+      "label": "Public Knowledge",
+      "group": "FOUND"
+    },
+    {
+      "id": 18,
+      "label": "Private Knowledge",
+      "group": "FOUND"
+    },
+    {
+      "id": 19,
+      "label": "Multimodal AI",
+      "group": "FOUND"
+    },
+    {
+      "id": 20,
+      "label": "AI Agent",
+      "group": "FOUND"
+    },
+    {
+      "id": 21,
+      "label": "AI Benchmark",
+      "group": "CAPM"
+    },
+    {
+      "id": 22,
+      "label": "MMLU Benchmark",
+      "group": "CAPM"
+    },
+    {
+      "id": 23,
+      "label": "Task Horizon",
+      "group": "CAPM"
+    },
+    {
+      "id": 24,
+      "label": "METR Study",
+      "group": "CAPM"
+    },
+    {
+      "id": 25,
+      "label": "Long Task Rate",
+      "group": "CAPM"
+    },
+    {
+      "id": 26,
+      "label": "Fifty Percent Reliability",
+      "group": "CAPM"
+    },
+    {
+      "id": 27,
+      "label": "Capability Doubling",
+      "group": "CAPM"
+    },
+    {
+      "id": 28,
+      "label": "Exponential Growth",
+      "group": "CAPM",
+      "shape": "box"
+    },
+    {
+      "id": 29,
+      "label": "Doubling Time",
+      "group": "CAPM"
+    },
+    {
+      "id": 30,
+      "label": "Moores Law Analogy",
+      "group": "CAPM"
+    },
+    {
+      "id": 31,
+      "label": "Capability Trajectory",
+      "group": "CAPM"
+    },
+    {
+      "id": 32,
+      "label": "Capability Forecasting",
+      "group": "CAPM"
+    },
+    {
+      "id": 33,
+      "label": "Adoption Versus Capability",
+      "group": "CAPM"
+    },
+    {
+      "id": 34,
+      "label": "Reasoning Model",
+      "group": "CAPM"
+    },
+    {
+      "id": 35,
+      "label": "One Shot Task",
+      "group": "CAPM"
+    },
+    {
+      "id": 36,
+      "label": "Agentic Task Completion",
+      "group": "CAPM"
+    },
+    {
+      "id": 37,
+      "label": "Cost Per Task",
+      "group": "CAPM"
+    },
+    {
+      "id": 38,
+      "label": "Model Release Cadence",
+      "group": "CAPM"
+    },
+    {
+      "id": 39,
+      "label": "Benchmark Saturation",
+      "group": "CAPM"
+    },
+    {
+      "id": 40,
+      "label": "Intelligence Versus Price",
+      "group": "CAPM"
+    },
+    {
+      "id": 41,
+      "label": "Text Generation",
+      "group": "GENAI"
+    },
+    {
+      "id": 42,
+      "label": "Image Generation",
+      "group": "GENAI"
+    },
+    {
+      "id": 43,
+      "label": "Content Democratization",
+      "group": "GENAI"
+    },
+    {
+      "id": 44,
+      "label": "Open Source Models",
+      "group": "GENAI"
+    },
+    {
+      "id": 45,
+      "label": "Local AI Models",
+      "group": "GENAI"
+    },
+    {
+      "id": 46,
+      "label": "Declining AI Cost",
+      "group": "GENAI"
+    },
+    {
+      "id": 47,
+      "label": "AI Tutoring",
+      "group": "GENAI"
+    },
+    {
+      "id": 48,
+      "label": "Conversational AI",
+      "group": "GENAI"
+    },
+    {
+      "id": 49,
+      "label": "Retrieval Augmented Generation",
+      "group": "GENAI"
+    },
+    {
+      "id": 50,
+      "label": "Fine Tuning",
+      "group": "GENAI"
+    },
+    {
+      "id": 51,
+      "label": "AI Strategy",
+      "group": "STRAT"
+    },
+    {
+      "id": 52,
+      "label": "Knowledge Organization",
+      "group": "STRAT"
+    },
+    {
+      "id": 53,
+      "label": "Strategic Planning",
+      "group": "STRAT"
+    },
+    {
+      "id": 54,
+      "label": "Digital Transformation",
+      "group": "STRAT"
+    },
+    {
+      "id": 55,
+      "label": "Center Of Excellence",
+      "group": "STRAT"
+    },
+    {
+      "id": 56,
+      "label": "Return On Investment",
+      "group": "STRAT"
+    },
+    {
+      "id": 57,
+      "label": "Use Case Identification",
+      "group": "STRAT"
+    },
+    {
+      "id": 58,
+      "label": "Build Versus Buy",
+      "group": "STRAT"
+    },
+    {
+      "id": 59,
+      "label": "Vendor Selection",
+      "group": "STRAT"
+    },
+    {
+      "id": 60,
+      "label": "Total Cost Of Ownership",
+      "group": "STRAT"
+    },
+    {
+      "id": 61,
+      "label": "Strategic Urgency",
+      "group": "STRAT"
+    },
+    {
+      "id": 62,
+      "label": "Competitive Advantage",
+      "group": "STRAT"
+    },
+    {
+      "id": 63,
+      "label": "Innovation Culture",
+      "group": "STRAT"
+    },
+    {
+      "id": 64,
+      "label": "Stakeholder Alignment",
+      "group": "STRAT"
+    },
+    {
+      "id": 65,
+      "label": "Executive Sponsorship",
+      "group": "STRAT"
+    },
+    {
+      "id": 66,
+      "label": "Idea Funnel",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 67,
+      "label": "Idea Generation",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 68,
+      "label": "AI Literacy Training",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 69,
+      "label": "Idea Submission Form",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 70,
+      "label": "Idea Registry",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 71,
+      "label": "Idea Metadata",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 72,
+      "label": "Problem Statement",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 73,
+      "label": "Idea Evaluation",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 74,
+      "label": "Feasibility Assessment",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 75,
+      "label": "Risk Scoring",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 76,
+      "label": "Benefit Scoring",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 77,
+      "label": "Cost Estimation",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 78,
+      "label": "Scoring Rubric",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 79,
+      "label": "Expert Review Panel",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 80,
+      "label": "Idea Feedback Loop",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 81,
+      "label": "Idea Recognition Awards",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 82,
+      "label": "Project Selection",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 83,
+      "label": "Project Portfolio",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 84,
+      "label": "Quick Wins",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 85,
+      "label": "Strategic Bets",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 86,
+      "label": "Resource Assignment",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 87,
+      "label": "Project Team Formation",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 88,
+      "label": "Shared Code Repository",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 89,
+      "label": "Cross Team Collaboration",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 90,
+      "label": "Project Evaluation",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 91,
+      "label": "Success Metrics",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 92,
+      "label": "Key Performance Indicator",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 93,
+      "label": "Pipeline Report",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 94,
+      "label": "Funnel Stage Tracking",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 95,
+      "label": "Quarterly Executive Report",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 96,
+      "label": "Lessons Learned",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 97,
+      "label": "Problem Taxonomy",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 98,
+      "label": "Solution Taxonomy",
+      "group": "FUNNEL"
+    },
+    {
+      "id": 99,
+      "label": "Intelligent Textbook",
+      "group": "ITB"
+    },
+    {
+      "id": 100,
+      "label": "Adaptive Content",
+      "group": "ITB"
+    },
+    {
+      "id": 101,
+      "label": "Interactive Simulation",
+      "group": "ITB"
+    },
+    {
+      "id": 102,
+      "label": "MicroSim",
+      "group": "ITB"
+    },
+    {
+      "id": 103,
+      "label": "Open Educational Resources",
+      "group": "ITB"
+    },
+    {
+      "id": 104,
+      "label": "Content Cost Collapse",
+      "group": "ITB"
+    },
+    {
+      "id": 105,
+      "label": "Ten Thousand Textbooks",
+      "group": "ITB"
+    },
+    {
+      "id": 106,
+      "label": "Textbook Procurement",
+      "group": "ITB"
+    },
+    {
+      "id": 107,
+      "label": "Curriculum Alignment",
+      "group": "ITB"
+    },
+    {
+      "id": 108,
+      "label": "AI Content Generation",
+      "group": "ITB"
+    },
+    {
+      "id": 109,
+      "label": "Content Quality Assessment",
+      "group": "ITB"
+    },
+    {
+      "id": 110,
+      "label": "Concept Learning Graph",
+      "group": "ITB"
+    },
+    {
+      "id": 111,
+      "label": "Learning Record",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 112,
+      "label": "xAPI Standard",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 113,
+      "label": "Learning Record Store",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 114,
+      "label": "Learning Analytics",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 115,
+      "label": "AI Driven LMS",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 116,
+      "label": "Learning Management System",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 117,
+      "label": "Recommended Learning Plan",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 118,
+      "label": "Personalized Learning Path",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 119,
+      "label": "Mastery Tracking",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 120,
+      "label": "Early Alert System",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 121,
+      "label": "Data Interoperability",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 122,
+      "label": "Data Portability",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 123,
+      "label": "Student Data Ownership",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 124,
+      "label": "Predictive Analytics",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 125,
+      "label": "Learning Telemetry",
+      "group": "LRNTECH"
+    },
+    {
+      "id": 126,
+      "label": "Alpha School Model",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 127,
+      "label": "Two Hour Learning",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 128,
+      "label": "Project Based Learning",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 129,
+      "label": "Team Based Learning",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 130,
+      "label": "Hyperpersonalized Learning",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 131,
+      "label": "Mastery Based Progression",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 132,
+      "label": "Self Paced Learning",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 133,
+      "label": "Blended Learning",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 134,
+      "label": "Flipped Classroom",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 135,
+      "label": "Competency Based Education",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 136,
+      "label": "Teacher Role Shift",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 137,
+      "label": "Mentorship Model",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 138,
+      "label": "Socratic Method",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 139,
+      "label": "Authentic Assessment",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 140,
+      "label": "Formative Assessment",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 141,
+      "label": "Skill Development",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 142,
+      "label": "Lifelong Learning",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 143,
+      "label": "Responsible AI",
+      "group": "RISK"
+    },
+    {
+      "id": 144,
+      "label": "AI Ethics",
+      "group": "RISK"
+    },
+    {
+      "id": 145,
+      "label": "Algorithmic Bias",
+      "group": "RISK"
+    },
+    {
+      "id": 146,
+      "label": "Fairness In AI",
+      "group": "RISK"
+    },
+    {
+      "id": 147,
+      "label": "Data Privacy",
+      "group": "RISK"
+    },
+    {
+      "id": 148,
+      "label": "FERPA Compliance",
+      "group": "RISK"
+    },
+    {
+      "id": 149,
+      "label": "COPPA Compliance",
+      "group": "RISK"
+    },
+    {
+      "id": 150,
+      "label": "Student Data Protection",
+      "group": "RISK"
+    },
+    {
+      "id": 151,
+      "label": "AI Hallucination Risk",
+      "group": "RISK"
+    },
+    {
+      "id": 152,
+      "label": "Over Reliance On AI",
+      "group": "RISK"
+    },
+    {
+      "id": 153,
+      "label": "Skill Atrophy",
+      "group": "RISK"
+    },
+    {
+      "id": 154,
+      "label": "Academic Integrity",
+      "group": "RISK"
+    },
+    {
+      "id": 155,
+      "label": "AI Detection Tools",
+      "group": "RISK"
+    },
+    {
+      "id": 156,
+      "label": "Misinformation Risk",
+      "group": "RISK"
+    },
+    {
+      "id": 157,
+      "label": "Transparency",
+      "group": "RISK"
+    },
+    {
+      "id": 158,
+      "label": "Explainability",
+      "group": "RISK"
+    },
+    {
+      "id": 159,
+      "label": "Human In The Loop",
+      "group": "RISK"
+    },
+    {
+      "id": 160,
+      "label": "AI Safety",
+      "group": "RISK"
+    },
+    {
+      "id": 161,
+      "label": "Vendor Lock In",
+      "group": "RISK"
+    },
+    {
+      "id": 162,
+      "label": "Risk Register",
+      "group": "RISK"
+    },
+    {
+      "id": 163,
+      "label": "Risk Reward Tradeoff",
+      "group": "RISK"
+    },
+    {
+      "id": 164,
+      "label": "Student Well Being",
+      "group": "RISK"
+    },
+    {
+      "id": 165,
+      "label": "Screen Time Concerns",
+      "group": "RISK"
+    },
+    {
+      "id": 166,
+      "label": "Digital Divide",
+      "group": "EQUITY"
+    },
+    {
+      "id": 167,
+      "label": "Educational Equity",
+      "group": "EQUITY"
+    },
+    {
+      "id": 168,
+      "label": "Access To Devices",
+      "group": "EQUITY"
+    },
+    {
+      "id": 169,
+      "label": "Broadband Access",
+      "group": "EQUITY"
+    },
+    {
+      "id": 170,
+      "label": "Title I Schools",
+      "group": "EQUITY"
+    },
+    {
+      "id": 171,
+      "label": "Under Resourced Schools",
+      "group": "EQUITY"
+    },
+    {
+      "id": 172,
+      "label": "Resource Disparity",
+      "group": "EQUITY"
+    },
+    {
+      "id": 173,
+      "label": "Equity Impact Scoring",
+      "group": "EQUITY"
+    },
+    {
+      "id": 174,
+      "label": "AI Access Inequality",
+      "group": "EQUITY"
+    },
+    {
+      "id": 175,
+      "label": "Inclusive Design",
+      "group": "EQUITY"
+    },
+    {
+      "id": 176,
+      "label": "AI Governance",
+      "group": "GOV"
+    },
+    {
+      "id": 177,
+      "label": "Centralized Governance",
+      "group": "GOV"
+    },
+    {
+      "id": 178,
+      "label": "Decentralized Governance",
+      "group": "GOV"
+    },
+    {
+      "id": 179,
+      "label": "AI Use Policy",
+      "group": "GOV"
+    },
+    {
+      "id": 180,
+      "label": "Academic Integrity Policy",
+      "group": "GOV"
+    },
+    {
+      "id": 181,
+      "label": "Change Management",
+      "group": "GOV"
+    },
+    {
+      "id": 182,
+      "label": "Implementation Roadmap",
+      "group": "GOV"
+    },
+    {
+      "id": 183,
+      "label": "AI Literacy Program",
+      "group": "GOV"
+    },
+    {
+      "id": 184,
+      "label": "Professional Development",
+      "group": "GOV"
+    },
+    {
+      "id": 185,
+      "label": "School Board Engagement",
+      "group": "GOV"
+    },
+    {
+      "id": 186,
+      "label": "Parent Engagement",
+      "group": "GOV"
+    },
+    {
+      "id": 187,
+      "label": "Community Engagement",
+      "group": "GOV"
+    },
+    {
+      "id": 188,
+      "label": "Policy Framework",
+      "group": "GOV"
+    },
+    {
+      "id": 189,
+      "label": "Pilot Program",
+      "group": "GOV"
+    },
+    {
+      "id": 190,
+      "label": "Scaling Strategy",
+      "group": "GOV"
+    },
+    {
+      "id": 191,
+      "label": "SWOT Analysis",
+      "group": "PLAN"
+    },
+    {
+      "id": 192,
+      "label": "Strengths Analysis",
+      "group": "PLAN"
+    },
+    {
+      "id": 193,
+      "label": "Weaknesses Analysis",
+      "group": "PLAN"
+    },
+    {
+      "id": 194,
+      "label": "Opportunities Analysis",
+      "group": "PLAN"
+    },
+    {
+      "id": 195,
+      "label": "Threats Analysis",
+      "group": "PLAN"
+    },
+    {
+      "id": 196,
+      "label": "Institutional Archetype",
+      "group": "PLAN"
+    },
+    {
+      "id": 197,
+      "label": "Gap Analysis",
+      "group": "PLAN"
+    },
+    {
+      "id": 198,
+      "label": "Strategic Roadmap",
+      "group": "PLAN"
+    },
+    {
+      "id": 199,
+      "label": "Capstone AI Strategy",
+      "group": "PLAN"
+    },
+    {
+      "id": 200,
+      "label": "Board Ready Strategy",
+      "group": "PLAN"
+    },
+    {
+      "id": 201,
+      "label": "Personal AI Agents",
+      "group": "AGENT"
+    },
+    {
+      "id": 202,
+      "label": "AI Agent Persona",
+      "group": "AGENT"
+    },
+    {
+      "id": 203,
+      "label": "Agent Workforce",
+      "group": "AGENT"
+    },
+    {
+      "id": 204,
+      "label": "Agent Task Assignment",
+      "group": "AGENT"
+    },
+    {
+      "id": 205,
+      "label": "Multi Agent Coordination",
+      "group": "AGENT"
+    },
+    {
+      "id": 206,
+      "label": "Agent Orchestration",
+      "group": "AGENT"
+    },
+    {
+      "id": 207,
+      "label": "Agent Governance",
+      "group": "AGENT"
+    },
+    {
+      "id": 208,
+      "label": "Human Agent Collaboration",
+      "group": "AGENT"
+    },
+    {
+      "id": 209,
+      "label": "Progress Monitoring Agent",
+      "group": "AGENT"
+    },
+    {
+      "id": 210,
+      "label": "Parent Communication Agent",
+      "group": "AGENT"
+    },
+    {
+      "id": 211,
+      "label": "Term Planning Agent",
+      "group": "AGENT"
+    },
+    {
+      "id": 212,
+      "label": "Critical Thinking Agent",
+      "group": "AGENT"
+    },
+    {
+      "id": 213,
+      "label": "Pro-Social Learning",
+      "group": "PEDMOD"
+    },
+    {
+      "id": 214,
+      "label": "Extracurricular Activities",
+      "group": "PEDMOD"
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 2
+    },
+    {
+      "from": 4,
+      "to": 3
+    },
+    {
+      "from": 5,
+      "to": 2
+    },
+    {
+      "from": 6,
+      "to": 2
+    },
+    {
+      "from": 7,
+      "to": 5
+    },
+    {
+      "from": 7,
+      "to": 6
+    },
+    {
+      "from": 8,
+      "to": 3
+    },
+    {
+      "from": 8,
+      "to": 7
+    },
+    {
+      "from": 9,
+      "to": 8
+    },
+    {
+      "from": 10,
+      "to": 3
+    },
+    {
+      "from": 11,
+      "to": 10
+    },
+    {
+      "from": 12,
+      "to": 10
+    },
+    {
+      "from": 13,
+      "to": 3
+    },
+    {
+      "from": 14,
+      "to": 7
+    },
+    {
+      "from": 15,
+      "to": 14
+    },
+    {
+      "from": 16,
+      "to": 4
+    },
+    {
+      "from": 16,
+      "to": 14
+    },
+    {
+      "from": 17,
+      "to": 3
+    },
+    {
+      "from": 18,
+      "to": 17
+    },
+    {
+      "from": 19,
+      "to": 4
+    },
+    {
+      "from": 20,
+      "to": 4
+    },
+    {
+      "from": 20,
+      "to": 14
+    },
+    {
+      "from": 21,
+      "to": 1
+    },
+    {
+      "from": 22,
+      "to": 21
+    },
+    {
+      "from": 23,
+      "to": 21
+    },
+    {
+      "from": 23,
+      "to": 20
+    },
+    {
+      "from": 24,
+      "to": 23
+    },
+    {
+      "from": 25,
+      "to": 24
+    },
+    {
+      "from": 26,
+      "to": 25
+    },
+    {
+      "from": 27,
+      "to": 25
+    },
+    {
+      "from": 27,
+      "to": 28
+    },
+    {
+      "from": 29,
+      "to": 28
+    },
+    {
+      "from": 30,
+      "to": 28
+    },
+    {
+      "from": 31,
+      "to": 27
+    },
+    {
+      "from": 31,
+      "to": 25
+    },
+    {
+      "from": 32,
+      "to": 31
+    },
+    {
+      "from": 32,
+      "to": 29
+    },
+    {
+      "from": 33,
+      "to": 31
+    },
+    {
+      "from": 34,
+      "to": 9
+    },
+    {
+      "from": 35,
+      "to": 10
+    },
+    {
+      "from": 36,
+      "to": 20
+    },
+    {
+      "from": 36,
+      "to": 23
+    },
+    {
+      "from": 37,
+      "to": 14
+    },
+    {
+      "from": 38,
+      "to": 9
+    },
+    {
+      "from": 39,
+      "to": 21
+    },
+    {
+      "from": 40,
+      "to": 37
+    },
+    {
+      "from": 40,
+      "to": 38
+    },
+    {
+      "from": 41,
+      "to": 4
+    },
+    {
+      "from": 42,
+      "to": 4
+    },
+    {
+      "from": 42,
+      "to": 19
+    },
+    {
+      "from": 43,
+      "to": 41
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 44,
+      "to": 8
+    },
+    {
+      "from": 45,
+      "to": 44
+    },
+    {
+      "from": 46,
+      "to": 37
+    },
+    {
+      "from": 46,
+      "to": 44
+    },
+    {
+      "from": 47,
+      "to": 48
+    },
+    {
+      "from": 47,
+      "to": 4
+    },
+    {
+      "from": 48,
+      "to": 4
+    },
+    {
+      "from": 49,
+      "to": 18
+    },
+    {
+      "from": 49,
+      "to": 10
+    },
+    {
+      "from": 50,
+      "to": 6
+    },
+    {
+      "from": 50,
+      "to": 8
+    },
+    {
+      "from": 51,
+      "to": 53
+    },
+    {
+      "from": 51,
+      "to": 1
+    },
+    {
+      "from": 52,
+      "to": 17
+    },
+    {
+      "from": 52,
+      "to": 18
+    },
+    {
+      "from": 53,
+      "to": 52
+    },
+    {
+      "from": 54,
+      "to": 53
+    },
+    {
+      "from": 54,
+      "to": 1
+    },
+    {
+      "from": 55,
+      "to": 51
+    },
+    {
+      "from": 56,
+      "to": 53
+    },
+    {
+      "from": 57,
+      "to": 51
+    },
+    {
+      "from": 58,
+      "to": 56
+    },
+    {
+      "from": 59,
+      "to": 58
+    },
+    {
+      "from": 59,
+      "to": 60
+    },
+    {
+      "from": 60,
+      "to": 56
+    },
+    {
+      "from": 61,
+      "to": 27
+    },
+    {
+      "from": 61,
+      "to": 33
+    },
+    {
+      "from": 62,
+      "to": 51
+    },
+    {
+      "from": 62,
+      "to": 54
+    },
+    {
+      "from": 63,
+      "to": 51
+    },
+    {
+      "from": 64,
+      "to": 53
+    },
+    {
+      "from": 65,
+      "to": 64
+    },
+    {
+      "from": 66,
+      "to": 55
+    },
+    {
+      "from": 66,
+      "to": 53
+    },
+    {
+      "from": 67,
+      "to": 68
+    },
+    {
+      "from": 67,
+      "to": 57
+    },
+    {
+      "from": 68,
+      "to": 1
+    },
+    {
+      "from": 68,
+      "to": 47
+    },
+    {
+      "from": 69,
+      "to": 67
+    },
+    {
+      "from": 70,
+      "to": 69
+    },
+    {
+      "from": 71,
+      "to": 70
+    },
+    {
+      "from": 72,
+      "to": 67
+    },
+    {
+      "from": 73,
+      "to": 70
+    },
+    {
+      "from": 73,
+      "to": 72
+    },
+    {
+      "from": 74,
+      "to": 73
+    },
+    {
+      "from": 75,
+      "to": 73
+    },
+    {
+      "from": 76,
+      "to": 73
+    },
+    {
+      "from": 76,
+      "to": 56
+    },
+    {
+      "from": 77,
+      "to": 73
+    },
+    {
+      "from": 77,
+      "to": 60
+    },
+    {
+      "from": 78,
+      "to": 74
+    },
+    {
+      "from": 78,
+      "to": 75
+    },
+    {
+      "from": 78,
+      "to": 76
+    },
+    {
+      "from": 79,
+      "to": 73
+    },
+    {
+      "from": 80,
+      "to": 79
+    },
+    {
+      "from": 81,
+      "to": 67
+    },
+    {
+      "from": 82,
+      "to": 78
+    },
+    {
+      "from": 82,
+      "to": 79
+    },
+    {
+      "from": 83,
+      "to": 82
+    },
+    {
+      "from": 84,
+      "to": 82
+    },
+    {
+      "from": 85,
+      "to": 82
+    },
+    {
+      "from": 85,
+      "to": 61
+    },
+    {
+      "from": 86,
+      "to": 83
+    },
+    {
+      "from": 87,
+      "to": 86
+    },
+    {
+      "from": 88,
+      "to": 87
+    },
+    {
+      "from": 89,
+      "to": 87
+    },
+    {
+      "from": 90,
+      "to": 87
+    },
+    {
+      "from": 91,
+      "to": 90
+    },
+    {
+      "from": 92,
+      "to": 91
+    },
+    {
+      "from": 93,
+      "to": 83
+    },
+    {
+      "from": 94,
+      "to": 66
+    },
+    {
+      "from": 94,
+      "to": 93
+    },
+    {
+      "from": 95,
+      "to": 93
+    },
+    {
+      "from": 95,
+      "to": 92
+    },
+    {
+      "from": 95,
+      "to": 65
+    },
+    {
+      "from": 96,
+      "to": 90
+    },
+    {
+      "from": 97,
+      "to": 72
+    },
+    {
+      "from": 97,
+      "to": 73
+    },
+    {
+      "from": 98,
+      "to": 58
+    },
+    {
+      "from": 98,
+      "to": 97
+    },
+    {
+      "from": 99,
+      "to": 4
+    },
+    {
+      "from": 99,
+      "to": 47
+    },
+    {
+      "from": 100,
+      "to": 99
+    },
+    {
+      "from": 101,
+      "to": 99
+    },
+    {
+      "from": 102,
+      "to": 101
+    },
+    {
+      "from": 103,
+      "to": 99
+    },
+    {
+      "from": 104,
+      "to": 46
+    },
+    {
+      "from": 104,
+      "to": 103
+    },
+    {
+      "from": 105,
+      "to": 99
+    },
+    {
+      "from": 105,
+      "to": 104
+    },
+    {
+      "from": 106,
+      "to": 105
+    },
+    {
+      "from": 106,
+      "to": 58
+    },
+    {
+      "from": 107,
+      "to": 99
+    },
+    {
+      "from": 108,
+      "to": 41
+    },
+    {
+      "from": 108,
+      "to": 99
+    },
+    {
+      "from": 109,
+      "to": 108
+    },
+    {
+      "from": 109,
+      "to": 78
+    },
+    {
+      "from": 110,
+      "to": 99
+    },
+    {
+      "from": 110,
+      "to": 107
+    },
+    {
+      "from": 111,
+      "to": 99
+    },
+    {
+      "from": 112,
+      "to": 111
+    },
+    {
+      "from": 113,
+      "to": 112
+    },
+    {
+      "from": 114,
+      "to": 113
+    },
+    {
+      "from": 115,
+      "to": 116
+    },
+    {
+      "from": 115,
+      "to": 124
+    },
+    {
+      "from": 116,
+      "to": 99
+    },
+    {
+      "from": 117,
+      "to": 115
+    },
+    {
+      "from": 117,
+      "to": 118
+    },
+    {
+      "from": 118,
+      "to": 114
+    },
+    {
+      "from": 119,
+      "to": 114
+    },
+    {
+      "from": 120,
+      "to": 124
+    },
+    {
+      "from": 121,
+      "to": 112
+    },
+    {
+      "from": 122,
+      "to": 121
+    },
+    {
+      "from": 123,
+      "to": 122
+    },
+    {
+      "from": 124,
+      "to": 114
+    },
+    {
+      "from": 125,
+      "to": 112
+    },
+    {
+      "from": 125,
+      "to": 114
+    },
+    {
+      "from": 126,
+      "to": 127
+    },
+    {
+      "from": 126,
+      "to": 128
+    },
+    {
+      "from": 126,
+      "to": 213
+    },
+    {
+      "from": 127,
+      "to": 47
+    },
+    {
+      "from": 127,
+      "to": 131
+    },
+    {
+      "from": 128,
+      "to": 141
+    },
+    {
+      "from": 129,
+      "to": 128
+    },
+    {
+      "from": 130,
+      "to": 118
+    },
+    {
+      "from": 130,
+      "to": 117
+    },
+    {
+      "from": 131,
+      "to": 119
+    },
+    {
+      "from": 132,
+      "to": 131
+    },
+    {
+      "from": 133,
+      "to": 116
+    },
+    {
+      "from": 133,
+      "to": 128
+    },
+    {
+      "from": 134,
+      "to": 133
+    },
+    {
+      "from": 135,
+      "to": 119
+    },
+    {
+      "from": 136,
+      "to": 47
+    },
+    {
+      "from": 137,
+      "to": 136
+    },
+    {
+      "from": 138,
+      "to": 48
+    },
+    {
+      "from": 138,
+      "to": 47
+    },
+    {
+      "from": 139,
+      "to": 128
+    },
+    {
+      "from": 140,
+      "to": 119
+    },
+    {
+      "from": 141,
+      "to": 47
+    },
+    {
+      "from": 142,
+      "to": 141
+    },
+    {
+      "from": 143,
+      "to": 144
+    },
+    {
+      "from": 143,
+      "to": 1
+    },
+    {
+      "from": 144,
+      "to": 1
+    },
+    {
+      "from": 145,
+      "to": 6
+    },
+    {
+      "from": 145,
+      "to": 144
+    },
+    {
+      "from": 146,
+      "to": 145
+    },
+    {
+      "from": 147,
+      "to": 144
+    },
+    {
+      "from": 147,
+      "to": 18
+    },
+    {
+      "from": 148,
+      "to": 147
+    },
+    {
+      "from": 149,
+      "to": 147
+    },
+    {
+      "from": 150,
+      "to": 147
+    },
+    {
+      "from": 150,
+      "to": 123
+    },
+    {
+      "from": 151,
+      "to": 15
+    },
+    {
+      "from": 152,
+      "to": 47
+    },
+    {
+      "from": 153,
+      "to": 152
+    },
+    {
+      "from": 154,
+      "to": 152
+    },
+    {
+      "from": 154,
+      "to": 41
+    },
+    {
+      "from": 155,
+      "to": 154
+    },
+    {
+      "from": 155,
+      "to": 41
+    },
+    {
+      "from": 156,
+      "to": 15
+    },
+    {
+      "from": 156,
+      "to": 41
+    },
+    {
+      "from": 157,
+      "to": 143
+    },
+    {
+      "from": 158,
+      "to": 143
+    },
+    {
+      "from": 158,
+      "to": 7
+    },
+    {
+      "from": 159,
+      "to": 143
+    },
+    {
+      "from": 159,
+      "to": 20
+    },
+    {
+      "from": 160,
+      "to": 143
+    },
+    {
+      "from": 160,
+      "to": 9
+    },
+    {
+      "from": 161,
+      "to": 59
+    },
+    {
+      "from": 161,
+      "to": 44
+    },
+    {
+      "from": 162,
+      "to": 75
+    },
+    {
+      "from": 162,
+      "to": 143
+    },
+    {
+      "from": 163,
+      "to": 162
+    },
+    {
+      "from": 163,
+      "to": 76
+    },
+    {
+      "from": 164,
+      "to": 152
+    },
+    {
+      "from": 164,
+      "to": 165
+    },
+    {
+      "from": 165,
+      "to": 47
+    },
+    {
+      "from": 166,
+      "to": 168
+    },
+    {
+      "from": 166,
+      "to": 169
+    },
+    {
+      "from": 167,
+      "to": 144
+    },
+    {
+      "from": 168,
+      "to": 167
+    },
+    {
+      "from": 169,
+      "to": 167
+    },
+    {
+      "from": 170,
+      "to": 167
+    },
+    {
+      "from": 171,
+      "to": 170
+    },
+    {
+      "from": 171,
+      "to": 166
+    },
+    {
+      "from": 172,
+      "to": 166
+    },
+    {
+      "from": 173,
+      "to": 167
+    },
+    {
+      "from": 173,
+      "to": 78
+    },
+    {
+      "from": 174,
+      "to": 166
+    },
+    {
+      "from": 174,
+      "to": 46
+    },
+    {
+      "from": 175,
+      "to": 167
+    },
+    {
+      "from": 175,
+      "to": 146
+    },
+    {
+      "from": 176,
+      "to": 143
+    },
+    {
+      "from": 176,
+      "to": 51
+    },
+    {
+      "from": 177,
+      "to": 176
+    },
+    {
+      "from": 178,
+      "to": 176
+    },
+    {
+      "from": 179,
+      "to": 176
+    },
+    {
+      "from": 180,
+      "to": 179
+    },
+    {
+      "from": 180,
+      "to": 154
+    },
+    {
+      "from": 181,
+      "to": 54
+    },
+    {
+      "from": 182,
+      "to": 181
+    },
+    {
+      "from": 182,
+      "to": 53
+    },
+    {
+      "from": 183,
+      "to": 68
+    },
+    {
+      "from": 183,
+      "to": 184
+    },
+    {
+      "from": 184,
+      "to": 181
+    },
+    {
+      "from": 185,
+      "to": 64
+    },
+    {
+      "from": 186,
+      "to": 64
+    },
+    {
+      "from": 187,
+      "to": 186
+    },
+    {
+      "from": 187,
+      "to": 185
+    },
+    {
+      "from": 188,
+      "to": 176
+    },
+    {
+      "from": 188,
+      "to": 179
+    },
+    {
+      "from": 189,
+      "to": 182
+    },
+    {
+      "from": 190,
+      "to": 189
+    },
+    {
+      "from": 190,
+      "to": 182
+    },
+    {
+      "from": 191,
+      "to": 53
+    },
+    {
+      "from": 191,
+      "to": 51
+    },
+    {
+      "from": 192,
+      "to": 191
+    },
+    {
+      "from": 193,
+      "to": 191
+    },
+    {
+      "from": 194,
+      "to": 191
+    },
+    {
+      "from": 195,
+      "to": 191
+    },
+    {
+      "from": 195,
+      "to": 162
+    },
+    {
+      "from": 196,
+      "to": 191
+    },
+    {
+      "from": 196,
+      "to": 171
+    },
+    {
+      "from": 197,
+      "to": 193
+    },
+    {
+      "from": 197,
+      "to": 194
+    },
+    {
+      "from": 198,
+      "to": 182
+    },
+    {
+      "from": 198,
+      "to": 191
+    },
+    {
+      "from": 199,
+      "to": 191
+    },
+    {
+      "from": 199,
+      "to": 66
+    },
+    {
+      "from": 199,
+      "to": 176
+    },
+    {
+      "from": 199,
+      "to": 182
+    },
+    {
+      "from": 199,
+      "to": 207
+    },
+    {
+      "from": 200,
+      "to": 199
+    },
+    {
+      "from": 200,
+      "to": 95
+    },
+    {
+      "from": 200,
+      "to": 185
+    },
+    {
+      "from": 201,
+      "to": 20
+    },
+    {
+      "from": 201,
+      "to": 47
+    },
+    {
+      "from": 202,
+      "to": 201
+    },
+    {
+      "from": 202,
+      "to": 48
+    },
+    {
+      "from": 203,
+      "to": 201
+    },
+    {
+      "from": 204,
+      "to": 201
+    },
+    {
+      "from": 204,
+      "to": 36
+    },
+    {
+      "from": 205,
+      "to": 203
+    },
+    {
+      "from": 205,
+      "to": 204
+    },
+    {
+      "from": 206,
+      "to": 205
+    },
+    {
+      "from": 207,
+      "to": 203
+    },
+    {
+      "from": 207,
+      "to": 176
+    },
+    {
+      "from": 208,
+      "to": 201
+    },
+    {
+      "from": 208,
+      "to": 159
+    },
+    {
+      "from": 209,
+      "to": 204
+    },
+    {
+      "from": 209,
+      "to": 119
+    },
+    {
+      "from": 210,
+      "to": 204
+    },
+    {
+      "from": 210,
+      "to": 186
+    },
+    {
+      "from": 211,
+      "to": 204
+    },
+    {
+      "from": 211,
+      "to": 53
+    },
+    {
+      "from": 212,
+      "to": 204
+    },
+    {
+      "from": 212,
+      "to": 138
+    },
+    {
+      "from": 213,
+      "to": 129
+    },
+    {
+      "from": 214,
+      "to": 128
+    },
+    {
+      "from": 214,
+      "to": 213
+    }
+  ]
+}
