@@ -63,6 +63,10 @@ This matters for AI strategy because AI fundamentally changes the economics of k
 
 The answer is not to abandon multi-year planning, but to build **strategic urgency** into the planning structure. Strategic urgency means explicitly acknowledging that delay has a cost — that waiting 18 months to begin governance work means 18 months during which AI is being adopted by students and staff without institutional oversight, and during which the capability gap between what AI can do and what the institution is organized to use continues to widen. The institutions that build competitive advantage from AI will not be the ones that moved fastest recklessly; they will be the ones that built durable governance structures soonest.
 
+#### Diagram: Eight AI Forces
+
+<iframe src="../../sims/shared/eight-ai-forces/main.html" height="652" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 The following table outlines the components of a complete AI strategy document — the kind of document this course will help every participant draft for their own institution.
 
 | Component | What It Contains | Where Covered |
@@ -100,6 +104,8 @@ The **Center of Excellence** (CoE) is an organizational structure that has emerg
 The CoE model is adapted from the **Generative AI Center of Excellence** structure developed in enterprise settings and refined for education by practitioners who recognized that educational institutions face the same coordination problems — many departments each doing AI separately, no shared standards, duplicated vendor contracts, uneven risk management — as large corporations.
 
 #### Diagram: Center of Excellence Organizational Structure
+
+<iframe src="../../sims/shared/ai-cmm/main.html" height="570" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
 <details markdown="1">
 <summary>Interactive organizational chart showing CoE structure and relationships</summary>
@@ -168,6 +174,8 @@ Before examining the framework, it helps to understand the three main options:
 
 #### Diagram: Build vs. Buy Decision Framework
 
+<iframe src="../../sims/shared/porters-five-forces/main.html" height="510" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 <details markdown="1">
 <summary>Interactive decision flowchart for build-versus-buy evaluation</summary>
 Type: chart
@@ -229,6 +237,14 @@ In education, **competitive advantage** does not mean beating other schools in a
 
 **Innovation culture** is the organizational posture that makes sustained competitive advantage possible. An innovation culture is not a culture of recklessness or novelty for its own sake; it is a culture in which staff feel safe submitting ideas, leaders act on evidence rather than tradition, and failures are analyzed for lessons rather than hidden. The idea funnel, introduced in Chapter 5, is the operational structure that turns innovation culture from a slogan into a process.
 
+#### Diagram: Technology Adoption Curve Infographic
+
+<iframe src="../../sims/shared/technology-adoption/main.html" height="410" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
+#### Diagram: The AI Flywheel
+
+<iframe src="../../sims/shared/ai-flywheel/main.html" height="470" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 ## Stakeholder Alignment and Executive Sponsorship
 
 Even the most technically sound AI strategy will fail without two prerequisites: **stakeholder alignment** and **executive sponsorship**. These are not soft considerations to address after the strategy is written — they are prerequisites that must be built during strategy development.
@@ -285,6 +301,14 @@ An AI strategy is not a document you write once and file. It is a governance ope
 - **A SWOT-based strategic roadmap** — the synthesis document that a board can read, approve, and hold leadership accountable to (Chapter 13).
 
 This course builds each of these elements in sequence. By the final chapter, every participant will have the components needed to assemble a complete, board-ready AI strategy document for their own institution.
+
+#### Diagram: Winner-Takes-All Causal Loop Diagram
+
+<iframe src="../../sims/shared/winner-takes-all-cld/main.html" height="720" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
+#### Diagram: Causal Loop Diagram Viewer
+
+<iframe src="../../sims/shared/cld-viewer/main.html" height="900" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
 !!! mascot-celebration "Sage Celebrates Your Progress"
     ![Sage celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }

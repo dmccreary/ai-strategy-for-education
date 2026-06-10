@@ -66,6 +66,8 @@ This chapter covers stages 1 through 4. Chapter 6 covers stages 5 and 6.
 
 #### Diagram: The Idea Funnel — Six Stages
 
+<iframe src="../../sims/shared/idea-funnel/main.html" height="660" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 <details markdown="1">
 <summary>Interactive funnel diagram showing the six stages from idea to funded project</summary>
 Type: chart

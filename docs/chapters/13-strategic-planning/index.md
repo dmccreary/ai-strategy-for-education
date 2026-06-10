@@ -63,6 +63,8 @@ Before examining each quadrant, a critical principle: a good SWOT analysis is in
 
 #### Diagram: SWOT Analysis Framework
 
+<iframe src="../../sims/shared/swot/main.html" height="500" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 <details markdown="1">
 <summary>Interactive SWOT analysis tool — build your institution's SWOT quadrant by quadrant</summary>
 Type: MicroSim

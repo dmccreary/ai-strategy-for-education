@@ -207,6 +207,10 @@ Two assessment approaches are central to all the pedagogical models in this chap
 
 **Authentic assessment** is assessment through real-world tasks that require students to apply knowledge to produce something of genuine value — a research paper, a working prototype, a public performance, a community project. Authentic assessment is the primary evaluation method for the afternoon block in the Alpha model: the robotics team's performance in a competition, the choir's public concert, the community service project's documented impact. These performances assess the competencies that matter most in the world beyond school — and they are harder to fake and more intrinsically motivating than any standardized test.
 
+#### Diagram: Bloom's Taxonomy
+
+<iframe src="../../sims/shared/blooms-taxonomy/main.html" height="600" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 !!! mascot-tip "Sage's Tip on Assessment"
     ![Sage giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
     If the only evidence of student learning in your AI strategy is still a standardized test score, you have not yet captured the most valuable dimension of what AI-augmented education produces. Design your assessment system to capture both the mastery tracking data (continuous, formative) and the authentic evidence of capability (portfolio, performance, project outcomes).

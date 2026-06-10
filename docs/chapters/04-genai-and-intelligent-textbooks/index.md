@@ -270,6 +270,10 @@ A **concept learning graph** is a structured map of the relationships between th
 
 Concept learning graphs are distinct from traditional scope-and-sequence documents, which list what to teach and when but do not specify why — which prerequisite relationships justify the ordering. A well-structured concept learning graph makes those dependencies explicit and machine-readable, allowing the adaptive content engine to calculate precisely which concepts a student is ready for based on their demonstrated mastery of prerequisites.
 
+#### Diagram: Book Build Workflow
+
+<iframe src="../../sims/shared/book-gen-workflow/main.html" height="610" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 #### Diagram: Sample Concept Learning Graph — Fractions
 
 <details markdown="1">
@@ -450,6 +454,8 @@ The table below summarizes the five levels and the infrastructure each requires.
 | 5 | Autonomous AI | Fully generative | Real-time generation, hallucination mitigation, alignment validation |
 
 #### Diagram: Five Levels of Textbooks Progression
+
+<iframe src="../../sims/shared/book-levels/main.html" height="500" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
 <details markdown="1">
 <summary>Interactive diagram showing the five-level progression from static to autonomous AI textbooks</summary>

@@ -73,6 +73,14 @@ The table below summarizes the major benchmark categories education leaders are 
 
 Academic-knowledge benchmarks tell us how well a model knows facts and solves problems in controlled conditions. They do not tell us how well a model can complete the extended, real-world work that defines professional and educational value. For that, we need a different kind of measurement — and that is where the METR study comes in.
 
+#### Diagram: AI Benchmarks Timeline
+
+<iframe src="../../sims/shared/ai-benchmarks-timeline/main.html" height="450" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
+#### Diagram: Language Model Arena Timeline
+
+<iframe src="../../sims/shared/lm-arena-timeline/main.html" height="450" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 ## The METR Study — Measuring What AI Can Actually Do
 
 The most consequential benchmark for education strategists is not an academic test at all. It is a measurement of a deceptively simple question: **how long a task can an AI model complete, on its own, at least half the time?** This is what the **METR study** set out to measure.
@@ -83,7 +91,13 @@ That "at least 50 percent of the time" threshold gives us the concept of **fifty
 
 The dimension METR tracks is called the **task horizon** — the maximum duration of task that a given model can complete with fifty percent reliability. In 2019, the best AI models could reliably complete tasks measured in seconds. By late 2021, that horizon had reached a few minutes. By late 2023, it had grown to roughly 30 minutes. By late 2025, frontier models were completing tasks that take a human expert several hours. The **long task rate** is the measure of how quickly this horizon is expanding.
 
+#### Diagram: AI Doubling Rate
+
+<iframe src="../../sims/shared/ai-doubling-rate/main.html" height="530" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 #### Diagram: The METR Task Horizon Timeline
+
+<iframe src="../../sims/shared/ai-task-horizons/main.html" height="588" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
 <details markdown="1">
 <summary>Interactive timeline of AI task-horizon growth from 2019 to 2025</summary>
@@ -129,6 +143,8 @@ The METR study found that AI task horizons have doubled roughly **every four to 
 
 #### Diagram: Exponential Growth Explorer
 
+<iframe src="../../sims/shared/ai-pace-accelerating/main.html" height="480" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 <details markdown="1">
 <summary>Interactive MicroSim: explore how doubling time compounds over years</summary>
 Type: MicroSim
@@ -158,17 +174,37 @@ Type: MicroSim
 **Behavior:** All calculations are real-time as sliders change. Y-axis rescales automatically so the full curve is always visible.
 </details>
 
+#### Diagram: Causes of AI Acceleration
+
+<iframe src="../../sims/shared/ai-causes/main.html" height="570" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 ## The Moore's Law Analogy
 
 How should a non-technical leader interpret a doubling time of four to seven months? The most useful frame is the **Moore's Law analogy**. In 1965, Intel co-founder Gordon Moore observed that the number of transistors on a computer chip doubled roughly every two years — and this empirical observation held for decades, driving the entire personal computing revolution. A computer bought in 1990 had roughly 1,000 times less processing power than one bought in 2000. Moore's Law made the personal computer, the internet, and the smartphone possible.
 
 AI capability is following a similar doubling pattern, but at a far shorter doubling time. Where Moore's Law doubled processing power every two years, the METR data suggests AI task horizons are doubling every four to seven months — three to six times faster. If that rate holds, the AI available in two years will be dramatically more capable than what exists today. Leaders who build their strategic plans around today's AI limitations are making the equivalent of planning a 1995 internet strategy around 1990 modem speeds.
 
+#### Diagram: Moore's Law Timeline
+
+<iframe src="../../sims/shared/moores-law/main.html" height="600" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
+#### Diagram: Power Wall MicroSim
+
+<iframe src="../../sims/shared/power-wall/main.html" height="605" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 ## Capability Trajectory and Forecasting
 
 A **capability trajectory** is a projection of how an AI capability measure will change over time if current trends continue. Treating the METR doubling rate as a trajectory does not require certainty that the rate will hold exactly — it requires only the recognition that any plausible scenario involves AI growing substantially faster than education institutions typically adapt.
 
 **Capability forecasting** means making explicit, time-stamped predictions about where the capability curve will be at a future date. Most strategic plans describe where education is today and set vague goals for "the future." Capability forecasting replaces vague futures with specific, testable claims: "If the METR doubling rate continues, AI models will be reliably completing eight-hour autonomous tasks before the graduating class of 2027 enters the workforce." That kind of claim can be debated, revised, and tracked — which is exactly what good strategy requires.
+
+#### Diagram: Projecting AI Task Completion to 2030
+
+<iframe src="../../sims/shared/projecting-ai/main.html" height="550" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
+#### Diagram: Four AI Futures MicroSim
+
+<iframe src="../../sims/shared/four-futures/main.html" height="400" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
 ## The Adoption vs. Capability Gap
 
@@ -177,6 +213,8 @@ One of the most important distinctions in this course is the gap between **what 
 This **adoption versus capability** gap is not a failure of willpower or vision. It is a structural feature of how institutions work. A school adopts a new curriculum through committees, pilots, professional development, and board approval — a process that typically takes two to three years even for straightforward changes. By the time a school has fully adopted an AI tool released in 2024, the 2026 generation of tools may be dramatically more capable. Leaders who understand this gap do not try to close it by adopting every new tool immediately; they close it by building organizational structures — the idea funnel and the governance framework covered in later chapters — that allow continuous evaluation rather than locking in a single decision for five years.
 
 #### Diagram: The Adoption vs. Capability Gap
+
+<iframe src="../../sims/shared/hype-cycle/main.html" height="470" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
 <details markdown="1">
 <summary>Interactive chart showing diverging AI capability and institutional adoption curves</summary>
@@ -243,6 +281,10 @@ The following table shows the order-of-magnitude change in API pricing for flags
 There is one technical limitation every education leader should understand when reading AI benchmark claims: **benchmark saturation**. When an AI model begins scoring 95 percent or higher on a fixed benchmark, the test has effectively stopped measuring model capability — it is measuring only the difficulty ceiling of the test itself. MMLU, which seemed impossibly hard in 2022 when models scored around 70 percent, had been effectively saturated by frontier models by 2024 when several scored above 90 percent.
 
 When a benchmark saturates, researchers create harder replacements. But this means the benchmark landscape is constantly shifting, making it genuinely difficult to compare AI models across years using the same test. The METR task-horizon approach is more resistant to saturation because tasks can always be made longer — measuring three-hour tasks, then ten-hour tasks, then 40-hour tasks — without the ceiling effect that afflicts fixed-question benchmarks.
+
+#### Diagram: MMLU Timeline MicroSim
+
+<iframe src="../../sims/shared/mmlu-timeline/main.html" height="550" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
 !!! mascot-warning "Watch Out for Saturated Benchmarks"
     ![Sage warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }

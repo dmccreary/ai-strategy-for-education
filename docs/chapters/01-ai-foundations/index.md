@@ -70,6 +70,10 @@ You will notice that most of these concepts build on each other. That is intenti
 
 AI is not one technology. It is a large umbrella term covering many different approaches and methods. What all modern AI systems share, however, is that their capabilities come from learning patterns in data rather than from rules written by a programmer. That distinction — learned patterns versus hand-crafted rules — is the first important thing to understand about the technology reshaping education.
 
+#### Diagram: Deep Learning Timeline
+
+<iframe src="../../sims/shared/timeline/main.html" height="580" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
+
 ## How AI Learns: Machine Learning, Neural Networks, and Training
 
 ### From Rules to Learning
@@ -103,6 +107,8 @@ You do not need to understand the underlying mathematics to grasp the key insigh
 The diagram below shows how these three components — training data, neural network, and model parameters — work together in the two-phase life of an AI system: first training, then inference.
 
 #### Diagram: Neural Network Learning Pathway
+
+<iframe src="../../sims/shared/autoregressive/main.html" height="600" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
 <details markdown="1">
 <summary>How training data flows through a neural network to produce model parameters, which are then used for inference</summary>
@@ -154,6 +160,10 @@ For education strategy purposes, the most important implication of generative AI
 Before a language model can process text, it breaks the text into small pieces called **tokens**. A token is the basic unit of text that an LLM operates on — not always a whole word, but typically a word fragment, a short word, or a punctuation mark, depending on the model. For English text, a useful rule of thumb is that one token is roughly four characters, or about three-quarters of a word.
 
 Tokens matter to education administrators for a practical reason: they are the unit of cost. AI service providers typically charge per token of input and per token of output. A student submitting a 500-word essay for AI feedback sends roughly 665 tokens; a district running that service for thousands of students accumulates token costs that must be budgeted for, planned around, and monitored.
+
+#### Diagram: Tokenizer MicroSim
+
+<iframe src="../../sims/shared/tokenizer/main.html" height="470" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
 ### The Context Window
 
