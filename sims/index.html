@@ -325,55 +325,29 @@
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
-        
       
         
-          
-        
       
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
         
       
     
@@ -419,6 +393,14 @@
       
         
           
+        
+      
+        
+      
+        
+      
+        
+      
         
       
         
@@ -559,6 +541,46 @@
   
   
     <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../license/" class="md-nav__link">
         
   
@@ -612,6 +634,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#shared-microsims" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shared MicroSims
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -640,6 +679,29 @@ into chapters via iframes.</p>
 <p>New MicroSims can be created with the <code>microsim-generator</code> skill, which routes
 to the appropriate library (p5.js, Chart.js, vis-network, Mermaid, Leaflet,
 Plotly, Venn.js).</p>
+<h2 id="shared-microsims">Shared MicroSims<a class="headerlink" href="#shared-microsims" title="Permanent link">&para;</a></h2>
+<p>Many AI/strategy MicroSims are shared with other textbooks (such as
+<a href="https://dmccreary.github.io/tracking-ai-course/">Tracking AI</a>). To avoid
+copy-paste drift, those live in the central
+<strong><a href="https://github.com/dmccreary/shared-microsims">shared-microsims</a></strong> repository
+and are mounted here as a <strong>git submodule</strong> at <code>docs/sims/shared/</code>.</p>
+<ul>
+<li><strong>Reference a shared sim</strong> from a chapter with <code>sims/shared/&lt;sim-name&gt;/</code> — e.g.
+  embed <code>sims/shared/idea-funnel/main.html</code> in an iframe.</li>
+<li><strong>Book-specific sims</strong> (like <code>graph-viewer</code>) stay as ordinary directories
+  directly under <code>docs/sims/</code>.</li>
+<li><strong>Clone note:</strong> use <code>git clone --recurse-submodules</code>, or run
+  <code>git submodule update --init docs/sims/shared</code> after cloning — otherwise the
+  shared sims won't be present.</li>
+</ul>
+<p>To <strong>edit</strong> a shared sim, change it in the <code>shared-microsims</code> repo (not inside
+<code>docs/sims/shared/</code>), then pull it in here:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">cd</span><span class="w"> </span>docs/sims/shared<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>git<span class="w"> </span>checkout<span class="w"> </span>main<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>git<span class="w"> </span>pull
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nb">cd</span><span class="w"> </span>../../..<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>git<span class="w"> </span>add<span class="w"> </span>docs/sims/shared<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Update shared MicroSims&quot;</span>
+</span></code></pre></div>
+<p>The book stays pinned to a specific commit of <code>shared-microsims</code> until you do
+this, so shared-sim changes never appear unexpectedly. Full maintainer guide:
+<a href="https://github.com/dmccreary/shared-microsims#readme">https://github.com/dmccreary/shared-microsims#readme</a>.</p>
 <!-- The MicroSim catalog is built up as new sims are added. -->
 
 

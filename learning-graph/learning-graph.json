@@ -1174,6 +1174,41 @@
       "id": 214,
       "label": "Extracurricular Activities",
       "group": "PEDMOD"
+    },
+    {
+      "id": 215,
+      "label": "Learning Graph",
+      "group": "ITB"
+    },
+    {
+      "id": 216,
+      "label": "Five Levels of Textbooks",
+      "group": "ITB"
+    },
+    {
+      "id": 217,
+      "label": "Static Textbooks",
+      "group": "ITB"
+    },
+    {
+      "id": 218,
+      "label": "Interactive Textbooks",
+      "group": "ITB"
+    },
+    {
+      "id": 219,
+      "label": "Adaptive Textbooks",
+      "group": "ITB"
+    },
+    {
+      "id": 220,
+      "label": "Chatbot Textbooks",
+      "group": "ITB"
+    },
+    {
+      "id": 221,
+      "label": "Autonomous AI Textbooks",
+      "group": "ITB"
     }
   ],
   "edges": [
@@ -2428,6 +2463,66 @@
     {
       "from": 214,
       "to": 213
+    },
+    {
+      "from": 215,
+      "to": 110
+    },
+    {
+      "from": 215,
+      "to": 107
+    },
+    {
+      "from": 216,
+      "to": 99
+    },
+    {
+      "from": 217,
+      "to": 216
+    },
+    {
+      "from": 218,
+      "to": 216
+    },
+    {
+      "from": 218,
+      "to": 102
+    },
+    {
+      "from": 218,
+      "to": 110
+    },
+    {
+      "from": 219,
+      "to": 218
+    },
+    {
+      "from": 219,
+      "to": 100
+    },
+    {
+      "from": 219,
+      "to": 111
+    },
+    {
+      "from": 220,
+      "to": 219
+    },
+    {
+      "from": 220,
+      "to": 47
+    },
+    {
+      "from": 220,
+      "to": 48
+    },
+    {
+      "from": 221,
+      "to": 220
+    },
+    {
+      "from": 221,
+      "to": 108
     }
   ]
 }
