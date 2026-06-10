@@ -1,6 +1,6 @@
 ---
 title: Sample Concept Learning Graph — Fractions
-description: Interactive vis-network MicroSim for book build workflow.
+description: Interactive vis-network learning graph for fractions showing prerequisite dependencies and why concept ordering matters for adaptive content sequencing.
 image: /sims/concept-learning-graph-fractions/concept-learning-graph-fractions.png
 og:image: /sims/concept-learning-graph-fractions/concept-learning-graph-fractions.png
 twitter:image: /sims/concept-learning-graph-fractions/concept-learning-graph-fractions.png

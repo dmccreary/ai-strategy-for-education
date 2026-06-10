@@ -1,6 +1,6 @@
 ---
 title: Portfolio Balance — The Quick Win / Strategic Bet Matrix
-description: Interactive Chart.js MicroSim for portfolio balance — the quick win / strategic bet matrix.
+description: Interactive Chart.js matrix for positioning candidate AI projects across the quick-win / strategic-bet quadrants and judging portfolio balance.
 image: /sims/portfolio-balance-matrix/portfolio-balance-matrix.png
 og:image: /sims/portfolio-balance-matrix/portfolio-balance-matrix.png
 twitter:image: /sims/portfolio-balance-matrix/portfolio-balance-matrix.png

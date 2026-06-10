@@ -1,6 +1,6 @@
 ---
 title: AI Concept Hierarchy
-description: Interactive vis-network MicroSim for tokenizer microsim.
+description: Interactive vis-network concept map showing how AI, machine learning, neural networks, LLMs, generative AI, tokens, and context windows relate to each other.
 image: /sims/ai-concept-hierarchy/ai-concept-hierarchy.png
 og:image: /sims/ai-concept-hierarchy/ai-concept-hierarchy.png
 twitter:image: /sims/ai-concept-hierarchy/ai-concept-hierarchy.png

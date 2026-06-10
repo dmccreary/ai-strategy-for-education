@@ -1,6 +1,6 @@
 ---
 title: Traditional vs. Alpha School Day Structure
-description: Interactive vis-timeline MicroSim for traditional vs. alpha school day structure.
+description: Interactive vis-timeline comparing time allocation in a traditional school day to the Alpha school model, showing which activities shift, disappear, or expand.
 image: /sims/school-day-comparison-timeline/school-day-comparison-timeline.png
 og:image: /sims/school-day-comparison-timeline/school-day-comparison-timeline.png
 twitter:image: /sims/school-day-comparison-timeline/school-day-comparison-timeline.png

@@ -1,6 +1,6 @@
 ---
 title: Sources of Algorithmic Bias in Education AI
-description: Interactive vis-network MicroSim for sources of algorithmic bias in education ai.
+description: Interactive vis-network diagram tracing how historical bias enters AI training data, propagates into biased decisions, and where interventions can break the chain.
 image: /sims/algorithmic-bias-sources/algorithmic-bias-sources.png
 og:image: /sims/algorithmic-bias-sources/algorithmic-bias-sources.png
 twitter:image: /sims/algorithmic-bias-sources/algorithmic-bias-sources.png

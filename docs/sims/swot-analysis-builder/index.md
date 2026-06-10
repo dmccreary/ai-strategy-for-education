@@ -1,6 +1,6 @@
 ---
 title: SWOT Analysis Framework
-description: Interactive p5.js MicroSim for swot analysis framework.
+description: Interactive p5.js SWOT builder for generating an institution-specific analysis of strengths, weaknesses, opportunities, and threats.
 image: /sims/swot-analysis-builder/swot-analysis-builder.png
 og:image: /sims/swot-analysis-builder/swot-analysis-builder.png
 twitter:image: /sims/swot-analysis-builder/swot-analysis-builder.png

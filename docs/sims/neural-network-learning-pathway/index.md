@@ -1,6 +1,6 @@
 ---
 title: Neural Network Learning Pathway
-description: Interactive vis-network MicroSim for deep learning timeline.
+description: Interactive diagram showing how training data flows through a neural network to produce model parameters, which are then used for inference.
 image: /sims/neural-network-learning-pathway/neural-network-learning-pathway.png
 og:image: /sims/neural-network-learning-pathway/neural-network-learning-pathway.png
 twitter:image: /sims/neural-network-learning-pathway/neural-network-learning-pathway.png

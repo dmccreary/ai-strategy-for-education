@@ -1,6 +1,6 @@
 ---
 title: The METR Task Horizon Timeline
-description: Interactive vis-timeline MicroSim for ai benchmarks timeline.
+description: Interactive vis-timeline of METR task-horizon data points showing the pace and pattern of AI capability growth.
 image: /sims/metr-task-horizon-timeline/metr-task-horizon-timeline.png
 og:image: /sims/metr-task-horizon-timeline/metr-task-horizon-timeline.png
 twitter:image: /sims/metr-task-horizon-timeline/metr-task-horizon-timeline.png

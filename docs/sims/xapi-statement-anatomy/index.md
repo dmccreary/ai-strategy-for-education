@@ -1,6 +1,6 @@
 ---
 title: The xAPI Statement Structure
-description: Interactive vis-network MicroSim for the xapi statement structure.
+description: Interactive vis-network diagram of xAPI statement structure showing its required and optional components and how Actor-Verb-Object enables data aggregation.
 image: /sims/xapi-statement-anatomy/xapi-statement-anatomy.png
 og:image: /sims/xapi-statement-anatomy/xapi-statement-anatomy.png
 twitter:image: /sims/xapi-statement-anatomy/xapi-statement-anatomy.png

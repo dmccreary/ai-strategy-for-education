@@ -1,6 +1,6 @@
 ---
 title: AI Governance Structure — Hybrid Model
-description: Interactive vis-network MicroSim for ai governance structure — hybrid model.
+description: Interactive vis-network diagram of a hybrid AI governance model showing decision authority at each level and how a tool-adoption request moves through the system.
 image: /sims/ai-governance-structure/ai-governance-structure.png
 og:image: /sims/ai-governance-structure/ai-governance-structure.png
 twitter:image: /sims/ai-governance-structure/ai-governance-structure.png

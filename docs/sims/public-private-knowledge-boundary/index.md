@@ -1,6 +1,6 @@
 ---
 title: Public vs. Private Knowledge Boundary
-description: Interactive vis-network MicroSim for public vs. private knowledge boundary.
+description: Interactive vis-network diagram of the boundary between public LLM knowledge and private institutional knowledge, and how RAG bridges the two.
 image: /sims/public-private-knowledge-boundary/public-private-knowledge-boundary.png
 og:image: /sims/public-private-knowledge-boundary/public-private-knowledge-boundary.png
 twitter:image: /sims/public-private-knowledge-boundary/public-private-knowledge-boundary.png

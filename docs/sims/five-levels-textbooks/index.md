@@ -1,6 +1,6 @@
 ---
 title: Five Levels of Textbooks Progression
-description: Interactive vis-network MicroSim for five levels of textbooks progression.
+description: Interactive vis-network diagram of the five levels of textbooks, from static print to AI-driven adaptive, with the defining capability of each level.
 image: /sims/five-levels-textbooks/five-levels-textbooks.png
 og:image: /sims/five-levels-textbooks/five-levels-textbooks.png
 twitter:image: /sims/five-levels-textbooks/five-levels-textbooks.png

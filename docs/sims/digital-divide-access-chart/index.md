@@ -1,6 +1,6 @@
 ---
 title: The Digital Divide in Education AI Access
-description: Interactive Chart.js MicroSim for the digital divide in education ai access.
+description: Interactive Chart.js chart of the dimensions of the digital divide in education AI access and the student populations most affected.
 image: /sims/digital-divide-access-chart/digital-divide-access-chart.png
 og:image: /sims/digital-divide-access-chart/digital-divide-access-chart.png
 twitter:image: /sims/digital-divide-access-chart/digital-divide-access-chart.png

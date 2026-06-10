@@ -1,6 +1,6 @@
 ---
 title: Center of Excellence Organizational Structure
-description: Interactive vis-network MicroSim for eight ai forces.
+description: Interactive vis-network org chart of an AI Center of Excellence showing the role of each function and how it relates to the broader institution.
 image: /sims/coe-org-chart/coe-org-chart.png
 og:image: /sims/coe-org-chart/coe-org-chart.png
 twitter:image: /sims/coe-org-chart/coe-org-chart.png

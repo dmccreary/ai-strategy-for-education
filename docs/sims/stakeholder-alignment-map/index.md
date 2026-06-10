@@ -1,6 +1,6 @@
 ---
 title: Stakeholder Alignment Map
-description: Interactive vis-network MicroSim for technology adoption curve infographic.
+description: Interactive vis-network map of stakeholder groups in AI strategy adoption showing each group's role, typical concerns, and engagement strategies.
 image: /sims/stakeholder-alignment-map/stakeholder-alignment-map.png
 og:image: /sims/stakeholder-alignment-map/stakeholder-alignment-map.png
 twitter:image: /sims/stakeholder-alignment-map/stakeholder-alignment-map.png

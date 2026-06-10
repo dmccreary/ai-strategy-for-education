@@ -1,6 +1,6 @@
 ---
 title: Exponential Growth Explorer
-description: Interactive p5.js MicroSim for exponential growth explorer.
+description: Interactive p5.js explorer with sliders for doubling time and starting value to build intuition for exponential growth over 2-10 year planning horizons.
 image: /sims/exponential-growth-explorer/exponential-growth-explorer.png
 og:image: /sims/exponential-growth-explorer/exponential-growth-explorer.png
 twitter:image: /sims/exponential-growth-explorer/exponential-growth-explorer.png

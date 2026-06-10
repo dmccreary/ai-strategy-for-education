@@ -1,6 +1,6 @@
 ---
 title: The Idea Funnel — Six Stages
-description: Interactive vis-network MicroSim for the idea funnel — six stages.
+description: Interactive vis-network diagram tracing an idea through the six stages of the GenAI idea funnel and what happens at each gate.
 image: /sims/idea-funnel-stages/idea-funnel-stages.png
 og:image: /sims/idea-funnel-stages/idea-funnel-stages.png
 twitter:image: /sims/idea-funnel-stages/idea-funnel-stages.png

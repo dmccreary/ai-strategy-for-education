@@ -1,6 +1,6 @@
 ---
 title: Interactive Idea Scoring Rubric
-description: Interactive p5.js MicroSim for interactive idea scoring rubric.
+description: Interactive p5.js rubric for scoring GenAI project ideas across five dimensions and calculating a composite score.
 image: /sims/idea-scoring-rubric/idea-scoring-rubric.png
 og:image: /sims/idea-scoring-rubric/idea-scoring-rubric.png
 twitter:image: /sims/idea-scoring-rubric/idea-scoring-rubric.png

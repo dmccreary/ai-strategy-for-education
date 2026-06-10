@@ -1,6 +1,6 @@
 ---
 title: How Retrieval-Augmented Generation Works
-description: Interactive vis-network MicroSim for how retrieval-augmented generation works.
+description: Interactive vis-network diagram tracing a student question through a retrieval-augmented generation system and why private document grounding matters.
 image: /sims/rag-architecture-diagram/rag-architecture-diagram.png
 og:image: /sims/rag-architecture-diagram/rag-architecture-diagram.png
 twitter:image: /sims/rag-architecture-diagram/rag-architecture-diagram.png

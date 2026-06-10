@@ -25,9 +25,18 @@ added later via HTML/CSS overlay, so the image itself contains **no text**.
 ## Image prompt
 
 ```
-A wide landscape book cover background (1.91:1 aspect ratio, 1910x1000) for an
-education-strategy textbook titled "AI Strategy for Education." Deep navy
-(#0d1b3a) to steelblue (#4682B4) gradient background with a softly glowing
+Please generate a new wide landscape image.  The images is a book cover background (1.91:1 aspect ratio, 1910x1000) for an AI strategy for educational organization.
+The textbook title is "AI Strategy for Education."
+
+The cover has several components:
+
+1. Title "AI Strategy for Education" in the center
+2. Welcome pose of the mascot in the lower left corner
+3. Montage of elements of the AI strategy behind the title
+
+## Image style
+
+Use Deep navy (#0d1b3a) to steelblue (#4682B4) gradient background with a softly glowing
 montage of AI-in-education strategy elements distributed across the frame:
 
 - a bright upward-sweeping exponential growth curve (the AI capability
@@ -48,6 +57,8 @@ montage of AI-in-education strategy elements distributed across the frame:
   School model
 - subtle circuit-board traces and a graduation-cap silhouette woven faintly
   into the background
+- a group of teachers and parents sitting around a table with colored sticky notes on
+  the whiteboard behind the group with a the principal of the school at the whiteboard moving around the sticky notes
 
 In the LOWER-LEFT CORNER, place a friendly cartoon owl mascot named Sage: a
 compact, modern flat-vector cartoon owl with a STEELBLUE (#4682B4) body, WARM
@@ -62,5 +73,5 @@ accent glows. Elements softly fade toward the edges with a subtle vignette,
 leaving the center area darker and cleaner for a white title text overlay.
 Professional, forward-looking, strategic, optimistic-yet-balanced mood suitable
 for school administrators, board members, and university leaders. High
-resolution, polished. No text, no words, and no letters anywhere in the image.
+resolution, polished.
 ```

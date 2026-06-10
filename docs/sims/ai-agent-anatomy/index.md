@@ -1,6 +1,6 @@
 ---
 title: Anatomy of an AI Agent
-description: Interactive vis-network MicroSim for anatomy of an ai agent.
+description: Interactive vis-network diagram showing the core components of an AI agent and how they connect.
 image: /sims/ai-agent-anatomy/ai-agent-anatomy.png
 og:image: /sims/ai-agent-anatomy/ai-agent-anatomy.png
 twitter:image: /sims/ai-agent-anatomy/ai-agent-anatomy.png

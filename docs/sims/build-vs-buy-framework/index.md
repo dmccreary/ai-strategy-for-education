@@ -1,6 +1,6 @@
 ---
 title: Build vs. Buy Decision Framework
-description: Interactive vis-network MicroSim for build vs. buy decision framework.
+description: Interactive vis-network decision tree for tracing an AI use case through the build vs. buy framework to a justified recommendation.
 image: /sims/build-vs-buy-framework/build-vs-buy-framework.png
 og:image: /sims/build-vs-buy-framework/build-vs-buy-framework.png
 twitter:image: /sims/build-vs-buy-framework/build-vs-buy-framework.png

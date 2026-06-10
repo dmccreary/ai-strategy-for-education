@@ -1,6 +1,6 @@
 ---
 title: AI Program Pipeline Report
-description: Interactive Chart.js MicroSim for ai program pipeline report.
+description: Interactive Chart.js dashboard for interpreting an AI program pipeline report to spot healthy stages and bottlenecks.
 image: /sims/pipeline-report-dashboard/pipeline-report-dashboard.png
 og:image: /sims/pipeline-report-dashboard/pipeline-report-dashboard.png
 twitter:image: /sims/pipeline-report-dashboard/pipeline-report-dashboard.png

@@ -1,6 +1,6 @@
 ---
 title: The Institutional Agent Workforce
-description: Interactive vis-network MicroSim for the institutional agent workforce.
+description: Interactive vis-network diagram of an institutional AI agent workforce showing each agent's user group, task type, and human oversight requirements.
 image: /sims/agent-workforce-diagram/agent-workforce-diagram.png
 og:image: /sims/agent-workforce-diagram/agent-workforce-diagram.png
 twitter:image: /sims/agent-workforce-diagram/agent-workforce-diagram.png

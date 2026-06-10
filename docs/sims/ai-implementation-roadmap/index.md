@@ -1,6 +1,6 @@
 ---
 title: AI Strategy Implementation Roadmap
-description: Interactive vis-timeline MicroSim for ai strategy implementation roadmap.
+description: Interactive vis-timeline roadmap for a phased AI strategy implementation showing dependencies, owners, and sequencing logic.
 image: /sims/ai-implementation-roadmap/ai-implementation-roadmap.png
 og:image: /sims/ai-implementation-roadmap/ai-implementation-roadmap.png
 twitter:image: /sims/ai-implementation-roadmap/ai-implementation-roadmap.png

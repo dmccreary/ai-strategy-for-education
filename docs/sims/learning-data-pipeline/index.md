@@ -1,6 +1,6 @@
 ---
 title: The Learning Data Pipeline — From Textbook to Personalized Plan
-description: Interactive vis-network MicroSim for the learning data pipeline — from textbook to personalized plan.
+description: Interactive vis-network diagram tracing data from a student's learning activity through xAPI and LRS aggregation to a personalized learning plan.
 image: /sims/learning-data-pipeline/learning-data-pipeline.png
 og:image: /sims/learning-data-pipeline/learning-data-pipeline.png
 twitter:image: /sims/learning-data-pipeline/learning-data-pipeline.png

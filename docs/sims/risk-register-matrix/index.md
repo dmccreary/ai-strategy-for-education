@@ -1,6 +1,6 @@
 ---
 title: Interactive Risk Register
-description: Interactive p5.js MicroSim for interactive risk register.
+description: Interactive p5.js risk register for plotting institutional AI risks on a likelihood-impact matrix and spotting which need urgent mitigation.
 image: /sims/risk-register-matrix/risk-register-matrix.png
 og:image: /sims/risk-register-matrix/risk-register-matrix.png
 twitter:image: /sims/risk-register-matrix/risk-register-matrix.png

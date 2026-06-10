@@ -1,6 +1,6 @@
 ---
 title: Learning Graph Taxonomy Structure
-description: Interactive vis-network MicroSim for learning graph taxonomy structure.
+description: Interactive vis-network diagram of learning graph structure — nodes, edges, and taxonomy — showing how taxonomy groups organize concept clusters.
 image: /sims/learning-graph-taxonomy-structure/learning-graph-taxonomy-structure.png
 og:image: /sims/learning-graph-taxonomy-structure/learning-graph-taxonomy-structure.png
 twitter:image: /sims/learning-graph-taxonomy-structure/learning-graph-taxonomy-structure.png

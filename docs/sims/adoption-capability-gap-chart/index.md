@@ -1,6 +1,6 @@
 ---
 title: The Adoption vs. Capability Gap
-description: Interactive Chart.js MicroSim for causes of ai acceleration.
+description: Interactive Chart.js chart showing the widening gap between accelerating AI capability and slower institutional adoption, and why deliberate strategy is needed to close it.
 image: /sims/adoption-capability-gap-chart/adoption-capability-gap-chart.png
 og:image: /sims/adoption-capability-gap-chart/adoption-capability-gap-chart.png
 twitter:image: /sims/adoption-capability-gap-chart/adoption-capability-gap-chart.png

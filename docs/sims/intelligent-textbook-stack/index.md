@@ -1,6 +1,6 @@
 ---
 title: Anatomy of an Intelligent Textbook
-description: Interactive vis-network MicroSim for anatomy of an intelligent textbook.
+description: Interactive vis-network diagram of the components of an intelligent textbook and how they work together to personalize learning.
 image: /sims/intelligent-textbook-stack/intelligent-textbook-stack.png
 og:image: /sims/intelligent-textbook-stack/intelligent-textbook-stack.png
 twitter:image: /sims/intelligent-textbook-stack/intelligent-textbook-stack.png

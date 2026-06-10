@@ -1,6 +1,6 @@
 ---
 title: Gap Analysis — Current State to Target State
-description: Interactive Chart.js MicroSim for gap analysis — current state to target state.
+description: Interactive Chart.js gap analysis comparing an institution's current capability to AI strategy requirements across key dimensions.
 image: /sims/gap-analysis-diagram/gap-analysis-diagram.png
 og:image: /sims/gap-analysis-diagram/gap-analysis-diagram.png
 twitter:image: /sims/gap-analysis-diagram/gap-analysis-diagram.png
