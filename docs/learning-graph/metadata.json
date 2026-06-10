@@ -1,0 +1,10 @@
+{
+  "title": "AI Strategy for Education",
+  "description": "A strategy course for K-12 and higher-education stakeholders on building and deploying an AI strategy. It is grounded in the METR finding that AI capability doubles every four to seven months, and structured around a six-stage idea funnel: gathering ideas, an idea registry, evaluating ideas, selecting projects, assigning resources, and evaluating projects. It plans against the near-term arrival of ~10,000 intelligent textbooks with xAPI telemetry, AI-recommended learning plans by 2028, the Alpha School model, and a near-term agentic workforce in which every administrator, teacher, and student manages dozens of named AI agents — with a balanced analysis of AI risk and reward.",
+  "creator": "Dan McCreary",
+  "date": "2026-06-09",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}
