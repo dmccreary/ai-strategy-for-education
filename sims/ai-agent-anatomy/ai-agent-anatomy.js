@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function () {
         envNode('data', '🗄️ Data Sources', 0, -265),
         envNode('outputs', '📄 Outputs', 235, 150),
         envNode('oversight', '🧑 Human Oversight', -235, 150),
-        { id: 'override', label: '⏸ Pause / Override', x: -235, y: 225, fixed: true,
+        { id: 'override', label: '⏸ Pause / Override', x: -440, y: 195, fixed: true,
           shape: 'box', margin: 6, borderWidth: 1,
           color: { background: '#c62828', border: '#8e0000' },
           font: { size: 11, color: 'white', face: 'Arial' } }

@@ -19,14 +19,14 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     const concepts = [
-        { id: 1, label: 'Number Sense', group: 'ARITH', x: -380, y: -50 },
-        { id: 2, label: 'Addition', group: 'ARITH', x: -230, y: -60 },
-        { id: 3, label: 'Multiplication', group: 'ARITH', x: -75, y: -50 },
-        { id: 4, label: 'Linear\nEquations', group: 'ALGEBRA', x: 80, y: -60 },
-        { id: 5, label: 'Slope', group: 'ALGEBRA', x: 225, y: -50 },
-        { id: 6, label: 'Linear\nFunctions', group: 'ADV', x: 370, y: -60 },
-        { id: 7, label: 'Photosynthesis', group: 'BIO', x: 90, y: 130 },
-        { id: 8, label: 'Cell Biology', group: 'BIO', x: -90, y: 120 }
+        { id: 1, label: 'Number Sense', group: 'ARITH', x: -290, y: -40 },
+        { id: 2, label: 'Addition', group: 'ARITH', x: -175, y: -48 },
+        { id: 3, label: 'Multiplication', group: 'ARITH', x: -60, y: -40 },
+        { id: 4, label: 'Linear\nEquations', group: 'ALGEBRA', x: 55, y: -48 },
+        { id: 5, label: 'Slope', group: 'ALGEBRA', x: 170, y: -40 },
+        { id: 6, label: 'Linear\nFunctions', group: 'ADV', x: 285, y: -48 },
+        { id: 7, label: 'Photosynthesis', group: 'BIO', x: 60, y: 110 },
+        { id: 8, label: 'Cell Biology', group: 'BIO', x: -75, y: 102 }
     ];
 
     // edges run dependent -> prerequisite
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
             id: c.id, label: c.label, x: c.x, y: c.y, fixed: true,
             shape: 'box', margin: 9, borderWidth: 2,
             color: { background: col.background, border: col.border },
-            font: { size: 13, color: 'white', face: 'Arial' },
+            font: { size: 16, color: 'white', face: 'Arial' },
             shadow: { enabled: true, color: 'rgba(0,0,0,0.18)', size: 4, x: 2, y: 2 }
         };
     }));

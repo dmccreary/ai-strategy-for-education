@@ -1298,6 +1298,126 @@
           
         
       
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
     
     
     
@@ -1902,6 +2022,8 @@ When a vendor tells you their AI tool "never sends student data to external serv
 <p>A standard large language model knows only what was in its training data — typically a snapshot of public internet content up to a cutoff date. It does not know your district's curriculum standards, your school's handbook, the specific assessment data for your students, or the lesson plans your teachers wrote last semester. If you ask it to help create content aligned to your district's specific fifth-grade science standards, it may produce something plausible but not precisely aligned.</p>
 <p>RAG solves this by adding a retrieval step before generation. When a question arrives, the RAG system first searches a private, institution-specific document collection — your curriculum documents, your standards database, your teacher resource library — and retrieves the most relevant passages. It then passes those passages to the language model along with the question, instructing the model to generate a response grounded in those specific documents. The result is AI content that is both fluent and institution-specific.</p>
 <h4 id="diagram-how-retrieval-augmented-generation-works">Diagram: How Retrieval-Augmented Generation Works<a class="headerlink" href="#diagram-how-retrieval-augmented-generation-works" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/rag-architecture-diagram/main.html" width="100%" height="502" scrolling="no"></iframe>
+<p><a href="../../sims/rag-architecture-diagram/main.html">Run How Retrieval-Augmented Generation Works Fullscreen</a></p>
 <details>
 <summary>Interactive diagram of the RAG architecture for education content systems</summary>
 <p>Type: chart
@@ -1942,9 +2064,12 @@ When a vendor tells you their AI tool "never sends student data to external serv
 </ul>
 <p><strong>Adaptive content</strong> is the capability that makes each student's experience in the textbook different. Rather than every student reading the same page in the same order, an intelligent textbook presents concepts in the order that makes the most sense for that student's current knowledge state. A student who has already mastered fractions moves directly to algebra; a student still building fraction fluency gets additional scaffolded practice before moving on.</p>
 <div class="admonition mascot-tip">
-<p class="admonition-title">Sage's Tip: Demand the xAPI</p>
+<p class="admonition-title">Sage's Tip: Prefer Modern Standardized Learning Interfaces (xAPI and LRS)</p>
 <p><img alt="Sage giving a tip" class="mascot-admonition-img" src="../../img/mascot/tip.png" />
-When evaluating any intelligent textbook platform, ask: "Does your platform expose student interaction data through an xAPI interface to a Learning Record Store we control?" If the answer is no — or if the vendor says they keep the data — walk away. Your student learning data is one of the most valuable assets your institution will build. You must own it.</p>
+When evaluating any intelligent textbook platform, ask: "Does your platform expose student interaction data through a standardized xAPI interface to a Learning Record Store that
+is secure?" If the answer is no you may need to dig a little deeper to understand
+why modern education standards are not being used. If the vendor says they keep the data to train their models you should dig deeper into the privacy controls around these interfaces. Your student learning data is one of the most valuable assets your institution will build. Your system must conform to both the regulatory guidelines in your state or jurisdiction.  However, you also need to be able to access this data to monitor effectiveness for each
+individual student.</p>
 </div>
 <h2 id="interactive-simulations-and-microsims">Interactive Simulations and MicroSims<a class="headerlink" href="#interactive-simulations-and-microsims" title="Permanent link">&para;</a></h2>
 <p>A distinctive feature of intelligent textbooks is their use of <strong>interactive simulations</strong> — computer programs embedded in the learning material that students can manipulate to explore concepts. Rather than reading that the force of gravity affects falling objects equally regardless of mass, a student can run a simulation: drop objects of different masses from different heights, observe the results, and discover the principle through experimentation.</p>
@@ -1957,6 +2082,8 @@ When evaluating any intelligent textbook platform, ask: "Does your platform expo
 </ul>
 <p>A well-designed MicroSim can convey in three minutes of exploration what a lecture would struggle to convey in thirty. The sense of agency — "I changed this, and that happened" — is one of the most powerful drivers of conceptual understanding.</p>
 <h4 id="diagram-anatomy-of-an-intelligent-textbook">Diagram: Anatomy of an Intelligent Textbook<a class="headerlink" href="#diagram-anatomy-of-an-intelligent-textbook" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/intelligent-textbook-stack/main.html" width="100%" height="552" scrolling="no"></iframe>
+<p><a href="../../sims/intelligent-textbook-stack/main.html">Run Anatomy of an Intelligent Textbook Fullscreen</a></p>
 <details>
 <summary>Interactive diagram of the intelligent textbook component stack</summary>
 <p>Type: chart
@@ -2008,6 +2135,8 @@ When evaluating any intelligent textbook platform, ask: "Does your platform expo
 <iframe src="../../sims/shared/book-gen-workflow/main.html" height="610" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
 <h4 id="diagram-sample-concept-learning-graph-fractions">Diagram: Sample Concept Learning Graph — Fractions<a class="headerlink" href="#diagram-sample-concept-learning-graph-fractions" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/concept-learning-graph-fractions/main.html" width="100%" height="542" scrolling="no"></iframe>
+<p><a href="../../sims/concept-learning-graph-fractions/main.html">Run Book Build Workflow Fullscreen</a></p>
 <details>
 <summary>Interactive concept learning graph showing prerequisite relationships for fraction concepts</summary>
 <p>Type: chart
@@ -2060,6 +2189,8 @@ When evaluating any intelligent textbook platform, ask: "Does your platform expo
 </div>
 <p>For education leaders, the practical implication is this: institutions that invest in building well-structured learning graphs for their core subjects will be positioned to take full advantage of adaptive AI tutoring systems. Those that do not will be dependent on whatever graph the vendor has built — which may not align with local standards, pacing, or curriculum emphasis.</p>
 <h4 id="diagram-learning-graph-taxonomy-structure">Diagram: Learning Graph Taxonomy Structure<a class="headerlink" href="#diagram-learning-graph-taxonomy-structure" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/learning-graph-taxonomy-structure/main.html" width="100%" height="492" scrolling="no"></iframe>
+<p><a href="../../sims/learning-graph-taxonomy-structure/main.html">Run Learning Graph Taxonomy Structure Fullscreen</a></p>
 <details>
 <summary>Interactive diagram showing how concept nodes, edges, and taxonomy groups combine in a learning graph</summary>
 <p>Type: chart
@@ -2179,6 +2310,8 @@ When evaluating an edtech vendor's "intelligent textbook" claims, ask which leve
 <h4 id="diagram-five-levels-of-textbooks-progression">Diagram: Five Levels of Textbooks Progression<a class="headerlink" href="#diagram-five-levels-of-textbooks-progression" title="Permanent link">&para;</a></h4>
 <iframe src="../../sims/shared/book-levels/main.html" height="500" width="100%" scrolling="no" style="overflow: hidden;"></iframe>
 
+<iframe src="../../sims/five-levels-textbooks/main.html" width="100%" height="452" scrolling="no"></iframe>
+<p><a href="../../sims/five-levels-textbooks/main.html">Run Five Levels of Textbooks Progression Fullscreen</a></p>
 <details>
 <summary>Interactive diagram showing the five-level progression from static to autonomous AI textbooks</summary>
 <p>Type: chart

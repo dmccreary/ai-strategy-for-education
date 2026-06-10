@@ -76,11 +76,11 @@ document.addEventListener('DOMContentLoaded', function () {
     // ---------- network ----------
     // zigzag y values avoid the vis-network horizontal edge-label bug
     const nodeDefs = [
-        { id: 1, x: -380, y: 12, bg: '#9e9e9e', border: '#666' },
-        { id: 2, x: -190, y: -12, bg: '#4682B4', border: '#2c5d8f' },
-        { id: 3, x: 0, y: 12, bg: '#00897b', border: '#00564d' },
-        { id: 4, x: 190, y: -12, bg: '#FF8C00', border: '#c46a00' },
-        { id: 5, x: 380, y: 12, bg: '#E65100', border: '#9c3c00' }
+        { id: 1, x: -340, y: 55, bg: '#9e9e9e', border: '#666' },
+        { id: 2, x: -170, y: -55, bg: '#4682B4', border: '#2c5d8f' },
+        { id: 3, x: 0, y: 55, bg: '#00897b', border: '#00564d' },
+        { id: 4, x: 170, y: -55, bg: '#FF8C00', border: '#c46a00' },
+        { id: 5, x: 340, y: 55, bg: '#E65100', border: '#9c3c00' }
     ];
 
     const nodes = new vis.DataSet(nodeDefs.map(function (n) {
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
             x: n.x, y: n.y, fixed: true,
             shape: 'box', margin: 10, borderWidth: 2,
             color: { background: n.bg, border: n.border },
-            font: { size: 14, color: 'white', face: 'Arial' },
+            font: { size: 16, color: 'white', face: 'Arial' },
             shadow: { enabled: true, color: 'rgba(0,0,0,0.18)', size: 4, x: 2, y: 2 }
         };
     }));
@@ -100,10 +100,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const edges = new vis.DataSet(edgeLabels.map(function (label, i) {
         return {
             from: i + 1, to: i + 2, label: label,
-            font: { size: 11, color: '#555', background: 'white', face: 'Arial' },
+            font: { size: 12, color: '#555', background: 'white', face: 'Arial' },
             color: { color: '#777' }, width: 2,
             arrows: { to: { enabled: true, scaleFactor: 1 } },
-            smooth: { type: 'curvedCW', roundness: 0.12 }
+            smooth: { type: 'curvedCW', roundness: 0.05 }
         };
     }));
 

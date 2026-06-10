@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
       .ags-row { display: flex; width: 100%; height: 490px; }
       .ags-net { width: 64%; height: 100%; position: relative; }
       #ags-network { width: 100%; height: 100%; }
-      .ags-legend { position: absolute; bottom: 8px; left: 8px;
+      .ags-legend { position: absolute; top: 8px; left: 8px;
         background: rgba(255,255,255,0.95); border: 1px solid #ccc;
         border-radius: 6px; padding: 5px 9px; font-size: 11px; color: #444;
         z-index: 5; }
@@ -100,19 +100,19 @@ document.addEventListener('DOMContentLoaded', function () {
             id: id, label: label, x: x, y: y, fixed: true,
             shape: 'box', margin: 9, borderWidth: 2,
             color: { background: bg, border: border },
-            font: { size: fontSize || 13, color: 'white', face: 'Arial' },
+            font: { size: fontSize || 14, color: 'white', face: 'Arial' },
             shadow: { enabled: true, color: 'rgba(0,0,0,0.18)', size: 4, x: 2, y: 2 }
         };
     }
 
     const nodes = new vis.DataSet([
-        makeNode('steering', 'AI Steering\nCommittee', 0, -215, '#E65100', '#9c3c00', 16),
-        makeNode('coe', 'Center of\nExcellence (CoE)', -180, -75, '#FF8C00', '#c46a00', 14),
-        makeNode('privacy', 'Privacy &\nCompliance Office', 200, -75, '#4682B4', '#2c5d8f'),
-        makeNode('principal', 'School Principal /\nDepartment Chair', 80, 70, '#00897b', '#00564d'),
-        makeNode('champion', 'Teacher AI\nChampion', 240, 185, '#00897b', '#00564d'),
-        makeNode('funnel', 'Idea Funnel', -230, 110, '#9e9e9e', '#666'),
-        makeNode('vendors', 'Approved\nVendor List', -400, 15, '#9e9e9e', '#666')
+        makeNode('steering', 'AI Steering\nCommittee', 0, -190, '#E65100', '#9c3c00', 16),
+        makeNode('coe', 'Center of\nExcellence (CoE)', -160, -65, '#FF8C00', '#c46a00', 15),
+        makeNode('privacy', 'Privacy &\nCompliance Office', 175, -65, '#4682B4', '#2c5d8f'),
+        makeNode('principal', 'School Principal /\nDepartment Chair', 70, 62, '#00897b', '#00564d'),
+        makeNode('champion', 'Teacher AI\nChampion', 210, 165, '#00897b', '#00564d'),
+        makeNode('funnel', 'Idea Funnel', -200, 100, '#9e9e9e', '#666'),
+        makeNode('vendors', 'Approved\nVendor List', -350, 12, '#9e9e9e', '#666')
     ]);
 
     function labeledEdge(from, to, label, dashed) {

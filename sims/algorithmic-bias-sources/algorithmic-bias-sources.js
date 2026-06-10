@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
       .abs-row { display: flex; width: 100%; height: 470px; }
       .abs-net { width: 64%; height: 100%; position: relative; }
       #abs-network { width: 100%; height: 100%; }
-      .abs-legend { position: absolute; bottom: 8px; left: 8px;
+      .abs-legend { position: absolute; top: 8px; left: 8px;
         background: rgba(255,255,255,0.95); border: 1px solid #ccc;
         border-radius: 6px; padding: 5px 9px; font-size: 11px; color: #444;
         z-index: 5; }
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function () {
             id: id, label: label, x: x, y: y, fixed: true,
             shape: 'box', margin: 9, borderWidth: 2,
             color: { background: bg, border: border },
-            font: { size: fontSize || 13, color: 'white', face: 'Arial' },
+            font: { size: fontSize || 14, color: 'white', face: 'Arial' },
             shadow: { enabled: true, color: 'rgba(0,0,0,0.18)', size: 4, x: 2, y: 2 }
         };
     }
@@ -112,14 +112,14 @@ document.addEventListener('DOMContentLoaded', function () {
     const GREEN = '#43a047', GREEN_B = '#1b5e20';
 
     const nodes = new vis.DataSet([
-        makeNode('inequity', 'Historical\nInequity', -440, -30, RED, RED_B, 15),
-        makeNode('data', 'Biased\nTraining Data', -240, -95, RED, RED_B),
-        makeNode('framing', 'Problem\nFraming Bias', -240, 85, RED, RED_B),
-        makeNode('training', 'Model\nTraining', -25, -10, '#9e9e9e', '#666'),
-        makeNode('system', 'Biased\nAI System', 190, -25, '#E65100', '#9c3c00', 15),
-        makeNode('outcomes', 'Disparate Student\nOutcomes', 420, 45, RED, RED_B, 15),
-        makeNode('audit', 'Bias Audit', -25, -185, GREEN, GREEN_B),
-        makeNode('monitoring', 'Outcome\nMonitoring', 190, -195, GREEN, GREEN_B)
+        makeNode('inequity', 'Historical\nInequity', -340, -25, RED, RED_B, 16),
+        makeNode('data', 'Biased\nTraining Data', -185, -85, RED, RED_B),
+        makeNode('framing', 'Problem\nFraming Bias', -185, 70, RED, RED_B),
+        makeNode('training', 'Model\nTraining', -15, -10, '#9e9e9e', '#666'),
+        makeNode('system', 'Biased\nAI System', 145, -20, '#E65100', '#9c3c00', 16),
+        makeNode('outcomes', 'Disparate Student\nOutcomes', 320, 40, RED, RED_B, 16),
+        makeNode('audit', 'Bias Audit', -15, -160, GREEN, GREEN_B),
+        makeNode('monitoring', 'Outcome\nMonitoring', 145, -170, GREEN, GREEN_B)
     ]);
 
     function chainEdge(from, to) {

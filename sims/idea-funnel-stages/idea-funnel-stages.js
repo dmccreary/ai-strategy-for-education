@@ -13,13 +13,13 @@ document.addEventListener('DOMContentLoaded', function () {
           qty: 'All submitted ideas',
           info: 'Enter every submitted idea into the idea registry with standardized metadata: problem statement, proposed approach, expected benefit, affected stakeholders, rough cost, and risk flag.' },
         { id: 3, name: 'Stage 3: Evaluate', color: '#00897b', text: 'white',
-          qty: 'Ideas above minimum threshold',
+          qty: 'Above score threshold',
           info: 'Score each idea on a rubric: feasibility (1–5), risk (1–5), benefit (1–5), cost (1–5), equity impact (1–5). Expert review panel scores ideas above a threshold.' },
         { id: 4, name: 'Stage 4: Select', color: '#FF8C00', text: 'white',
           qty: 'Top 10–20%',
           info: 'Review scored ideas as a portfolio. Select projects balancing quick wins (high feasibility, lower impact) and strategic bets (transformative but harder). Board or executive approval.' },
         { id: 5, name: 'Stage 5: Resource', color: '#E65100', text: 'white',
-          qty: 'Funded projects (3–10/year)',
+          qty: 'Funded (3–10/year)',
           info: 'Assign team members, budget, and timeline to funded projects. Create project charters. Establish success metrics.' },
         { id: 6, name: 'Stage 6: Evaluate Outcomes', color: '#bf360c', text: 'white',
           qty: 'Completed projects',
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const VB_W = 760, VB_H = 500;
     const cx = 430;                 // funnel horizontal center
     const topY = 14, layerH = 68, gap = 9;
-    const widths = [520, 450, 380, 310, 240, 175];
+    const widths = [540, 472, 404, 340, 286, 240];
 
     const svg = document.createElementNS(SVG_NS, 'svg');
     svg.setAttribute('viewBox', '0 0 ' + VB_W + ' ' + VB_H);
@@ -114,7 +114,8 @@ document.addEventListener('DOMContentLoaded', function () {
         label.setAttribute('x', cx);
         label.setAttribute('y', y + layerH / 2 + 6);
         label.setAttribute('text-anchor', 'middle');
-        label.setAttribute('font-size', '17');
+        // narrower lower layers get a smaller font so the label fits
+        label.setAttribute('font-size', i < 4 ? '17' : '14');
         label.setAttribute('font-weight', 'bold');
         label.setAttribute('font-family', 'Arial, sans-serif');
         label.setAttribute('fill', s.text);

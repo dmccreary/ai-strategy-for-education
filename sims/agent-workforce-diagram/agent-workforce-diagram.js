@@ -59,16 +59,15 @@ document.addEventListener('DOMContentLoaded', function () {
       .awd-row { display: flex; width: 100%; height: 540px; }
       .awd-net { width: 64%; height: 100%; position: relative; }
       #awd-network { width: 100%; height: 100%; }
-      .awd-legend { position: absolute; bottom: 8px; left: 8px;
-        background: rgba(255,255,255,0.95); border: 1px solid #ccc;
-        border-radius: 6px; padding: 5px 9px; font-size: 11px; color: #444;
-        z-index: 5; }
+      .awd-legend { background: #fafafa; border: 1px solid #ddd;
+        border-radius: 6px; padding: 8px 10px; font-size: 12px; color: #444; }
       .awd-legend .sw { display: inline-block; width: 11px; height: 11px;
         border-radius: 3px; margin-right: 4px; vertical-align: -1px; }
-      .awd-panel { width: 36%; box-sizing: border-box; padding: 10px; }
+      .awd-panel { width: 36%; box-sizing: border-box; padding: 10px;
+        display: flex; flex-direction: column; gap: 10px; }
       .awd-info { background: #f6f9fc; border: 1px solid #b6cbe0;
         border-radius: 8px; padding: 12px 14px; font-size: 14px;
-        line-height: 1.5; height: 100%; box-sizing: border-box; }
+        line-height: 1.5; flex: 1; box-sizing: border-box; }
       .awd-info h3 { margin: 0 0 8px 0; font-size: 16px; color: #1a3a6c; }
     `;
     document.head.appendChild(style);
@@ -82,12 +81,6 @@ document.addEventListener('DOMContentLoaded', function () {
       <div class="awd-row">
         <div class="awd-net">
           <div id="awd-network"></div>
-          <div class="awd-legend">
-            <span class="sw" style="background:#4682B4"></span>Teacher agents
-            &nbsp;<span class="sw" style="background:#00897b"></span>Student agents
-            &nbsp;<span class="sw" style="background:#FF8C00"></span>Administrator agents
-            &nbsp;<span class="sw" style="background:#E65100"></span>Governance
-          </div>
         </div>
         <div class="awd-panel">
           <div class="awd-info" id="awd-info">
@@ -95,6 +88,12 @@ document.addEventListener('DOMContentLoaded', function () {
             Click any agent to see its user group, task type, and — most
             importantly — its human oversight requirement. Every agent is
             governed by the shared governance framework at the bottom.
+          </div>
+          <div class="awd-legend">
+            <span class="sw" style="background:#4682B4"></span>Teacher agents
+            &nbsp;<span class="sw" style="background:#00897b"></span>Student agents
+            &nbsp;<span class="sw" style="background:#FF8C00"></span>Administrator agents
+            &nbsp;<span class="sw" style="background:#E65100"></span>Governance
           </div>
         </div>
       </div>

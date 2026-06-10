@@ -86,19 +86,19 @@ document.addEventListener('DOMContentLoaded', function () {
             id: id, label: label, x: x, y: y, fixed: true,
             shape: shape || 'box', margin: 10, borderWidth: 2,
             color: { background: bg, border: border },
-            font: { size: 13, color: fontColor || 'white', face: 'Arial' },
+            font: { size: 15, color: fontColor || 'white', face: 'Arial' },
             shadow: { enabled: true, color: 'rgba(0,0,0,0.18)', size: 4, x: 2, y: 2 }
         };
     }
 
     // slight y zigzag avoids the vis-network horizontal edge-label bug
     const nodes = new vis.DataSet([
-        makeNode('question', 'Student\nQuestion', -370, 60, '#e0e0e0', '#888', 'box', '#333'),
-        makeNode('retrieval', 'Retrieval\nEngine', -185, 30, '#FF8C00', '#c46a00'),
-        makeNode('library', 'Institution\nDocument Library', -185, -135, '#4682B4', '#2c5d8f', 'database'),
-        makeNode('context', 'Retrieved\nContext', 0, 60, '#00897b', '#00564d'),
-        makeNode('llm', 'Language\nModel', 185, 25, '#FF8C00', '#c46a00'),
-        makeNode('response', 'Grounded\nResponse', 370, 60, '#4caf50', '#2e7d32')
+        makeNode('question', 'Student\nQuestion', -300, 55, '#e0e0e0', '#888', 'box', '#333'),
+        makeNode('retrieval', 'Retrieval\nEngine', -150, 25, '#FF8C00', '#c46a00'),
+        makeNode('library', 'Institution\nDocument Library', -150, -110, '#4682B4', '#2c5d8f', 'database'),
+        makeNode('context', 'Retrieved\nContext', 0, 55, '#00897b', '#00564d'),
+        makeNode('llm', 'Language\nModel', 150, 20, '#FF8C00', '#c46a00'),
+        makeNode('response', 'Grounded\nResponse', 300, 55, '#4caf50', '#2e7d32')
     ]);
 
     function flowEdge(from, to, label, roundness) {

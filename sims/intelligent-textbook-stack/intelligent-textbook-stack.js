@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
       .its-row { display: flex; width: 100%; height: 500px; }
       .its-net { width: 64%; height: 100%; position: relative; }
       #its-network { width: 100%; height: 100%; }
-      .its-legend { position: absolute; bottom: 8px; left: 8px;
+      .its-legend { position: absolute; top: 8px; left: 8px;
         background: rgba(255,255,255,0.95); border: 1px solid #ccc;
         border-radius: 6px; padding: 5px 9px; font-size: 11px; color: #444;
         z-index: 5; }
@@ -104,20 +104,20 @@ document.addEventListener('DOMContentLoaded', function () {
             id: id, label: label, x: x, y: y, fixed: true,
             shape: 'box', margin: 9, borderWidth: 2,
             color: { background: bg, border: border },
-            font: { size: fontSize || 13, color: 'white', face: 'Arial' },
+            font: { size: fontSize || 14, color: 'white', face: 'Arial' },
             shadow: { enabled: true, color: 'rgba(0,0,0,0.18)', size: 4, x: 2, y: 2 }
         };
     }
 
     const nodes = new vis.DataSet([
-        makeNode('textbook', 'Intelligent\nTextbook', -140, -20, '#E65100', '#9c3c00', 17),
-        makeNode('adaptive', 'Adaptive Content\nEngine', -330, -150, '#4682B4', '#2c5d8f'),
-        makeNode('graph', 'Concept Learning\nGraph', -520, -60, '#4682B4', '#2c5d8f'),
-        makeNode('microsims', 'MicroSims /\nInteractive Simulations', -350, 130, '#00897b', '#00564d'),
-        makeNode('tutor', 'Conversational\nAI Tutor', -50, -190, '#00897b', '#00564d'),
-        makeNode('xapi', 'xAPI Telemetry\nLayer', 60, 110, '#FF8C00', '#c46a00'),
-        makeNode('lrs', 'Learning Record\nStore', 290, 160, '#9e9e9e', '#666'),
-        makeNode('lms', 'AI-Driven\nLMS', 470, 60, '#9e9e9e', '#666')
+        makeNode('textbook', 'Intelligent\nTextbook', -110, -20, '#E65100', '#9c3c00', 17),
+        makeNode('adaptive', 'Adaptive Content\nEngine', -270, -150, '#4682B4', '#2c5d8f'),
+        makeNode('graph', 'Concept Learning\nGraph', -430, -55, '#4682B4', '#2c5d8f'),
+        makeNode('microsims', 'MicroSims /\nInteractive Simulations', -290, 125, '#00897b', '#00564d'),
+        makeNode('tutor', 'Conversational\nAI Tutor', -40, -185, '#00897b', '#00564d'),
+        makeNode('xapi', 'xAPI Telemetry\nLayer', 55, 105, '#FF8C00', '#c46a00'),
+        makeNode('lrs', 'Learning Record\nStore', 240, 150, '#9e9e9e', '#666'),
+        makeNode('lms', 'AI-Driven\nLMS', 390, 55, '#9e9e9e', '#666')
     ]);
 
     function flowEdge(from, to, label, dashed) {

@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
       .ach-row { display: flex; width: 100%; height: 510px; }
       .ach-net { width: 64%; height: 100%; position: relative; }
       #ach-network { width: 100%; height: 100%; }
-      .ach-legend { position: absolute; bottom: 8px; right: 8px;
+      .ach-legend { position: absolute; top: 8px; right: 8px;
         background: rgba(255,255,255,0.95); border: 1px solid #ccc;
         border-radius: 6px; padding: 5px 9px; font-size: 11px; color: #444;
         z-index: 5; }
@@ -114,14 +114,16 @@ document.addEventListener('DOMContentLoaded', function () {
         };
     }
 
+    // offsets keep labeled edges diagonal — vertical/horizontal labeled
+    // edges render their labels rotated or smeared in vis-network
     const nodes = new vis.DataSet([
-        node('ai', 'Artificial Intelligence', 0, -210, 22, TEAL),
-        node('ml', 'Machine Learning', 0, -100, 19, TEAL),
-        node('nn', 'Neural Network', -160, 15, 16, TEAL),
-        node('llm', 'Large Language\nModel (LLM)', 110, 10, 16, TEAL),
-        node('genai', 'Generative AI', -90, 150, 14, ORANGE),
-        node('token', 'Token', 110, 160, 14, ORANGE),
-        node('cw', 'Context Window', 280, 150, 14, ORANGE)
+        node('ai', 'Artificial Intelligence', 70, -215, 22, TEAL),
+        node('ml', 'Machine Learning', -60, -100, 19, TEAL),
+        node('nn', 'Neural Network', -220, 15, 16, TEAL),
+        node('llm', 'Large Language\nModel (LLM)', 115, 5, 16, TEAL),
+        node('genai', 'Generative AI', -100, 150, 14, ORANGE),
+        node('token', 'Token', 175, 165, 14, ORANGE),
+        node('cw', 'Context Window', 330, 130, 14, ORANGE)
     ]);
 
     function edge(from, to, label, tip) {

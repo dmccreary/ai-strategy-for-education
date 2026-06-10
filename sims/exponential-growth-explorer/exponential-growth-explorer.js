@@ -7,7 +7,7 @@ let drawHeight = 420;
 let controlHeight = 120;
 let canvasHeight = drawHeight + controlHeight;
 let margin = 25;
-let sliderLeftMargin = 290;
+let sliderLeftMargin = 330;
 let defaultTextSize = 16;
 let containerWidth;
 

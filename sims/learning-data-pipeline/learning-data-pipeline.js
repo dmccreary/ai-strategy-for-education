@@ -63,16 +63,15 @@ document.addEventListener('DOMContentLoaded', function () {
       .ldp-row { display: flex; width: 100%; height: 500px; }
       .ldp-net { width: 66%; height: 100%; position: relative; }
       #ldp-network { width: 100%; height: 100%; }
-      .ldp-legend { position: absolute; bottom: 8px; left: 8px;
-        background: rgba(255,255,255,0.95); border: 1px solid #ccc;
-        border-radius: 6px; padding: 5px 9px; font-size: 11px; color: #444;
-        z-index: 5; }
+      .ldp-legend { background: #fafafa; border: 1px solid #ddd;
+        border-radius: 6px; padding: 8px 10px; font-size: 12px; color: #444; }
       .ldp-legend .sw { display: inline-block; width: 11px; height: 11px;
         border-radius: 3px; margin-right: 4px; vertical-align: -1px; }
-      .ldp-panel { width: 34%; box-sizing: border-box; padding: 10px; }
+      .ldp-panel { width: 34%; box-sizing: border-box; padding: 10px;
+        display: flex; flex-direction: column; gap: 10px; }
       .ldp-info { background: #f6f9fc; border: 1px solid #b6cbe0;
         border-radius: 8px; padding: 12px 14px; font-size: 14px;
-        line-height: 1.5; height: 100%; box-sizing: border-box; }
+        line-height: 1.5; flex: 1; box-sizing: border-box; }
       .ldp-info h3 { margin: 0 0 8px 0; font-size: 16px; color: #1a3a6c; }
     `;
     document.head.appendChild(style);
@@ -86,13 +85,6 @@ document.addEventListener('DOMContentLoaded', function () {
       <div class="ldp-row">
         <div class="ldp-net">
           <div id="ldp-network"></div>
-          <div class="ldp-legend">
-            <span class="sw" style="background:#4682B4"></span>Learning platform
-            &nbsp;<span class="sw" style="background:#E65100"></span>LRS
-            &nbsp;<span class="sw" style="background:#FF8C00"></span>Analytics
-            &nbsp;<span class="sw" style="background:#00897b"></span>AI-driven LMS
-            &nbsp;<span class="sw" style="background:#43a047"></span>People-facing output
-          </div>
         </div>
         <div class="ldp-panel">
           <div class="ldp-info" id="ldp-info">
@@ -100,6 +92,13 @@ document.addEventListener('DOMContentLoaded', function () {
             Click any node to trace how a single student action becomes part
             of a personalized learning plan — from platform, to Learning
             Record Store, through analytics, to teacher and student.
+          </div>
+          <div class="ldp-legend">
+            <span class="sw" style="background:#4682B4"></span>Learning platform
+            &nbsp;<span class="sw" style="background:#E65100"></span>LRS
+            &nbsp;<span class="sw" style="background:#FF8C00"></span>Analytics
+            &nbsp;<span class="sw" style="background:#00897b"></span>AI-driven LMS
+            &nbsp;<span class="sw" style="background:#43a047"></span>People-facing
           </div>
         </div>
       </div>
@@ -112,23 +111,23 @@ document.addEventListener('DOMContentLoaded', function () {
             id: id, label: label, x: x, y: y, fixed: true,
             shape: 'box', margin: 9, borderWidth: 2,
             color: { background: bg, border: border },
-            font: { size: fontSize || 12, color: 'white', face: 'Arial' },
+            font: { size: fontSize || 14, color: 'white', face: 'Arial' },
             shadow: { enabled: true, color: 'rgba(0,0,0,0.18)', size: 4, x: 2, y: 2 }
         };
     }
 
     const BLUE = '#4682B4', BLUE_B = '#2c5d8f';
     const nodes = new vis.DataSet([
-        makeNode('textbook', 'Intelligent\nTextbook', -450, -165, BLUE, BLUE_B),
-        makeNode('assess', 'Assessment\nPlatform', -450, -55, BLUE, BLUE_B),
-        makeNode('homework', 'Homework\nTool', -450, 55, BLUE, BLUE_B),
-        makeNode('tutor', 'AI Tutoring\nSystem', -450, 165, BLUE, BLUE_B),
-        makeNode('lrs', 'Learning\nRecord Store\n(LRS)', -185, 5, '#E65100', '#9c3c00', 14),
-        makeNode('analytics', 'Learning\nAnalytics Engine', 35, -100, '#FF8C00', '#c46a00'),
-        makeNode('predictive', 'Predictive\nAnalytics Model', 35, 110, '#FF8C00', '#c46a00'),
-        makeNode('lms', 'AI-Driven\nLMS', 255, 5, '#00897b', '#00564d', 14),
-        makeNode('dashboard', 'Teacher\nDashboard', 465, -95, '#43a047', '#1b5e20'),
-        makeNode('plan', 'Student\nPersonalized Plan', 465, 105, '#43a047', '#1b5e20')
+        makeNode('textbook', 'Intelligent\nTextbook', -360, -160, BLUE, BLUE_B),
+        makeNode('assess', 'Assessment\nPlatform', -360, -52, BLUE, BLUE_B),
+        makeNode('homework', 'Homework\nTool', -360, 52, BLUE, BLUE_B),
+        makeNode('tutor', 'AI Tutoring\nSystem', -360, 160, BLUE, BLUE_B),
+        makeNode('lrs', 'Learning\nRecord Store\n(LRS)', -150, 5, '#E65100', '#9c3c00', 15),
+        makeNode('analytics', 'Learning\nAnalytics Engine', 30, -95, '#FF8C00', '#c46a00'),
+        makeNode('predictive', 'Predictive\nAnalytics Model', 30, 105, '#FF8C00', '#c46a00'),
+        makeNode('lms', 'AI-Driven\nLMS', 205, 5, '#00897b', '#00564d', 15),
+        makeNode('dashboard', 'Teacher\nDashboard', 375, -90, '#43a047', '#1b5e20'),
+        makeNode('plan', 'Student\nPersonalized Plan', 375, 100, '#43a047', '#1b5e20')
     ]);
 
     function flowEdge(from, to, label, showLabel) {
@@ -136,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
             from: from, to: to,
             label: showLabel ? label : undefined,
             title: label,
-            font: showLabel ? { size: 10, color: '#555', background: 'white',
+            font: showLabel ? { size: 12, color: '#555', background: 'white',
                                 face: 'Arial' } : undefined,
             color: { color: '#777' }, width: 2,
             arrows: { to: { enabled: true, scaleFactor: 0.9 } },

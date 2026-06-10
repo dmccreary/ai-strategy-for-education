@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
       .xsa-row { display: flex; width: 100%; height: 430px; }
       .xsa-net { width: 62%; height: 100%; position: relative; }
       #xsa-network { width: 100%; height: 100%; }
-      .xsa-legend { position: absolute; bottom: 8px; left: 8px;
+      .xsa-legend { position: absolute; top: 8px; left: 8px;
         background: rgba(255,255,255,0.95); border: 1px solid #ccc;
         border-radius: 6px; padding: 5px 9px; font-size: 11px; color: #444;
         z-index: 5; }

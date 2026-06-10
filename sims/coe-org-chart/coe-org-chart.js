@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
       .coe-row { display: flex; width: 100%; height: 490px; }
       .coe-net { width: 64%; height: 100%; position: relative; }
       #coe-network { width: 100%; height: 100%; }
-      .coe-legend { position: absolute; bottom: 8px; left: 8px;
+      .coe-legend { position: absolute; top: 8px; left: 8px;
         background: rgba(255,255,255,0.95); border: 1px solid #ccc;
         border-radius: 6px; padding: 5px 9px; font-size: 11px; color: #444;
         z-index: 5; }
