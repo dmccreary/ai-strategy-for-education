@@ -39,19 +39,58 @@ nav:
 
   - Chapters:
       - List of Chapters: chapters/index.md
-      - 1. AI Foundations: chapters/01-ai-foundations/index.md
-      - 2. AI Capability Curve: chapters/02-ai-capability-curve/index.md
-      - 3. AI Strategy Foundations: chapters/03-ai-strategy-foundations/index.md
-      - 4. GenAI and Intelligent Textbooks: chapters/04-genai-and-intelligent-textbooks/index.md
-      - 5. Idea Funnel — Gathering Ideas: chapters/05-idea-funnel-gathering/index.md
-      - 6. Selecting Projects: chapters/06-selecting-projects/index.md
-      - 7. Learning Telemetry and xAPI: chapters/07-learning-telemetry-xapi/index.md
-      - 8. Pedagogical Models: chapters/08-pedagogical-models/index.md
-      - 9. Responsible AI: chapters/09-responsible-ai/index.md
-      - 10. Integrity, Equity, and Risk: chapters/10-integrity-equity-risk/index.md
-      - 11. Governance and Policy: chapters/11-governance-policy/index.md
-      - 12. Agentic AI Workforce: chapters/12-agentic-ai-workforce/index.md
-      - 13. Strategic Planning: chapters/13-strategic-planning/index.md
+      - 1. AI Foundations:
+          - Content: chapters/01-ai-foundations/index.md
+          - Quiz: chapters/01-ai-foundations/quiz.md
+          - References: chapters/01-ai-foundations/references.md
+      - 2. AI Capability Curve:
+          - Content: chapters/02-ai-capability-curve/index.md
+          - Quiz: chapters/02-ai-capability-curve/quiz.md
+          - References: chapters/02-ai-capability-curve/references.md
+      - 3. AI Strategy Foundations:
+          - Content: chapters/03-ai-strategy-foundations/index.md
+          - Quiz: chapters/03-ai-strategy-foundations/quiz.md
+          - References: chapters/03-ai-strategy-foundations/references.md
+      - 4. GenAI and Intelligent Textbooks:
+          - Content: chapters/04-genai-and-intelligent-textbooks/index.md
+          - Quiz: chapters/04-genai-and-intelligent-textbooks/quiz.md
+          - References: chapters/04-genai-and-intelligent-textbooks/references.md
+      - 5. Idea Funnel — Gathering Ideas:
+          - Content: chapters/05-idea-funnel-gathering/index.md
+          - Quiz: chapters/05-idea-funnel-gathering/quiz.md
+          - References: chapters/05-idea-funnel-gathering/references.md
+      - 6. Selecting Projects:
+          - Content: chapters/06-selecting-projects/index.md
+          - Quiz: chapters/06-selecting-projects/quiz.md
+          - References: chapters/06-selecting-projects/references.md
+      - 7. Learning Telemetry and xAPI:
+          - Content: chapters/07-learning-telemetry-xapi/index.md
+          - Quiz: chapters/07-learning-telemetry-xapi/quiz.md
+          - References: chapters/07-learning-telemetry-xapi/references.md
+      - 8. Pedagogical Models:
+          - Content: chapters/08-pedagogical-models/index.md
+          - Quiz: chapters/08-pedagogical-models/quiz.md
+          - References: chapters/08-pedagogical-models/references.md
+      - 9. Responsible AI:
+          - Content: chapters/09-responsible-ai/index.md
+          - Quiz: chapters/09-responsible-ai/quiz.md
+          - References: chapters/09-responsible-ai/references.md
+      - 10. Integrity, Equity, and Risk:
+          - Content: chapters/10-integrity-equity-risk/index.md
+          - Quiz: chapters/10-integrity-equity-risk/quiz.md
+          - References: chapters/10-integrity-equity-risk/references.md
+      - 11. Governance and Policy:
+          - Content: chapters/11-governance-policy/index.md
+          - Quiz: chapters/11-governance-policy/quiz.md
+          - References: chapters/11-governance-policy/references.md
+      - 12. Agentic AI Workforce:
+          - Content: chapters/12-agentic-ai-workforce/index.md
+          - Quiz: chapters/12-agentic-ai-workforce/quiz.md
+          - References: chapters/12-agentic-ai-workforce/references.md
+      - 13. Strategic Planning:
+          - Content: chapters/13-strategic-planning/index.md
+          - Quiz: chapters/13-strategic-planning/quiz.md
+          - References: chapters/13-strategic-planning/references.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md
@@ -60,6 +99,10 @@ nav:
       - Concept Taxonomy: learning-graph/concept-taxonomy.md
       - Graph Quality Analysis: learning-graph/quality-metrics.md
       - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+      - Book Metrics: learning-graph/book-metrics.md
+      - Chapter Metrics: learning-graph/chapter-metrics.md
+      - Diagram Table: learning-graph/diagram-table.md
+      - Diagram Details: learning-graph/diagram-details.md
       - Mascot Style Guide: learning-graph/mascot-test.md
 
   - MicroSims:
