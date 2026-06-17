@@ -91,6 +91,10 @@ nav:
           - Content: chapters/13-strategic-planning/index.md
           - Quiz: chapters/13-strategic-planning/quiz.md
           - References: chapters/13-strategic-planning/references.md
+      - 14. Explaining AI with Storytelling:
+          - Content: chapters/14-explaining-ai-with-storytelling/index.md
+          - Quiz: chapters/14-explaining-ai-with-storytelling/quiz.md
+          - References: chapters/14-explaining-ai-with-storytelling/references.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md
@@ -166,6 +170,9 @@ nav:
       - Traditional vs. Alpha School Day Structure: sims/school-day-comparison-timeline/index.md
       - Winner-Takes-All CLD: sims/shared/winner-takes-all-cld/index.md
 
+  - Appendices:
+      - MicroStrategies for Adopting AI in Schools: appendices/microstrategies-adopting-ai.md
+
   - FAQ: faq.md
   - Glossary: glossary.md
   - License: license.md
@@ -199,21 +206,21 @@ theme:
 plugins:
   - search
   # Uncomment after running `pip install "mkdocs-material[imaging]"`:
-  # - social
+  - social
   # Uncomment after running `pip install mkdocs-glightbox`:
-  # - glightbox:
-  #     touchNavigation: true
-  #     loop: false
-  #     effect: zoom
-  #     slide_effect: slide
-  #     width: 100%
-  #     height: auto
-  #     zoomable: true
-  #     draggable: true
-  #     auto_caption: false
-  #     caption_position: bottom
-  #     skip_classes:
-  #       - mascot-admonition-img   # keep mascot poses out of the lightbox gallery
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
+      skip_classes:
+        - mascot-admonition-img   # keep mascot poses out of the lightbox gallery
 
 # Markdown extensions
 markdown_extensions:
@@ -250,6 +257,12 @@ exclude_docs: |
   **/image-prompts*.md
   **/cover-prompt.md
   **/TODO.md
+  sims/shared/README.md
+  sims/shared/shared-libs/README.md
+  sims/shared/shared-libs/plan.md
+  sims/shared/templates/index.md
+  sims/shared/templates/index-social-override.md
+
 
 # Rebuild on changes during `mkdocs serve`
 watch:
@@ -280,6 +293,7 @@ extra:
   textbook_version: '0.1'
 
   # Google Analytics — uncomment once a property ID exists:
-  # analytics:
-  #   provider: google
-  #   property: G-XXXXXXXXXX
+  # G-WM352B6E55 is the property ID
+  analytics:
+    provider: google
+    property: G-WM352B6E55

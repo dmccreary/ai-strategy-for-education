@@ -1,6 +1,6 @@
 # Chapters
 
-This textbook is organized into 13 chapters covering 214 concepts.
+This textbook is organized into 14 chapters covering 229 concepts.
 
 ## Chapter Overview
 
@@ -29,6 +29,8 @@ This textbook is organized into 13 chapters covering 214 concepts.
 12. [The Agentic AI Workforce in Education](12-agentic-ai-workforce/index.md) — Introduces the near-term reality that every educator and student will manage dozens of named AI agents: personal AI agents, agent personas (name and personality), the agent workforce, task assignment, multi-agent coordination and orchestration, agent governance, human-agent collaboration, and four concrete example agents — progress monitoring, parent communication, term planning, and critical thinking.
 
 13. [Strategic Planning — SWOT, Roadmaps, and the Capstone Strategy](13-strategic-planning/index.md) — The culminating chapter draws every thread together: conducting a SWOT analysis and its four quadrants, institutional archetypes, gap analysis, the strategic roadmap, and — as the capstone deliverable — producing a board-ready AI strategy document that synthesises the idea funnel, the risk register, the governance plan, the agent workforce, and the phased roadmap toward personalised, AI-supported learning.
+
+14. [Explaining AI with Storytelling](14-explaining-ai-with-storytelling/index.md) — Equips education leaders to communicate AI strategy to any audience — school boards, parents, teachers, and community members — using Alan Alda's empathy-first science communication principles: Theory of Mind, active listening, mirror neurons, the flame metaphor, improv techniques, narrative arc, analogies for AI, audience analysis, fear-to-curiosity reframing, stakeholder-specific messaging, and the trust-building power of authentic communication.
 
 
 ## How to Use This Textbook
