@@ -1,9 +1,9 @@
 ---
-title: "Appendix: MicroStrategies for Adopting AI in Schools"
+title: "Appendix: MicroStrategies for Teachers"
 description: Twenty small, low-risk mini-projects that gradually move a typical US high school toward modern AI — starting with quiet teacher-productivity wins and building toward classroom MicroSims and organization-wide practice.
 ---
 
-# Appendix: MicroStrategies for Adopting AI in Schools
+# Appendix: MicroStrategies for Teachers
 
 A big AI strategy can stall before it starts. Budgets, board approvals, privacy reviews, and
 union conversations all matter — but none of them have to happen *before* a single teacher saves
@@ -324,6 +324,8 @@ next." That is what real adoption looks like — not a launch, but a slope.
 
 ## Related Reading
 
+- [MicroStrategies for Leaders](microstrategies.md) — the companion top-down appendix: thirty organizational moves leaders and committees use to drive AI adoption institution-wide.
+- [MicroStrategies for Students](microstrategies-students.md) — the companion appendix for learners: thirty ways students get comfortable using AI for learning.
 - [Chapter 5 — The Idea Funnel: Gathering Ideas](../chapters/05-idea-funnel-gathering/index.md) — how to collect and evaluate AI ideas at scale once these microstrategies generate them.
 - [Chapter 6 — Selecting Projects](../chapters/06-selecting-projects/index.md) — choosing which pilots to grow into real initiatives.
 - [MicroSims Library](../sims/index.md) — the interactive simulations referenced throughout Phase 2.

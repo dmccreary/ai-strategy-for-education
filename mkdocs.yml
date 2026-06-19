@@ -171,7 +171,9 @@ nav:
       - Winner-Takes-All CLD: sims/shared/winner-takes-all-cld/index.md
 
   - Appendices:
-      - MicroStrategies for Adopting AI in Schools: appendices/microstrategies-adopting-ai.md
+      - MicroStrategies for Leaders: appendices/microstrategies.md
+      - MicroStrategies for Teachers: appendices/microstrategies-adopting-ai.md
+      - MicroStrategies for Students: appendices/microstrategies-students.md
 
   - FAQ: faq.md
   - Glossary: glossary.md
