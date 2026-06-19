@@ -171,6 +171,7 @@ nav:
       - Winner-Takes-All CLD: sims/shared/winner-takes-all-cld/index.md
 
   - Appendices:
+      - List of Appendices: appendices/index.md
       - MicroStrategies for Leaders: appendices/microstrategies.md
       - MicroStrategies for Teachers: appendices/microstrategies-adopting-ai.md
       - MicroStrategies for Students: appendices/microstrategies-students.md
