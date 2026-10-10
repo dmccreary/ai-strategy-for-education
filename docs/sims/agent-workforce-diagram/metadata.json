@@ -1,17 +1,14 @@
 {
   "title": "The Institutional Agent Workforce",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "AI Strategy for Education",
   "description": "Interactive MicroSim for the institutional agent workforce",
   "date": "2026-06-10",
   "educational": {
     "gradeLevel": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "Adult"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Other",
     "topic": "The Institutional Agent Workforce",
     "learningObjectives": [
       "TODO: Add learning objectives"

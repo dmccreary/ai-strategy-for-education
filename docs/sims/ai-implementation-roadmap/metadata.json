@@ -1,17 +1,14 @@
 {
   "title": "AI Strategy Implementation Roadmap",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "AI Strategy for Education",
   "description": "Interactive MicroSim for ai strategy implementation roadmap",
   "date": "2026-06-10",
   "educational": {
     "gradeLevel": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "Adult"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Other",
     "topic": "AI Strategy Implementation Roadmap",
     "learningObjectives": [
       "TODO: Add learning objectives"

@@ -1,17 +1,14 @@
 {
   "title": "Neural Network Learning Pathway",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "AI Strategy for Education",
   "description": "Interactive MicroSim for deep learning timeline",
   "date": "2026-06-10",
   "educational": {
     "gradeLevel": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "Adult"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Other",
     "topic": "Deep Learning Timeline",
     "learningObjectives": [
       "TODO: Add learning objectives"

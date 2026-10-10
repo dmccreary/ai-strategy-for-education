@@ -1,17 +1,14 @@
 {
   "title": "The Idea Funnel \u2014 Six Stages",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "AI Strategy for Education",
   "description": "Interactive MicroSim for the idea funnel \u2014 six stages",
   "date": "2026-06-10",
   "educational": {
     "gradeLevel": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "Adult"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Other",
     "topic": "The Idea Funnel \u2014 Six Stages",
     "learningObjectives": [
       "TODO: Add learning objectives"

@@ -1,17 +1,14 @@
 {
   "title": "AI Program Pipeline Report",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "AI Strategy for Education",
   "description": "Interactive MicroSim for ai program pipeline report",
   "date": "2026-06-10",
   "educational": {
     "gradeLevel": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "Adult"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Other",
     "topic": "AI Program Pipeline Report",
     "learningObjectives": [
       "TODO: Add learning objectives"

@@ -1,17 +1,14 @@
 {
   "title": "Center of Excellence Organizational Structure",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "AI Strategy for Education",
   "description": "Interactive MicroSim for eight ai forces",
   "date": "2026-06-10",
   "educational": {
     "gradeLevel": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "Adult"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Other",
     "topic": "Eight AI Forces",
     "learningObjectives": [
       "TODO: Add learning objectives"

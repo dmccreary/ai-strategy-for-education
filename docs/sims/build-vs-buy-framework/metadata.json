@@ -1,17 +1,14 @@
 {
   "title": "Build vs. Buy Decision Framework",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "AI Strategy for Education",
   "description": "Interactive MicroSim for build vs. buy decision framework",
   "date": "2026-06-10",
   "educational": {
     "gradeLevel": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "Adult"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Other",
     "topic": "Build vs. Buy Decision Framework",
     "learningObjectives": [
       "TODO: Add learning objectives"

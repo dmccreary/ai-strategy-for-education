@@ -1,17 +1,14 @@
 {
   "title": "The Digital Divide in Education AI Access",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "AI Strategy for Education",
   "description": "Interactive MicroSim for the digital divide in education ai access",
   "date": "2026-06-10",
   "educational": {
     "gradeLevel": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "Adult"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Other",
     "topic": "The Digital Divide in Education AI Access",
     "learningObjectives": [
       "TODO: Add learning objectives"

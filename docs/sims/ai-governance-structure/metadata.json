@@ -1,17 +1,14 @@
 {
   "title": "AI Governance Structure \u2014 Hybrid Model",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "AI Strategy for Education",
   "description": "Interactive MicroSim for ai governance structure \u2014 hybrid model",
   "date": "2026-06-10",
   "educational": {
     "gradeLevel": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "Adult"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Other",
     "topic": "AI Governance Structure \u2014 Hybrid Model",
     "learningObjectives": [
       "TODO: Add learning objectives"

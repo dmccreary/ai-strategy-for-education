@@ -1,17 +1,14 @@
 {
   "title": "Traditional vs. Alpha School Day Structure",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "AI Strategy for Education",
   "description": "Interactive MicroSim for traditional vs. alpha school day structure",
   "date": "2026-06-10",
   "educational": {
     "gradeLevel": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "Adult"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Other",
     "topic": "Traditional vs. Alpha School Day Structure",
     "learningObjectives": [
       "TODO: Add learning objectives"

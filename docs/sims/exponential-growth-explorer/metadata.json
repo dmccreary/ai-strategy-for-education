@@ -1,17 +1,14 @@
 {
   "title": "Exponential Growth Explorer",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "AI Strategy for Education",
   "description": "Interactive MicroSim for exponential growth explorer",
   "date": "2026-06-10",
   "educational": {
     "gradeLevel": [
-      "9",
-      "10",
-      "11",
-      "12"
+      "Adult"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Other",
     "topic": "Exponential Growth Explorer",
     "learningObjectives": [
       "TODO: Add learning objectives"
